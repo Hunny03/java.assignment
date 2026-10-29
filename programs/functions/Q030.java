@@ -2,7 +2,7 @@
 package functions;
 public class Q030 {
     // password rule: 8+ characters, sirf letter/digit, kam se kam 2 digits
-    static boolean passOk(String p){
+    static boolean passok(String p){
         if(p.length()<8) return false;
         int d = 0;
         for(int i=0;i<p.length();i++){
@@ -16,7 +16,7 @@ public class Q030 {
     public static void main(String[] args) {
         String p[] = {"abc123","Strong99Pass","no_special!1","OnlyLetters","Java2026X"};
         for(int i=0;i<p.length;i++){
-            if(passOk(p[i]))
+            if(passok(p[i]))
                 System.out.println(p[i]+" -> valid");
             else
                 System.out.println(p[i]+" -> invalid");

@@ -6,11 +6,11 @@ public class Q021 {
         int b[] = new int[a.length];
         int k = 0;
         for(int i=0;i<a.length;i++){
-            int mila = 0;
+            int found = 0;
             for(int j=0;j<k;j++){
-                if(b[j]==a[i]) mila = 1;
+                if(b[j]==a[i]) found = 1;
             }
-            if(mila==0){
+            if(found==0){
                 b[k] = a[i];
                 k++;
             }
