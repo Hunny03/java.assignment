@@ -20,14 +20,14 @@ package packages;
 import packages.c4.sample.Cabinet;      // package ke andar package: packages -&gt; c4 -&gt; sample
 public class Q258 {
     static class Furniture extends Cabinet {
-        void dikha(){
+        void show(){
             drawers = drawers + 2;
             System.out.println(label());
         }
     }
     public static void main(String[] args) {
         Furniture f = new Furniture();
-        f.dikha();
+        f.show();
     }
 }
 

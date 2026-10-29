@@ -1,1 +1,1 @@
-Vowels = 11
+Vowels    = 11
