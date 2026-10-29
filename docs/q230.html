@@ -18,8 +18,8 @@
       <pre><code>package basics;
 import java.util.Scanner;
 public class Q230 {
-    static int gcdNikal(int a, int b){
-        while(b!=0){
+    static int gcd(int a, int b){
+        while(b!=  0){
             int t = b;
             b = a%b;
             a = t;
@@ -31,10 +31,10 @@ public class Q230 {
         System.out.print("2 numbers: ");
         int a = kb.nextInt();
         int b = kb.nextInt();
-        int g = gcdNikal(a,b);
+        int g = gcd(a ,b);
         int l = (a*b)/g;      // lcm = a*b / gcd
         System.out.println("GCD = "+g);
-        System.out.println("LCM = "+l);
+        System.out.println(" LCM = "+l);
     }
 }</code></pre>
       <h4>Output</h4>

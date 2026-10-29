@@ -17,18 +17,18 @@
       <h4>Solution</h4>
       <pre><code>package strings;
 public class Q057 {
-    static void banao(String pehle, String baaki){
-        if(baaki.length()==0){
-            System.out.print(pehle+" ");
+    static void make(String front, String back){
+        if(back.length()==0){
+            System.out.print(front+" ");
             return;
         }
-        for(int i=0;i&lt;baaki.length();i++){
-            banao(pehle+baaki.charAt(i), baaki.substring(0,i)+baaki.substring(i+1));
+        for(int i=0;i&lt;back.length();i++){
+            make(front+back.charAt(i), back.substring(0,i)+back.substring(i+1));
         }
     }
     public static void main(String[] args) {
         System.out.println("Permutations of ABC:");
-        banao("","ABC");
+        make("","ABC");
         System.out.println();
     }
 }</code></pre>

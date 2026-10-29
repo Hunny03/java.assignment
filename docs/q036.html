@@ -17,7 +17,7 @@
       <h4>Solution</h4>
       <pre><code>package functions;
 public class Q036 {
-    static boolean sabVowel(String s){
+    static boolean vowel(String s){
         if(s.length()==0) return false;
         s = s.toLowerCase();
         for(int i=0;i&lt;s.length();i++){
@@ -28,9 +28,9 @@ public class Q036 {
         return true;
     }
     public static void main(String[] args) {
-        System.out.println("aeiou -&gt; "+sabVowel("aeiou"));
-        System.out.println("AEIOUa -&gt; "+sabVowel("AEIOUa"));
-        System.out.println("vowel -&gt; "+sabVowel("vowel"));
+        System.out.println("aeiou   "+vowel("aeiou"));
+        System.out.println("AEIOUa "+vowel("AEIOUa"));
+        System.out.println("vowel    "+vowel("vowel"));
     }
 }</code></pre>
       <h4>Output</h4>

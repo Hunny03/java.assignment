@@ -1,2 +1,2 @@
 2 numbers: GCD = 6
-LCM = 72
+ LCM = 72

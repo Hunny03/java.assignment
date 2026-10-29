@@ -1,2 +1,2 @@
-Prime numbers between 1 and 20:
+Prime numbers  between 1 and 20:
 2 3 5 7 11 13 17 19 
