@@ -42,7 +42,7 @@ public class Q320 {
     }
     public static void main(String[] args) throws Exception {
         box d = new box();
-        Likhne w  new Likhne(d);
+        Likhne w = new Likhne(d);
         Padhne r = new Padhne(d);
         r.start();
         w.start();
