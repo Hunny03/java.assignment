@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q316 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multithreading · 316</span>
+      </div>
+      <h4 style="margin-top: 0">Question 316</h4>
+      <h2 class="qh">Create the program to create multiple threads by using Runnbale interface</h2>
+      <h4>Solution</h4>
+      <pre><code>package threads;
+public class Q316 {
+    static class Kaam implements Runnable {
+        String naam;
+        int delay;
+        Kaam(String naam, int delay){
+            this.naam = naam;
+            this.delay = delay;
+        }
+        public void run(){
+            try{ Thread.sleep(delay); }catch(Exception e){}
+            System.out.println(naam+" is running, thread: "+Thread.currentThread().getName());
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        Thread t1 = new Thread(new Kaam("Download",50), "T1");
+        Thread t2 = new Thread(new Kaam("Compress",150), "T2");
+        Thread t3 = new Thread(new Kaam("Upload",250), "T3");
+        t1.start();
+        t2.start();
+        t3.start();
+        t1.join();
+        t2.join();
+        t3.join();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q316.png" alt="Output of question 316" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multithreading.html">← Topic</a>
+        <a class="btn o" href="q315.html">← Prev</a>
+        <a class="btn o" href="q317.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

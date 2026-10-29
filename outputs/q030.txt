@@ -1,0 +1,5 @@
+abc123 -> invalid
+Strong99Pass -> valid
+no_special!1 -> invalid
+OnlyLetters -> invalid
+Java2026X -> valid

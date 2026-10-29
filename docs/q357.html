@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q357 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 357</span>
+      </div>
+      <h4 style="margin-top: 0">Question 357</h4>
+      <h2 class="qh">Write a Java program to create a class called "Employee" with a name, job title, and salary attributes, and methods to calculate and update salary.</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q357 {
+    static class Employee {
+        String name, job;
+        double salary;
+        Employee(String name, String job, double salary){ this.name=name; this.job=job; this.salary=salary; }
+        double calculateAnnualSalary(){ return salary*12; }
+        void updateSalary(double s){ salary = s; }
+        void giveRaise(double percent){ salary = salary + salary*percent/100; }
+        void show(){ System.out.println(name+", "+job+", monthly = "+salary+", yearly = "+calculateAnnualSalary()); }
+    }
+    public static void main(String[] args) {
+        Employee e = new Employee("Isha","Analyst",42000);
+        e.show();
+        e.giveRaise(10);
+        e.show();
+        e.updateSalary(60000);
+        e.show();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q357.png" alt="Output of question 357" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        <a class="btn o" href="q356.html">← Prev</a>
+        <a class="btn o" href="q358.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

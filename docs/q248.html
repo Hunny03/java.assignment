@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q248 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Interfaces · 248</span>
+      </div>
+      <h4 style="margin-top: 0">Question 248</h4>
+      <h2 class="qh">Write a Java program to create an interface Encryptable with methods encrypt (String data) and decrypt (String encryptedData) that define encryption and decryption operations. Create two classes AES and RSA that implement the Encryptable interface and provide their own encryption and decryption algorithms.</h2>
+      <h4>Solution</h4>
+      <pre><code>package interfaces;
+public class Q248 {
+    interface Encryptable {
+        String encrypt(String data);
+        String decrypt(String data);
+    }
+    // asli AES/RSA bahut bade hote hai, yaha naam wahi hai par chhota sa logic hai
+    static class AES implements Encryptable {
+        public String encrypt(String data){
+            String n = "";
+            for(int i=0;i&lt;data.length();i++)
+                n = n + (char)(data.charAt(i)+5);
+            return n;
+        }
+        public String decrypt(String data){
+            String n = "";
+            for(int i=0;i&lt;data.length();i++)
+                n = n + (char)(data.charAt(i)-5);
+            return n;
+        }
+    }
+    static class RSA implements Encryptable {
+        // chhota RSA: n=3233, e=17, d=2753
+        long power(long b, long e){
+            long r = 1;
+            for(long i=0;i&lt;e;i++)
+                r = (r*b)%3233;
+            return r;
+        }
+        public String encrypt(String data){
+            String n = "";
+            for(int i=0;i&lt;data.length();i++)
+                n = n + power(data.charAt(i),17) + " ";
+            return n.trim();
+        }
+        public String decrypt(String data){
+            String p[] = data.split(" ");
+            String n = "";
+            for(int i=0;i&lt;p.length;i++)
+                n = n + (char)power(Long.parseLong(p[i]),2753);
+            return n;
+        }
+    }
+    public static void main(String[] args) {
+        Encryptable e[] = {new AES(), new RSA()};
+        String s = "Hello Java";
+        for(int i=0;i&lt;e.length;i++){
+            String en = e[i].encrypt(s);
+            System.out.println("Encrypted: "+en);
+            System.out.println("Decrypted: "+e[i].decrypt(en));
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q248.png" alt="Output of question 248" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-interfaces.html">← Topic</a>
+        <a class="btn o" href="q247.html">← Prev</a>
+        <a class="btn o" href="q249.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

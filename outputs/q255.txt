@@ -1,0 +1,4 @@
+Addition = 60
+Subtraction = 36
+Multiplication = 576
+Division = 4.0

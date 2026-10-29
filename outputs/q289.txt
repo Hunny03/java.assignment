@@ -1,0 +1,1 @@
+Enter a float: You entered: 18.5

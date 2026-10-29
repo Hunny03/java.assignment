@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q285 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 285</span>
+      </div>
+      <h4 style="margin-top: 0">Question 285</h4>
+      <h2 class="qh">Write a Java program to create an abstract class GeometricShape with abstract methods area() and perimeter(). Create subclasses Triangle and Square that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q285 {
+    static abstract class GeometricShape {
+        abstract double area();
+        abstract double perimeter();
+    }
+    static class Triangle extends GeometricShape {
+        double a, b, c;
+        Triangle(double a, double b, double c){ this.a=a; this.b=b; this.c=c; }
+        double perimeter(){ return a+b+c; }
+        double area(){
+            double s = perimeter()/2;
+            return Math.sqrt(s*(s-a)*(s-b)*(s-c));
+        }
+    }
+    static class Square extends GeometricShape {
+        double s;
+        Square(double s){ this.s = s; }
+        double area(){ return s*s; }
+        double perimeter(){ return 4*s; }
+    }
+    public static void main(String[] args) {
+        GeometricShape g[] = {new Triangle(6,8,10), new Square(7)};
+        for(int i=0;i&lt;g.length;i++)
+            System.out.println("Area = "+g[i].area()+", Perimeter = "+g[i].perimeter());
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q285.png" alt="Output of question 285" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q284.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

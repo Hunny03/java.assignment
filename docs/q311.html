@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q311 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multithreading · 311</span>
+      </div>
+      <h4 style="margin-top: 0">Question 311</h4>
+      <h2 class="qh">Write a Java program that sorts an array of integers using multiple threads.</h2>
+      <h4>Solution</h4>
+      <pre><code>package threads;
+import java.util.Arrays;
+public class Q311 {
+    static class SortThread extends Thread {
+        int a[], from, to;
+        SortThread(int a[], int from, int to){
+            this.a = a;
+            this.from = from;
+            this.to = to;
+        }
+        public void run(){
+            // apni range ko sort karta hai
+            for(int i=from;i&lt;to;i++){
+                for(int j=i+1;j&lt;to;j++){
+                    if(a[i]&gt;a[j]){
+                        int t = a[i];
+                        a[i] = a[j];
+                        a[j] = t;
+                    }
+                }
+            }
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        int a[] = {88,14,62,3,97,45,21,70,9,33};
+        System.out.println("Before: "+Arrays.toString(a));
+        int mid = a.length/2;
+        SortThread t1 = new SortThread(a,0,mid);
+        SortThread t2 = new SortThread(a,mid,a.length);
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+        // ab dono sorted hisse ko merge karte hai
+        int b[] = new int[a.length];
+        int i = 0, j = mid, k = 0;
+        while(i&lt;mid &amp;&amp; j&lt;a.length){
+            if(a[i]&lt;a[j]) b[k++] = a[i++];
+            else b[k++] = a[j++];
+        }
+        while(i&lt;mid) b[k++] = a[i++];
+        while(j&lt;a.length) b[k++] = a[j++];
+        System.out.println("After: "+Arrays.toString(b));
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q311.png" alt="Output of question 311" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multithreading.html">← Topic</a>
+        <a class="btn o" href="q310.html">← Prev</a>
+        <a class="btn o" href="q312.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+Invalid grade: 105
+Invalid grade: -3
+Yuvraj (id 55)
+Grades: 82 91 
+Average = 86.5

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q321 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multithreading · 321</span>
+      </div>
+      <h4 style="margin-top: 0">Question 321</h4>
+      <h2 class="qh">Create the program to create multiple threads, show an example of join and yield methods.</h2>
+      <h4>Solution</h4>
+      <pre><code>package threads;
+public class Q321 {
+    static class Loader extends Thread {
+        public void run(){
+            for(int i=1;i&lt;=3;i++){
+                System.out.println("Loader: part "+i+" is loading");
+                Thread.yield();     // dusre thread ko mauka deta hai
+            }
+        }
+    }
+    static class Painter extends Thread {
+        Loader l;
+        Painter(Loader l){ this.l = l; }
+        public void run(){
+            try{ l.join(); }catch(Exception e){}   // loader khatam hone tak ruko
+            System.out.println("Painter: painting the screen now");
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        Loader l = new Loader();
+        Painter p = new Painter(l);
+        l.start();
+        p.start();
+        p.join();
+        System.out.println("Main: all tasks completed");
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q321.png" alt="Output of question 321" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multithreading.html">← Topic</a>
+        <a class="btn o" href="q320.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

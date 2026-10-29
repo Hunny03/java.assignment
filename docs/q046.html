@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q046 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 046</span>
+      </div>
+      <h4 style="margin-top: 0">Question 046</h4>
+      <h2 class="qh">Program to check whether a string is a Palindrome</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+import java.util.Scanner;
+public class Q046 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("String: ");
+        String s = kb.nextLine();
+        int flag = 1;
+        int i = 0, j = s.length()-1;
+        while(i&lt;j){
+            if(s.charAt(i)!=s.charAt(j)){
+                flag = 0;
+                break;
+            }
+            i++;
+            j--;
+        }
+        if(flag==1)
+            System.out.println("The string is a palindrome");
+        else
+            System.out.println("The string is not a palindrome");
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q046.png" alt="Output of question 046" />
+            <figcaption>Input given: level</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q045.html">← Prev</a>
+        <a class="btn o" href="q047.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

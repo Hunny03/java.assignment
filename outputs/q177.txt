@@ -1,0 +1,1 @@
+String: Which character should be removed? New string = miiippi river

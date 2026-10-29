@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q086 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 086</span>
+      </div>
+      <h4 style="margin-top: 0">Question 086</h4>
+      <h2 class="qh">Create an object StringBuffer class to show functionality of insert, append, delete and replace functions.</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+public class Q086 {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("Java Programming");
+        System.out.println("Start: "+sb);
+        sb.append(" Language");
+        System.out.println("append: "+sb);
+        sb.insert(5,"Core ");
+        System.out.println("insert: "+sb);
+        sb.delete(5,10);
+        System.out.println("delete: "+sb);
+        sb.replace(0,4,"JAVA");
+        System.out.println("replace: "+sb);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q086.png" alt="Output of question 086" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q085.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

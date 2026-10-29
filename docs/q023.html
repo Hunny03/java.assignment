@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q023 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Single Dimension Arrays · 023</span>
+      </div>
+      <h4 style="margin-top: 0">Question 023</h4>
+      <h2 class="qh">How to Sort an Array in Java</h2>
+      <h4>Solution</h4>
+      <pre><code>package singlearrays;
+import java.util.Arrays;
+public class Q023 {
+    public static void main(String[] args) {
+        int a[] = {42,7,19,88,3,56};
+        System.out.println("Before: "+Arrays.toString(a));
+        // Arrays.sort se sort ho jata hai
+        Arrays.sort(a);
+        System.out.println("After sorting: "+Arrays.toString(a));
+        // descending ke liye ulta print
+        System.out.print("Descending: ");
+        for(int i=a.length-1;i&gt;=0;i--) System.out.print(a[i]+" ");
+        System.out.println();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q023.png" alt="Output of question 023" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-single-dimension-arrays.html">← Topic</a>
+        <a class="btn o" href="q022.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q264 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 264</span>
+      </div>
+      <h4 style="margin-top: 0">Question 264</h4>
+      <h2 class="qh">Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred.</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q264 {
+    static class BankAccount {
+        double balance;
+        BankAccount(double b){ balance = b; }
+        void deposit(double amt){ balance = balance + amt; }
+        void withdraw(double amt){
+            if(amt&lt;=balance) balance = balance - amt;
+            else System.out.println("Insufficient funds");
+        }
+    }
+    static class SavingsAccount extends BankAccount {
+        SavingsAccount(double b){ super(b); }
+        void withdraw(double amt){
+            // balance 100 se neeche nahi jana chahiye
+            if(balance-amt&lt;100)
+                System.out.println(amt+" cannot withdraw this amount; the balance would fall below 100");
+            else{
+                balance = balance - amt;
+                System.out.println(amt+" withdrawn, new balance = "+balance);
+            }
+        }
+    }
+    public static void main(String[] args) {
+        SavingsAccount s = new SavingsAccount(1000);
+        s.deposit(500);
+        s.withdraw(1200);
+        s.withdraw(250);
+        System.out.println("Final balance = "+s.balance);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q264.png" alt="Output of question 264" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q263.html">← Prev</a>
+        <a class="btn o" href="q265.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+Java makes file handling simple
+Count every line and word
+and every single character
+---------
+Lines = 3
+Words = 14
+Characters = 82

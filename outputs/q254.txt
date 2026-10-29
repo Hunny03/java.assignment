@@ -1,0 +1,3 @@
+The engine started
+The wheel is rotating
+The brakes were applied and the vehicle slowed down

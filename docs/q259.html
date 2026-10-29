@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q259 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Packages · 259</span>
+      </div>
+      <h4 style="margin-top: 0">Question 259</h4>
+      <h2 class="qh">Create a Java program to create a package with public class and public members to be accessed in another class.</h2>
+      <h4>Solution</h4>
+      <pre><code>// ---- Q259.java ----
+package packages;
+import packages.q259.Greeter;
+public class Q259 {
+    public static void main(String[] args) {
+        Greeter g = new Greeter();
+        g.name = "dusra package";      // public hai isliye kahin se bhi badal sakte hai
+        g.sayHello();
+    }
+}
+
+// ---- Greeter.java ----
+package packages.q259;
+public class Greeter {
+    public String name = "Package World";
+    public void sayHello(){
+        System.out.println("Hello from "+name);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q259.png" alt="Output of question 259" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-packages.html">← Topic</a>
+        <a class="btn o" href="q258.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

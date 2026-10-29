@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q305 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Exception Handling · 305</span>
+      </div>
+      <h4 style="margin-top: 0">Question 305</h4>
+      <h2 class="qh">Write a Java program to throw the SQL Query, insert, delete, update, if not successful then throw an exception</h2>
+      <h4>Solution</h4>
+      <pre><code>package exceptions;
+import java.sql.*;
+public class Q305 {
+    public static void main(String[] args) {
+        try{
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/company","admin","admin123");
+            Statement st = con.createStatement();
+            st.executeUpdate("INSERT INTO staff VALUES (1,'Mohit')");
+            st.executeUpdate("UPDATE staff SET name='Rohit' WHERE id=1");
+            st.executeUpdate("DELETE FROM staff WHERE id=1");
+            System.out.println("All queries executed successfully");
+        }
+        catch(SQLException e){
+            System.out.println("Exception: SQL query failed -&gt; "+e.getMessage());
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q305.png" alt="Output of question 305" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-exception-handling.html">← Topic</a>
+        <a class="btn o" href="q304.html">← Prev</a>
+        <a class="btn o" href="q306.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

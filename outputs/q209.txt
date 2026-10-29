@@ -1,0 +1,1 @@
+Enter an integer: Reversed number = 543021

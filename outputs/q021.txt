@@ -1,0 +1,1 @@
+After removing duplicates: 4 9 2 7 1 

@@ -1,0 +1,4 @@
+The word "java" appears 3 times
+Headings on the webpage containing "java":
+  Intro to Java
+  Advanced Java topics

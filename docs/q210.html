@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q210 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 210</span>
+      </div>
+      <h4 style="margin-top: 0">Question 210</h4>
+      <h2 class="qh">Write a Java program that reads a set of integers, and then prints the sum of the even and odd integers using loop</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q210 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("How many integers will you enter? ");
+        int n = kb.nextInt();
+        int es = 0, os = 0;
+        System.out.print("Now enter the numbers: ");
+        for(int i=0;i&lt;n;i++){
+            int x = kb.nextInt();
+            if(x%2==0) es += x;
+            else os += x;
+        }
+        System.out.println("Sum of even numbers = "+es);
+        System.out.println("Sum of odd numbers = "+os);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q210.png" alt="Output of question 210" />
+            <figcaption>Input given: 7, 12, 5, 8, 21, 3, 40, 9</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q209.html">← Prev</a>
+        <a class="btn o" href="q211.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q383 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 383</span>
+      </div>
+      <h4 style="margin-top: 0">Question 383</h4>
+      <h2 class="qh">Write a Java program to create a class called Student with private instance variables student_id, student_name, and grades. Provide public getter and setter methods to access and modify the student_id and student_name variables. However, provide a method called addGrade() that allows adding a grade to the grades variable while performing additional validation.</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q383 {
+    static class Student {
+        private int student_id;
+        private String student_name;
+        private int grades[] = new int[10];
+        private int n = 0;
+        Student(int id, String name){
+            student_id = id;
+            student_name = name;
+        }
+        public int getStudent_id(){ return student_id; }
+        public void setStudent_id(int id){ student_id = id; }
+        public String getStudent_name(){ return student_name; }
+        public void setStudent_name(String s){ student_name = s; }
+        // grade 0 se 100 ke beech hi hona chahiye
+        public void addGrade(int g){
+            if(g&lt;0 || g&gt;100){
+                System.out.println("Invalid grade: "+g);
+                return;
+            }
+            grades[n] = g;
+            n++;
+        }
+        public double average(){
+            if(n==0) return 0;
+            int s = 0;
+            for(int i=0;i&lt;n;i++) s = s + grades[i];
+            return (double)s/n;
+        }
+        public void showGrades(){
+            System.out.print("Grades: ");
+            for(int i=0;i&lt;n;i++) System.out.print(grades[i]+" ");
+            System.out.println();
+        }
+    }
+    public static void main(String[] args) {
+        Student s = new Student(55,"Yuvraj");
+        s.addGrade(82);
+        s.addGrade(105);
+        s.addGrade(-3);
+        s.addGrade(91);
+        System.out.println(s.getStudent_name()+" (id "+s.getStudent_id()+")");
+        s.showGrades();
+        System.out.println("Average = "+s.average());
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q383.png" alt="Output of question 383" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        <a class="btn o" href="q382.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

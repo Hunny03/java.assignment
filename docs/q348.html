@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q348 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Data Conversion · 348</span>
+      </div>
+      <h4 style="margin-top: 0">Question 348</h4>
+      <h2 class="qh">How to convert Hex to Decimal</h2>
+      <h4>Solution</h4>
+      <pre><code>package conversion;
+import java.util.Scanner;
+public class Q348 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Hex number: ");
+        String s = kb.next();
+        int d = Integer.parseInt(s,16);
+        System.out.println("Decimal = "+d);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q348.png" alt="Output of question 348" />
+            <figcaption>Input given: 1AF</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-data-conversion.html">← Topic</a>
+        <a class="btn o" href="q347.html">← Prev</a>
+        <a class="btn o" href="q349.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

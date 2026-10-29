@@ -1,0 +1,4 @@
+Pooja is doing its work
+Gaurav is conducting interviews and handling HR duties
+Gaurav added Pooja, total employees = 1
+Manager salary = 65000.0

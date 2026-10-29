@@ -1,0 +1,1 @@
+Area of a pentagon with side length 8 = 110.11072

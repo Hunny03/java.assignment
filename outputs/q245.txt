@@ -1,0 +1,2 @@
+Bubble sort: 4 8 13 29 40 56 
+Selection sort: 4 8 13 29 40 56 

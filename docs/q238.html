@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q238 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 238</span>
+      </div>
+      <h4 style="margin-top: 0">Question 238</h4>
+      <h2 class="qh">Write a Java program to accept a float value of number and return a rounded float value</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q238 {
+    static float roundKar(float x){
+        return (float)Math.round(x);
+    }
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Float value: ");
+        float f = kb.nextFloat();
+        System.out.println("Rounded = "+roundKar(f));
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q238.png" alt="Output of question 238" />
+            <figcaption>Input given: 72.58</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q237.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

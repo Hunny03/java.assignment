@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q064 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 064</span>
+      </div>
+      <h4 style="margin-top: 0">Question 064</h4>
+      <h2 class="qh">Program to find the longest repeating sequence in a string</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+public class Q064 {
+    public static void main(String[] args) {
+        String s = "banana bandana";
+        String best = "";
+        for(int i=0;i&lt;s.length();i++){
+            for(int j=i+1;j&lt;s.length();j++){
+                int k = 0;
+                // i aur j se shuru hokar kitna match karta hai (overlap nahi hona chahiye)
+                while(j+k&lt;s.length() &amp;&amp; s.charAt(i+k)==s.charAt(j+k) &amp;&amp; i+k&lt;j)
+                    k++;
+                if(k&gt;best.length())
+                    best = s.substring(i,i+k);
+            }
+        }
+        System.out.println("Longest repeating sequence = "+best);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q064.png" alt="Output of question 064" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q063.html">← Prev</a>
+        <a class="btn o" href="q065.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

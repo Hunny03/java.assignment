@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q021 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Single Dimension Arrays · 021</span>
+      </div>
+      <h4 style="margin-top: 0">Question 021</h4>
+      <h2 class="qh">Program to Remove Duplicate Element in an array</h2>
+      <h4>Solution</h4>
+      <pre><code>package singlearrays;
+public class Q021 {
+    public static void main(String[] args) {
+        int a[] = {4,9,4,2,9,7,2,1};
+        int b[] = new int[a.length];
+        int k = 0;
+        for(int i=0;i&lt;a.length;i++){
+            int mila = 0;
+            for(int j=0;j&lt;k;j++){
+                if(b[j]==a[i]) mila = 1;
+            }
+            if(mila==0){
+                b[k] = a[i];
+                k++;
+            }
+        }
+        System.out.print("After removing duplicates: ");
+        for(int i=0;i&lt;k;i++) System.out.print(b[i]+" ");
+        System.out.println();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q021.png" alt="Output of question 021" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-single-dimension-arrays.html">← Topic</a>
+        <a class="btn o" href="q020.html">← Prev</a>
+        <a class="btn o" href="q022.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

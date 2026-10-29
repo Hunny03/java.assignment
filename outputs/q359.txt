@@ -1,0 +1,4 @@
+RED for 45s, red=true, green=false
+GREEN for 30s, red=false, green=true
+YELLOW for 5s, red=false, green=false
+RED for 45s, red=true, green=false

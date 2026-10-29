@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q034 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Functions · 034</span>
+      </div>
+      <h4 style="margin-top: 0">Question 034</h4>
+      <h2 class="qh">Write a Java method that accepts three integers and checks whether they are consecutive or not. Returns true or false.</h2>
+      <h4>Solution</h4>
+      <pre><code>package functions;
+public class Q034 {
+    static boolean consec(int a, int b, int c){
+        // order koi bhi ho sakta hai isliye sort kiya
+        int t;
+        if(a&gt;b){ t=a; a=b; b=t; }
+        if(b&gt;c){ t=b; b=c; c=t; }
+        if(a&gt;b){ t=a; a=b; b=t; }
+        return (b-a==1 &amp;&amp; c-b==1);
+    }
+    public static void main(String[] args) {
+        System.out.println("5,6,7 -&gt; "+consec(5,6,7));
+        System.out.println("8,6,7 -&gt; "+consec(8,6,7));
+        System.out.println("4,6,9 -&gt; "+consec(4,6,9));
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q034.png" alt="Output of question 034" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-functions.html">← Topic</a>
+        <a class="btn o" href="q033.html">← Prev</a>
+        <a class="btn o" href="q035.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+Sum of row 1 = 60
+Sum of row 2 = 150
+Sum of row 3 = 240
+Sum of column 1 = 120
+Sum of column 2 = 150
+Sum of column 3 = 180

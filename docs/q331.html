@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q331 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Data Conversion · 331</span>
+      </div>
+      <h4 style="margin-top: 0">Question 331</h4>
+      <h2 class="qh">How to convert Date to String</h2>
+      <h4>Solution</h4>
+      <pre><code>package conversion;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+public class Q331 {
+    public static void main(String[] args) {
+        Date d = new Date();
+        SimpleDateFormat f = new SimpleDateFormat("dd-MM-yyyy");
+        String s = f.format(d);
+        System.out.println("Date as a string: "+s);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q331.png" alt="Output of question 331" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-data-conversion.html">← Topic</a>
+        <a class="btn o" href="q330.html">← Prev</a>
+        <a class="btn o" href="q332.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

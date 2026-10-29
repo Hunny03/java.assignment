@@ -1,0 +1,2 @@
+Decimal number: Binary = 10110101
+Manual conversion = 10110101

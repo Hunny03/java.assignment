@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q166 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 166</span>
+      </div>
+      <h4 style="margin-top: 0">Question 166</h4>
+      <h2 class="qh">Write a Java program that determines a student’s grade</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q166 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Enter the marks for 5 subjects (out of 100): ");
+        int tot = 0;
+        for(int i=0;i&lt;5;i++)
+            tot += kb.nextInt();
+        double per = tot/5.0;
+        String g;
+        if(per&gt;=90) g = "A+";
+        else if(per&gt;=80) g = "A";
+        else if(per&gt;=70) g = "B";
+        else if(per&gt;=60) g = "C";
+        else if(per&gt;=40) g = "D";
+        else g = "Fail";
+        System.out.println("Percentage = "+per);
+        System.out.println("Grade = "+g);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q166.png" alt="Output of question 166" />
+            <figcaption>Input given: 82, 76, 91, 68, 74</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q165.html">← Prev</a>
+        <a class="btn o" href="q167.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

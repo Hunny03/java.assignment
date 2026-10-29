@@ -1,0 +1,2 @@
+Array = [Pune, Jaipur, Kochi, Bhopal]
+ArrayList = [Pune, Jaipur, Kochi, Bhopal]

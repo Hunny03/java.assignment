@@ -1,0 +1,3 @@
+Count of digit 2 in 2202 = 3
+Count of digit 2 in 135 = 0
+Count of digit 2 in 222222 = 6

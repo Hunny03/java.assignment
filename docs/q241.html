@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q241 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Interfaces · 241</span>
+      </div>
+      <h4 style="margin-top: 0">Question 241</h4>
+      <h2 class="qh">Write a Java program to create an interface Flyable with a method called fly_obj(). Create three classes Spacecraft, Airplane, and Helicopter that implement the Flyable interface. Implement the fly_obj() method for each of the three classes.</h2>
+      <h4>Solution</h4>
+      <pre><code>package interfaces;
+public class Q241 {
+    interface Flyable {
+        void fly_obj();
+    }
+    static class Spacecraft implements Flyable {
+        public void fly_obj(){ System.out.println("The spacecraft is flying through space"); }
+    }
+    static class Airplane implements Flyable {
+        public void fly_obj(){ System.out.println("The airplane is flying through the air"); }
+    }
+    static class Helicopter implements Flyable {
+        public void fly_obj(){ System.out.println("The helicopter flies using its rotors"); }
+    }
+    public static void main(String[] args) {
+        Flyable f[] = {new Spacecraft(), new Airplane(), new Helicopter()};
+        for(int i=0;i&lt;f.length;i++)
+            f[i].fly_obj();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q241.png" alt="Output of question 241" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-interfaces.html">← Topic</a>
+        <a class="btn o" href="q240.html">← Prev</a>
+        <a class="btn o" href="q242.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

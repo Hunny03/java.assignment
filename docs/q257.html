@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q257 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Packages · 257</span>
+      </div>
+      <h4 style="margin-top: 0">Question 257</h4>
+      <h2 class="qh">Create a Java program to create a package with public class and protected members to be accessed in another class.</h2>
+      <h4>Solution</h4>
+      <pre><code>// ---- Q257.java ----
+package packages;
+import packages.q257.Locker;
+public class Q257 {
+    // protected cheeze dusre package me bhi child class se mil jati hai
+    static class Guard extends Locker {
+        void dekho(){
+            System.out.println("Guard checked the code: "+code);
+            darwaza();
+        }
+    }
+    public static void main(String[] args) {
+        Guard g = new Guard();
+        g.dekho();
+    }
+}
+
+// ---- Locker.java ----
+package packages.q257;
+public class Locker {
+    protected String code = "7391";
+    protected void darwaza(){
+        System.out.println("Locker opened with code "+code);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q257.png" alt="Output of question 257" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-packages.html">← Topic</a>
+        <a class="btn o" href="q256.html">← Prev</a>
+        <a class="btn o" href="q258.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

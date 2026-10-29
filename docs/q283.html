@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q283 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 283</span>
+      </div>
+      <h4 style="margin-top: 0">Question 283</h4>
+      <h2 class="qh">Write a Java program to create an abstract class Shape2D with abstract methods draw() and resize(). Create subclasses Rectangle and Circle that extend the Shape2D class and implement the respective methods to draw and resize each shape.</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q283 {
+    static abstract class Shape2D {
+        abstract void draw();
+        abstract void resize(double f);
+    }
+    static class Rectangle extends Shape2D {
+        double w = 4, h = 2;
+        void draw(){ System.out.println("Rectangle "+w+" x "+h); }
+        void resize(double f){ w = w*f; h = h*f; }
+    }
+    static class Circle extends Shape2D {
+        double r = 3;
+        void draw(){ System.out.println("Circle radius "+r); }
+        void resize(double f){ r = r*f; }
+    }
+    public static void main(String[] args) {
+        Shape2D s[] = {new Rectangle(), new Circle()};
+        for(int i=0;i&lt;s.length;i++){
+            s[i].draw();
+            s[i].resize(2.5);
+            s[i].draw();
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q283.png" alt="Output of question 283" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q282.html">← Prev</a>
+        <a class="btn o" href="q284.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

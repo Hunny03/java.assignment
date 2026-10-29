@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q215 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 215</span>
+      </div>
+      <h4 style="margin-top: 0">Question 215</h4>
+      <h2 class="qh">Write a Java program to print out all Armstrong numbers between 1 to 600 using loop</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+public class Q215 {
+    public static void main(String[] args) {
+        System.out.println("Armstrong numbers from 1 to 600:");
+        for(int i=1;i&lt;=600;i++){
+            int t = i, d = 0;
+            while(t&gt;0){
+                d++;
+                t = t/10;
+            }
+            t = i;
+            int s = 0;
+            while(t&gt;0){
+                int r = t%10;
+                int p = 1;
+                for(int k=1;k&lt;=d;k++)
+                    p = p*r;
+                s = s + p;
+                t = t/10;
+            }
+            if(s==i)
+                System.out.print(i+" ");
+        }
+        System.out.println();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q215.png" alt="Output of question 215" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q214.html">← Prev</a>
+        <a class="btn o" href="q216.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

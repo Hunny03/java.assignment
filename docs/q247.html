@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q247 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Interfaces · 247</span>
+      </div>
+      <h4 style="margin-top: 0">Question 247</h4>
+      <h2 class="qh">Write a Java program to create an interface Searchable with a method search(String keyword) that searches for a given keyword in a text document. Create two classes Document and WebPage that implement the Searchable interface and provide their own implementations of the search() method.</h2>
+      <h4>Solution</h4>
+      <pre><code>package interfaces;
+public class Q247 {
+    interface Searchable {
+        void search(String key);
+    }
+    static class Document implements Searchable {
+        String text;
+        Document(String text){ this.text = text; }
+        public void search(String key){
+            int c = 0;
+            String t = text.toLowerCase();
+            String k = key.toLowerCase();
+            for(int i=0;i+k.length()&lt;=t.length();i++){
+                if(t.substring(i,i+k.length()).equals(k)) c++;
+            }
+            System.out.println("The word \""+key+"\" appears "+c+" times");
+        }
+    }
+    static class WebPage implements Searchable {
+        String head[] = {"Intro to Java","Python basics","Advanced Java topics"};
+        public void search(String key){
+            System.out.println("Headings on the webpage containing \""+key+"\":");
+            for(int i=0;i&lt;head.length;i++){
+                if(head[i].toLowerCase().contains(key.toLowerCase()))
+                    System.out.println("  "+head[i]);
+            }
+        }
+    }
+    public static void main(String[] args) {
+        Searchable s1 = new Document("Java is simple. Learn Java by building Java programs.");
+        Searchable s2 = new WebPage();
+        s1.search("java");
+        s2.search("java");
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q247.png" alt="Output of question 247" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-interfaces.html">← Topic</a>
+        <a class="btn o" href="q246.html">← Prev</a>
+        <a class="btn o" href="q248.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

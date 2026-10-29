@@ -1,0 +1,2 @@
+Width = 40, Height = 20
+Width = 65, Height = 30

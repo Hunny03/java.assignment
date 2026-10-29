@@ -1,0 +1,2 @@
+Enter the principal, rate, compounding frequency per year, and number of years: Total amount = 12682.417945625455
+Compound interest = 2682.417945625455

@@ -1,0 +1,6 @@
+100/25 = 4
+ArrayIndexOutOfBoundsException: Index 25 out of bounds for length 3
+NumberFormatException: abc is not a number
+ArithmeticException: division by zero
+100/7 = 14
+ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 3

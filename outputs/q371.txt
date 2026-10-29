@@ -1,0 +1,3 @@
+Phone brand = null, storage = 0
+Laptop default constructor called
+Laptop brand = Unknown

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q184 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 184</span>
+      </div>
+      <h4 style="margin-top: 0">Question 184</h4>
+      <h2 class="qh">Write a Java program to test if an array contains a specific value</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q184 {
+    public static void main(String[] args) {
+        String a[] = {"mango","guava","papaya","litchi"};
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Which fruit should be searched for? ");
+        String x = kb.next();
+        boolean mila = false;
+        for(int i=0;i&lt;a.length;i++){
+            if(a[i].equalsIgnoreCase(x))
+                mila = true;
+        }
+        if(mila)
+            System.out.println(x+" is in the array");
+        else
+            System.out.println(x+" is not in the array");
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q184.png" alt="Output of question 184" />
+            <figcaption>Input given: Guava</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q183.html">← Prev</a>
+        <a class="btn o" href="q185.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

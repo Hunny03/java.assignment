@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q102 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 102</span>
+      </div>
+      <h4 style="margin-top: 0">Question 102</h4>
+      <h2 class="qh">Write a Java program that takes two numbers and display the product of two numbers</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q102 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Enter 2 numbers: ");
+        double a = kb.nextDouble();
+        double b = kb.nextDouble();
+        double gun = a*b;
+        System.out.println("Product = "+gun);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q102.png" alt="Output of question 102" />
+            <figcaption>Input given: 6.5, 4</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q101.html">← Prev</a>
+        <a class="btn o" href="q103.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

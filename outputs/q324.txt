@@ -1,0 +1,2 @@
+long value = 9876543210
+Multiplied by 10 = 98765432100

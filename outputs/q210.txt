@@ -1,0 +1,2 @@
+How many integers will you enter? Now enter the numbers: Sum of even numbers = 60
+Sum of odd numbers = 38

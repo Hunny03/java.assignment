@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q359 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 359</span>
+      </div>
+      <h4 style="margin-top: 0">Question 359</h4>
+      <h2 class="qh">Write a Java program to create class called "TrafficLight" with attributes for color and duration, and methods to change the color and check for red or green.</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q359 {
+    static class TrafficLight {
+        String color;
+        int time;
+        TrafficLight(String color, int time){ this.color=color; this.time=time; }
+        void changeColor(){
+            if(color.equals("RED")){ color = "GREEN"; time = 30; }
+            else if(color.equals("GREEN")){ color = "YELLOW"; time = 5; }
+            else { color = "RED"; time = 45; }
+        }
+        boolean isRed(){ return color.equals("RED"); }
+        boolean isGreen(){ return color.equals("GREEN"); }
+    }
+    public static void main(String[] args) {
+        TrafficLight t = new TrafficLight("RED",45);
+        for(int i=0;i&lt;4;i++){
+            System.out.println(t.color+" for "+t.time+"s, red="+t.isRed()+", green="+t.isGreen());
+            t.changeColor();
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q359.png" alt="Output of question 359" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        <a class="btn o" href="q358.html">← Prev</a>
+        <a class="btn o" href="q360.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

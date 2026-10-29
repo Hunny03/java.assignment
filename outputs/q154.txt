@@ -1,0 +1,1 @@
+Enter the day number (1-7): Friday

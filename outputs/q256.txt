@@ -1,0 +1,11 @@
+Employee id = 1042
+Name = Rajveer Singh
+Category = A
+Basic pay = 60000.0
+HRA = 12000.0
+DA = 30000.0
+Allowance = 5000.0
+Gross pay = 107000.0
+PF = 7200.0
+Income tax = 10700.0
+Net pay = 89100.0

@@ -1,0 +1,6 @@
+Duplicate characters:
+r -> 2 baar
+g -> 4 baar
+a -> 3 baar
+m -> 2 baar
+n -> 2 baar

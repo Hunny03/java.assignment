@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q381 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 381</span>
+      </div>
+      <h4 style="margin-top: 0">Question 381</h4>
+      <h2 class="qh">Write a Java program to create a class called Circle with a private instance variable radius. Provide public getter and setter methods to access and modify the radius variable. However, provide two methods called calculateArea() and calculatePerimeter() that return the calculated area and perimeter based on the current radius value.</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q381 {
+    static class Circle {
+        private double radius;
+        public double getRadius(){ return radius; }
+        public void setRadius(double r){ radius = r; }
+        public double calculateArea(){ return 3.14159*radius*radius; }
+        public double calculatePerimeter(){ return 2*3.14159*radius; }
+    }
+    public static void main(String[] args) {
+        Circle c = new Circle();
+        c.setRadius(4);
+        System.out.println("Radius "+c.getRadius()+": area = "+c.calculateArea()+", perimeter = "+c.calculatePerimeter());
+        c.setRadius(10);
+        System.out.println("Radius "+c.getRadius()+": area = "+c.calculateArea()+", perimeter = "+c.calculatePerimeter());
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q381.png" alt="Output of question 381" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        <a class="btn o" href="q380.html">← Prev</a>
+        <a class="btn o" href="q382.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

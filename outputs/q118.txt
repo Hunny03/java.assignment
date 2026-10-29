@@ -1,0 +1,1 @@
+Enter the number of seconds: 2 hour 46 minute 40 second

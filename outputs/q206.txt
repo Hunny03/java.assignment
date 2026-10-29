@@ -1,0 +1,1 @@
+Sum of the first 10 natural numbers = 55

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q119 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 119</span>
+      </div>
+      <h4 style="margin-top: 0">Question 119</h4>
+      <h2 class="qh">Write a Java program to compute the sum of the first 100 prime numbers</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+public class Q119 {
+    public static void main(String[] args) {
+        int cnt = 0, n = 2;
+        long tot = 0;
+        while(cnt&lt;100){
+            int flag = 1;     // 1 matlab prime
+            for(int i=2;i*i&lt;=n;i++){
+                if(n%i==0){
+                    flag = 0;
+                    break;
+                }
+            }
+            if(flag==1){
+                tot = tot + n;
+                cnt++;
+            }
+            n++;
+        }
+        System.out.println("Sum of the first 100 prime numbers = "+tot);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q119.png" alt="Output of question 119" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q118.html">← Prev</a>
+        <a class="btn o" href="q120.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

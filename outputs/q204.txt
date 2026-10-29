@@ -1,0 +1,3 @@
+Student name: How many subjects? Subject 1 marks (out of 100): Subject 2 marks (out of 100): Subject 3 marks (out of 100): Subject 4 marks (out of 100): Name = Riya Sharma
+Total marks = 337 / 400
+Percentage = 84.25%

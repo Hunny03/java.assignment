@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q060 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 060</span>
+      </div>
+      <h4 style="margin-top: 0">Question 060</h4>
+      <h2 class="qh">Program to find the duplicate characters in a string</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+public class Q060 {
+    public static void main(String[] args) {
+        String s = "programming language";
+        System.out.println("Duplicate characters:");
+        for(int i=0;i&lt;s.length();i++){
+            char c = s.charAt(i);
+            if(c==' ') continue;
+            int cnt = 1;
+            int pehle = 0;
+            for(int j=0;j&lt;s.length();j++){
+                if(j&gt;i &amp;&amp; s.charAt(j)==c) cnt++;
+                if(j&lt;i &amp;&amp; s.charAt(j)==c) pehle = 1;
+            }
+            if(cnt&gt;1 &amp;&amp; pehle==0)
+                System.out.println(c+" -&gt; "+(cnt)+" baar");
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q060.png" alt="Output of question 060" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q059.html">← Prev</a>
+        <a class="btn o" href="q061.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

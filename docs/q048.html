@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q048 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 048</span>
+      </div>
+      <h4 style="margin-top: 0">Question 048</h4>
+      <h2 class="qh">Program to Convert String to String Array</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+public class Q048 {
+    public static void main(String[] args) {
+        String s = "apple,banana,cherry,dates";
+        String a[] = s.split(",");
+        System.out.println("String array:");
+        for(int i=0;i&lt;a.length;i++)
+            System.out.println(i+" -&gt; "+a[i]);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q048.png" alt="Output of question 048" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q047.html">← Prev</a>
+        <a class="btn o" href="q049.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

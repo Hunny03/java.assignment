@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q278 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 278</span>
+      </div>
+      <h4 style="margin-top: 0">Question 278</h4>
+      <h2 class="qh">Write a Java program to create an abstract class Employee with abstract methods calculateSalary() and displayInfo(). Create subclasses Manager and Programmer that extend the Employee class and implement the respective methods to calculate salary and display information for each role.</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q278 {
+    static abstract class Employee {
+        String name;
+        Employee(String name){ this.name = name; }
+        abstract double calculateSalary();
+        abstract void displayInfo();
+    }
+    static class Manager extends Employee {
+        double basic, allow;
+        Manager(String name, double basic, double allow){ super(name); this.basic=basic; this.allow=allow; }
+        double calculateSalary(){ return basic+allow; }
+        void displayInfo(){ System.out.println("Manager "+name+", salary = "+calculateSalary()); }
+    }
+    static class Programmer extends Employee {
+        double rate;
+        int hours;
+        Programmer(String name, double rate, int hours){ super(name); this.rate=rate; this.hours=hours; }
+        double calculateSalary(){ return rate*hours; }
+        void displayInfo(){ System.out.println("Programmer "+name+", salary = "+calculateSalary()); }
+    }
+    public static void main(String[] args) {
+        Employee e[] = {new Manager("Ritu",80000,15000), new Programmer("Dev",650,160)};
+        for(int i=0;i&lt;e.length;i++)
+            e[i].displayInfo();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q278.png" alt="Output of question 278" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q277.html">← Prev</a>
+        <a class="btn o" href="q279.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

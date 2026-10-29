@@ -1,0 +1,2 @@
+String: Total characters (excluding spaces) = 14
+Total characters (including spaces) = 16

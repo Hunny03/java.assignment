@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q312 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multithreading · 312</span>
+      </div>
+      <h4 style="margin-top: 0">Question 312</h4>
+      <h2 class="qh">Write a Java program that performs matrix multiplication using multiple threads.</h2>
+      <h4>Solution</h4>
+      <pre><code>package threads;
+public class Q312 {
+    static int a[][] = {{1,2,3},{4,5,6},{7,8,9}};
+    static int b[][] = {{9,8,7},{6,5,4},{3,2,1}};
+    static int c[][] = new int[3][3];
+
+    // har row ke liye alag thread
+    static class RowThread extends Thread {
+        int r;
+        RowThread(int r){ this.r = r; }
+        public void run(){
+            for(int j=0;j&lt;3;j++){
+                for(int k=0;k&lt;3;k++)
+                    c[r][j] = c[r][j] + a[r][k]*b[k][j];
+            }
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        RowThread t[] = new RowThread[3];
+        for(int i=0;i&lt;3;i++){
+            t[i] = new RowThread(i);
+            t[i].start();
+        }
+        for(int i=0;i&lt;3;i++)
+            t[i].join();
+        System.out.println("Multiplication:");
+        for(int i=0;i&lt;3;i++){
+            for(int j=0;j&lt;3;j++)
+                System.out.print(c[i][j]+"  ");
+            System.out.println();
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q312.png" alt="Output of question 312" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multithreading.html">← Topic</a>
+        <a class="btn o" href="q311.html">← Prev</a>
+        <a class="btn o" href="q313.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

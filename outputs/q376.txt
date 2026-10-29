@@ -1,0 +1,2 @@
+No command-line arguments were provided
+Run it like this: java oop.Q376 red green blue

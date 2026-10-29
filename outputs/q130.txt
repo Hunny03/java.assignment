@@ -1,0 +1,1 @@
+Enter both diagonals: Rhombus area = 63.0

@@ -1,0 +1,1 @@
+Enter the total sales and commission percentage: Commission = 3825.0

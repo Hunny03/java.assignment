@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q144 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 144</span>
+      </div>
+      <h4 style="margin-top: 0">Question 144</h4>
+      <h2 class="qh">Java Program to calculate electricity bill</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q144 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Enter the number of units used: ");
+        int u = kb.nextInt();
+        double bill;
+        // slab: 100 tak Rs3, next 100 Rs5, next 100 Rs7, uske baad Rs10
+        if(u&lt;=100)
+            bill = u*3;
+        else if(u&lt;=200)
+            bill = 100*3 + (u-100)*5;
+        else if(u&lt;=300)
+            bill = 100*3 + 100*5 + (u-200)*7;
+        else
+            bill = 100*3 + 100*5 + 100*7 + (u-300)*10;
+        System.out.println("Bill = Rs "+bill);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q144.png" alt="Output of question 144" />
+            <figcaption>Input given: 250</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q143.html">← Prev</a>
+        <a class="btn o" href="q145.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

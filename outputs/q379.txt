@@ -1,0 +1,2 @@
+Length = 15.0, Width = 6.0
+Area = 90.0

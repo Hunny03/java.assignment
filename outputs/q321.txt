@@ -1,0 +1,5 @@
+Loader: part 1 is loading
+Loader: part 2 is loading
+Loader: part 3 is loading
+Painter: painting the screen now
+Main: all tasks completed

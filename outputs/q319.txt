@@ -1,0 +1,7 @@
+Customer-1 booked a seat, remaining = 4
+Customer-2 booked a seat, remaining = 3
+Customer-3 booked a seat, remaining = 2
+Customer-4 booked a seat, remaining = 1
+Customer-5 booked a seat, remaining = 0
+Customer-6 could not get a seat
+Customer-7 could not get a seat

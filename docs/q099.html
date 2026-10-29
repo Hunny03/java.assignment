@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q099 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multi-Dimension Arrays · 099</span>
+      </div>
+      <h4 style="margin-top: 0">Question 099</h4>
+      <h2 class="qh">Program to determine whether a given matrix is a sparse matrix</h2>
+      <h4>Solution</h4>
+      <pre><code>package multiarrays;
+public class Q099 {
+    public static void main(String[] args) {
+        int a[][] = {{0,0,5,0},{0,0,0,0},{7,0,0,0},{0,0,0,9}};
+        int z = 0;
+        for(int i=0;i&lt;4;i++){
+            for(int j=0;j&lt;4;j++){
+                if(a[i][j]==0) z++;
+            }
+        }
+        // zeros aadhe se zyada ho to sparse
+        System.out.println("Zeros = "+z+" / 16");
+        if(z&gt;16/2)
+            System.out.println("It is a sparse matrix");
+        else
+            System.out.println("It is not a sparse matrix");
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q099.png" alt="Output of question 099" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multi-dimension-arrays.html">← Topic</a>
+        <a class="btn o" href="q098.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

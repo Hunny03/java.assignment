@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q276 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 276</span>
+      </div>
+      <h4 style="margin-top: 0">Question 276</h4>
+      <h2 class="qh">Write a Java program to create an abstract class BankAccount with abstract methods deposit() and withdraw(). Create subclasses: SavingsAccount and CurrentAccount that extend the BankAccount class and implement the respective methods to handle deposits and withdrawals for each account type.</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q276 {
+    static abstract class BankAccount {
+        double money;
+        BankAccount(double m){ money = m; }
+        abstract void deposit(double amt);
+        abstract void withdraw(double amt);
+    }
+    static class SavingsAccount extends BankAccount {
+        SavingsAccount(double m){ super(m); }
+        void deposit(double amt){ money += amt; System.out.println("Savings deposit "+amt+" -&gt; "+money); }
+        void withdraw(double amt){
+            if(amt&gt;money) System.out.println("Savings: insufficient balance");
+            else { money -= amt; System.out.println("Savings withdraw "+amt+" -&gt; "+money); }
+        }
+    }
+    static class CurrentAccount extends BankAccount {
+        CurrentAccount(double m){ super(m); }
+        void deposit(double amt){ money += amt; System.out.println("Current deposit "+amt+" -&gt; "+money); }
+        void withdraw(double amt){
+            if(money-amt &lt; -2000) System.out.println("Current: overdraft limit of 2000 exceeded");
+            else { money -= amt; System.out.println("Current withdraw "+amt+" -&gt; "+money); }
+        }
+    }
+    public static void main(String[] args) {
+        BankAccount a = new SavingsAccount(5000);
+        BankAccount b = new CurrentAccount(1000);
+        a.deposit(1500);
+        a.withdraw(9000);
+        b.withdraw(2500);
+        b.withdraw(1000);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q276.png" alt="Output of question 276" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q275.html">← Prev</a>
+        <a class="btn o" href="q277.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q239 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Interfaces · 239</span>
+      </div>
+      <h4 style="margin-top: 0">Question 239</h4>
+      <h2 class="qh">Write a Java program to create an interface Shape with the getArea() method. Create three classes Rectangle, Circle, and Triangle that implement the Shape interface. Implement the getArea() method for each of the three classes.</h2>
+      <h4>Solution</h4>
+      <pre><code>package interfaces;
+public class Q239 {
+    interface Shape {
+        double getArea();
+    }
+    static class Rectangle implements Shape {
+        double s1, s2;
+        Rectangle(double s1, double s2){ this.s1=s1; this.s2=s2; }
+        public double getArea(){ return s1*s2; }
+    }
+    static class Circle implements Shape {
+        double r;
+        Circle(double r){ this.r=r; }
+        public double getArea(){ return 3.14159*r*r; }
+    }
+    static class Triangle implements Shape {
+        double b, h;
+        Triangle(double b, double h){ this.b=b; this.h=h; }
+        public double getArea(){ return 0.5*b*h; }
+    }
+    public static void main(String[] args) {
+        Shape s1 = new Rectangle(8,5);
+        Shape s2 = new Circle(3);
+        Shape s3 = new Triangle(10,4);
+        System.out.println("Rectangle area = "+s1.getArea());
+        System.out.println("Circle area = "+s2.getArea());
+        System.out.println("Triangle area = "+s3.getArea());
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q239.png" alt="Output of question 239" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-interfaces.html">← Topic</a>
+        
+        <a class="btn o" href="q240.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

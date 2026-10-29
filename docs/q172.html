@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q172 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 172</span>
+      </div>
+      <h4 style="margin-top: 0">Question 172</h4>
+      <h2 class="qh">Write a Java program to get a substring of a given string between two specified positions</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q172 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("String: ");
+        String s = kb.nextLine();
+        System.out.print("Start and end positions: ");
+        int st = kb.nextInt();
+        int en = kb.nextInt();
+        // start wala include hota hai, end wala nahi
+        if(st&gt;=0 &amp;&amp; en&lt;=s.length() &amp;&amp; st&lt;=en)
+            System.out.println("Substring = "+s.substring(st,en));
+        else
+            System.out.println("Invalid position");
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q172.png" alt="Output of question 172" />
+            <figcaption>Input given: programming, language, 3, 11</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q171.html">← Prev</a>
+        <a class="btn o" href="q173.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

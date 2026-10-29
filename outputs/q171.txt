@@ -1,0 +1,2 @@
+String with spaces: Before: [    spaces on both sides    ]
+After: [spaces on both sides]

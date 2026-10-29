@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q132 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 132</span>
+      </div>
+      <h4 style="margin-top: 0">Question 132</h4>
+      <h2 class="qh">Java Program to find area of Prism</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q132 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        // rectangle base wala prism lete hai
+        System.out.print("Enter the base length, width, and prism height: ");
+        double l = kb.nextDouble();
+        double w = kb.nextDouble();
+        double h = kb.nextDouble();
+        double vol = l*w*h;
+        double sa = 2*(l*w) + 2*(l+w)*h;
+        System.out.println("Prism volume = "+vol);
+        System.out.println("Prism surface area = "+sa);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q132.png" alt="Output of question 132" />
+            <figcaption>Input given: 4, 3, 10</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q131.html">← Prev</a>
+        <a class="btn o" href="q133.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

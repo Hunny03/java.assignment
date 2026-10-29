@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q258 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Packages · 258</span>
+      </div>
+      <h4 style="margin-top: 0">Question 258</h4>
+      <h2 class="qh">Create a Java program to create a nested package i.e. c4.sample with public class and protected members to be accessed in another class.</h2>
+      <h4>Solution</h4>
+      <pre><code>// ---- Q258.java ----
+package packages;
+import packages.c4.sample.Cabinet;      // package ke andar package: packages -&gt; c4 -&gt; sample
+public class Q258 {
+    static class Furniture extends Cabinet {
+        void dikha(){
+            drawers = drawers + 2;
+            System.out.println(label());
+        }
+    }
+    public static void main(String[] args) {
+        Furniture f = new Furniture();
+        f.dikha();
+    }
+}
+
+// ---- Cabinet.java ----
+package packages.c4.sample;
+public class Cabinet {
+    protected int drawers = 6;
+    protected String label(){
+        return "Cabinet jisme "+drawers+" drawers hai";
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q258.png" alt="Output of question 258" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-packages.html">← Topic</a>
+        <a class="btn o" href="q257.html">← Prev</a>
+        <a class="btn o" href="q259.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

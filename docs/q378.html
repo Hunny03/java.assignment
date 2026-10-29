@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q378 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 378</span>
+      </div>
+      <h4 style="margin-top: 0">Question 378</h4>
+      <h2 class="qh">Write a Java program to create a class called BankAccount with private instance variables accountNumber and balance. Provide public getter and setter methods to access and modify these variables.</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q378 {
+    static class BankAccount {
+        private String accNo;
+        private double balance;
+        public String getAccNo(){ return accNo; }
+        public void setAccNo(String a){ accNo = a; }
+        public double getBalance(){ return balance; }
+        public void setBalance(double b){
+            if(b&gt;=0) balance = b;
+            else System.out.println("Balance cannot be negative");
+        }
+    }
+    public static void main(String[] args) {
+        BankAccount b = new BankAccount();
+        b.setAccNo("PB-0093-7741");
+        b.setBalance(15000);
+        System.out.println("Account "+b.getAccNo()+", balance = "+b.getBalance());
+        b.setBalance(-50);
+        System.out.println("Balance is still "+b.getBalance());
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q378.png" alt="Output of question 378" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        <a class="btn o" href="q377.html">← Prev</a>
+        <a class="btn o" href="q379.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

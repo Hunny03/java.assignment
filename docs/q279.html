@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q279 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 279</span>
+      </div>
+      <h4 style="margin-top: 0">Question 279</h4>
+      <h2 class="qh">Write a Java program to create an abstract class Shape3D with abstract methods calculateVolume() and calculateSurfaceArea(). Create subclasses Sphere and Cube that extend the Shape3D class and implement the respective methods to calculate the volume and surface area of each shape</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q279 {
+    static abstract class Shape3D {
+        abstract double calculateVolume();
+        abstract double calculateSurfaceArea();
+    }
+    static class Sphere extends Shape3D {
+        double r;
+        Sphere(double r){ this.r=r; }
+        double calculateVolume(){ return (4.0/3)*3.14159*r*r*r; }
+        double calculateSurfaceArea(){ return 4*3.14159*r*r; }
+    }
+    static class Cube extends Shape3D {
+        double s;
+        Cube(double s){ this.s=s; }
+        double calculateVolume(){ return s*s*s; }
+        double calculateSurfaceArea(){ return 6*s*s; }
+    }
+    public static void main(String[] args) {
+        Shape3D a[] = {new Sphere(5), new Cube(4)};
+        for(int i=0;i&lt;a.length;i++)
+            System.out.println("Volume = "+a[i].calculateVolume()+", Surface area = "+a[i].calculateSurfaceArea());
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q279.png" alt="Output of question 279" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q278.html">← Prev</a>
+        <a class="btn o" href="q280.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

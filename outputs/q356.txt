@@ -1,0 +1,7 @@
+Collection:
+  Clean Code by Robert Martin [111]
+  Effective Java by Joshua Bloch [222]
+  Head First Java by Kathy Sierra [333]
+After removal:
+  Clean Code by Robert Martin [111]
+  Head First Java by Kathy Sierra [333]

@@ -1,0 +1,2 @@
+Enter the marks for 5 subjects (out of 100): Percentage = 78.2
+Grade = B

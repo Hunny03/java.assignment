@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q255 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Packages · 255</span>
+      </div>
+      <h4 style="margin-top: 0">Question 255</h4>
+      <h2 class="qh">Create a Java program to create a package with 4 public classes, create the object in another file and call the function created in those classes.</h2>
+      <h4>Solution</h4>
+      <pre><code>// ---- Q255.java ----
+package packages;
+import packages.q255.Addition;
+import packages.q255.Subtraction;
+import packages.q255.Multiplication;
+import packages.q255.Division;
+public class Q255 {
+    public static void main(String[] args) {
+        // objects dusre package ki classes ke, alag file me bana rahe hai
+        Addition a = new Addition();
+        Subtraction s = new Subtraction();
+        Multiplication m = new Multiplication();
+        Division d = new Division();
+        System.out.println("Addition = "+a.kar(48,12));
+        System.out.println("Subtraction = "+s.kar(48,12));
+        System.out.println("Multiplication = "+m.kar(48,12));
+        System.out.println("Division = "+d.kar(48,12));
+    }
+}
+
+// ---- Addition.java ----
+package packages.q255;
+public class Addition {
+    public int kar(int a, int b){ return a+b; }
+}
+
+// ---- Division.java ----
+package packages.q255;
+public class Division {
+    public double kar(int a, int b){ return (double)a/b; }
+}
+
+// ---- Multiplication.java ----
+package packages.q255;
+public class Multiplication {
+    public int kar(int a, int b){ return a*b; }
+}
+
+// ---- Subtraction.java ----
+package packages.q255;
+public class Subtraction {
+    public int kar(int a, int b){ return a-b; }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q255.png" alt="Output of question 255" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-packages.html">← Topic</a>
+        <a class="btn o" href="q254.html">← Prev</a>
+        <a class="btn o" href="q256.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

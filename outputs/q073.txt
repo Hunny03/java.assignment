@@ -1,0 +1,2 @@
+Before: [  J a v a   is  fun  ]
+After: [Javaisfun]

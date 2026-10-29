@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q027 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Functions · 027</span>
+      </div>
+      <h4 style="margin-top: 0">Question 027</h4>
+      <h2 class="qh">Write a Java method to count all the words in a string.</h2>
+      <h4>Solution</h4>
+      <pre><code>package functions;
+public class Q027 {
+    static int gin(String s){
+        int c = 0;
+        boolean word = false;
+        for(int i=0;i&lt;s.length();i++){
+            if(s.charAt(i)!=' '){
+                if(word==false){
+                    c++;
+                    word = true;
+                }
+            }
+            else
+                word = false;
+        }
+        return c;
+    }
+    public static void main(String[] args) {
+        String s = "  Methods keep   code   tidy ";
+        System.out.println("Words = "+gin(s));
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q027.png" alt="Output of question 027" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-functions.html">← Topic</a>
+        <a class="btn o" href="q026.html">← Prev</a>
+        <a class="btn o" href="q028.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

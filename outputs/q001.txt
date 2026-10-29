@@ -1,0 +1,2 @@
+Original array: 11 22 33 44 55 
+Copied array: 11 22 33 44 55 

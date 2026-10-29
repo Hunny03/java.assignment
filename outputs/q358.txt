@@ -1,0 +1,6 @@
+Cannot withdraw 15000.0 from account 102
+Accounts:
+  #101 Naveen 7500.0
+  #102 Preeti 8000.0
+After closing account 101:
+  #102 Preeti 8000.0

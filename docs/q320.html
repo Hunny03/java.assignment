@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q320 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multithreading · 320</span>
+      </div>
+      <h4 style="margin-top: 0">Question 320</h4>
+      <h2 class="qh">Create the program to create multiple threads, show an example of notify, notifyall, wait, resume, sleep methods.</h2>
+      <h4>Solution</h4>
+      <pre><code>package threads;
+public class Q320 {
+    static class Dabba {
+        String msg;
+        boolean bhara = false;
+        synchronized void daalo(String m) throws Exception {
+            while(bhara) wait();          // jab tak dabba khali na ho ruko
+            msg = m;
+            bhara = true;
+            System.out.println("Added: "+m);
+            notify();
+        }
+        synchronized void nikalo() throws Exception {
+            while(!bhara) wait();         // jab tak kuch aaye nahi ruko
+            System.out.println("Removed: "+msg);
+            bhara = false;
+            notify();
+        }
+    }
+    static class Likhne extends Thread {
+        Dabba d;
+        Likhne(Dabba d){ this.d = d; }
+        public void run(){
+            try{
+                for(int i=1;i&lt;=3;i++){
+                    d.daalo("letter-"+i);
+                    Thread.sleep(100);
+                }
+            }catch(Exception e){}
+        }
+    }
+    static class Padhne extends Thread {
+        Dabba d;
+        Padhne(Dabba d){ this.d = d; }
+        public void run(){
+            try{
+                for(int i=1;i&lt;=3;i++)
+                    d.nikalo();
+            }catch(Exception e){}
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        Dabba d = new Dabba();
+        Likhne w = new Likhne(d);
+        Padhne r = new Padhne(d);
+        r.start();
+        w.start();
+        w.join();
+        r.join();
+        // suspend/resume purane ho gaye hai, unki jagah wait/notify use hota hai
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q320.png" alt="Output of question 320" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multithreading.html">← Topic</a>
+        <a class="btn o" href="q319.html">← Prev</a>
+        <a class="btn o" href="q321.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q152 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 152</span>
+      </div>
+      <h4 style="margin-top: 0">Question 152</h4>
+      <h2 class="qh">Write a Java program to find the number of days in a month</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q152 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Enter the month number and year: ");
+        int m = kb.nextInt();
+        int y = kb.nextInt();
+        int days = 0;
+        switch(m){
+            case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+                days = 31;
+                break;
+            case 4: case 6: case 9: case 11:
+                days = 30;
+                break;
+            case 2:
+                if((y%4==0 &amp;&amp; y%100!=0) || y%400==0)
+                    days = 29;
+                else
+                    days = 28;
+                break;
+            default:
+                System.out.println("Invalid month");
+        }
+        if(days!=0)
+            System.out.println("Days = "+days);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q152.png" alt="Output of question 152" />
+            <figcaption>Input given: 2, 2028</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q151.html">← Prev</a>
+        <a class="btn o" href="q153.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

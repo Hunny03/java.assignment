@@ -1,0 +1,1 @@
+Enter the base and exponent: 2.5 raised to the power of 4 = 39.0625

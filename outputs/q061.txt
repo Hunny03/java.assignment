@@ -1,0 +1,3 @@
+Duplicate words:
+the -> 3 baar
+cat -> 2 baar

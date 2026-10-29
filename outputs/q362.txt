@@ -1,0 +1,7 @@
+Added: Wings of Fire
+Added: The Alchemist
+Added: Godaan
+In the library, 3 books: [Wings of Fire, The Alchemist, Godaan]
+Removed: The Alchemist
+Not found: Ramayana
+In the library, 2 books: [Wings of Fire, Godaan]

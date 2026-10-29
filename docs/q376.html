@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q376 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 376</span>
+      </div>
+      <h4 style="margin-top: 0">Question 376</h4>
+      <h2 class="qh">Create a class, entering the command line arguments from the user and show all the arguments as output..</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q376 {
+    public static void main(String[] args) {
+        // chalane ka tareeka:  java oop.Q376 red green blue
+        if(args.length==0){
+            System.out.println("No command-line arguments were provided");
+            System.out.println("Run it like this: java oop.Q376 red green blue");
+        }
+        else{
+            System.out.println("Arguments = "+args.length);
+            for(int i=0;i&lt;args.length;i++)
+                System.out.println("args["+i+"] = "+args[i]);
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q376.png" alt="Output of question 376" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        <a class="btn o" href="q375.html">← Prev</a>
+        <a class="btn o" href="q377.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

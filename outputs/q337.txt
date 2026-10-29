@@ -1,0 +1,2 @@
+x = 123456
+y = 705032704 (after type casting)

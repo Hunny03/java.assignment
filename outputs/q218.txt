@@ -1,0 +1,1 @@
+Enter n: Series sum = 2.9289682539682538

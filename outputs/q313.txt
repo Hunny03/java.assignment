@@ -1,0 +1,5 @@
+Sum of primes from 1 to 250 = 5830
+Sum of primes from 251 to 500 = 15706
+Sum of primes from 501 to 750 = 23147
+Sum of primes from 751 to 1000 = 31444
+Sum of primes up to 1000 = 76127

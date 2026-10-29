@@ -1,0 +1,2 @@
+Normal division = 4
+Round up division = 5

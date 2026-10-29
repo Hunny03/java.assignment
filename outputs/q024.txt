@@ -1,0 +1,1 @@
+Smallest among 27, 14, and 39 = 14

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q310 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multithreading · 310</span>
+      </div>
+      <h4 style="margin-top: 0">Question 310</h4>
+      <h2 class="qh">Write a Java program that creates two threads to find and print even and odd numbers from 1 to 20.</h2>
+      <h4>Solution</h4>
+      <pre><code>package threads;
+public class Q310 {
+    static class Odd extends Thread {
+        public void run(){
+            for(int i=1;i&lt;=20;i=i+2){
+                System.out.println("Odd thread: "+i);
+                try{ Thread.sleep(200); }catch(Exception e){}
+            }
+        }
+    }
+    static class Even extends Thread {
+        public void run(){
+            try{ Thread.sleep(100); }catch(Exception e){}   // thoda ruka taki odd pehle aaye
+            for(int i=2;i&lt;=20;i=i+2){
+                System.out.println("Even thread: "+i);
+                try{ Thread.sleep(200); }catch(Exception e){}
+            }
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        Odd o = new Odd();
+        Even e = new Even();
+        o.start();
+        e.start();
+        o.join();
+        e.join();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q310.png" alt="Output of question 310" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multithreading.html">← Topic</a>
+        <a class="btn o" href="q309.html">← Prev</a>
+        <a class="btn o" href="q311.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q104 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 104</span>
+      </div>
+      <h4 style="margin-top: 0">Question 104</h4>
+      <h2 class="qh">Write a Java program that takes five numbers as input to calculate and print the average of the numbers</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q104 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        int tot = 0;
+        System.out.println("Enter five numbers:");
+        for(int i=1;i&lt;=5;i++){
+            int n = kb.nextInt();
+            tot = tot + n;
+        }
+        double avg = tot/5.0;
+        System.out.println("Average = "+avg);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q104.png" alt="Output of question 104" />
+            <figcaption>Input given: 12, 18, 25, 7, 38</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q103.html">← Prev</a>
+        <a class="btn o" href="q105.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

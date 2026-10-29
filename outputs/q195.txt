@@ -1,0 +1,3 @@
+Largest = 190
+Smallest = 143
+Difference = 47

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q026 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Functions · 026</span>
+      </div>
+      <h4 style="margin-top: 0">Question 026</h4>
+      <h2 class="qh">Write a Java method to display the middle character of a string. Note: a) If the length of the string is odd there will be two middle characters. b) If the length of the string is even there will be one middle character.</h2>
+      <h4>Solution</h4>
+      <pre><code>package functions;
+public class Q026 {
+    static String beech(String s){
+        int n = s.length();
+        // odd length me ek middle, even me do middle character aate hai
+        if(n%2==1)
+            return s.substring(n/2, n/2+1);
+        else
+            return s.substring(n/2-1, n/2+1);
+    }
+    public static void main(String[] args) {
+        System.out.println("Python -&gt; "+beech("Python"));
+        System.out.println("Java -&gt; "+beech("Java"));
+        System.out.println("Robot -&gt; "+beech("Robot"));
+        System.out.println("Code -&gt; "+beech("Code"));
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q026.png" alt="Output of question 026" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-functions.html">← Topic</a>
+        <a class="btn o" href="q025.html">← Prev</a>
+        <a class="btn o" href="q027.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

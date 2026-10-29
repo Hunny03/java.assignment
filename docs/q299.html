@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q299 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Exception Handling · 299</span>
+      </div>
+      <h4 style="margin-top: 0">Question 299</h4>
+      <h2 class="qh">Write a Java program that reads a list of numbers from a file and throws an exception if any of the numbers are positive</h2>
+      <h4>Solution</h4>
+      <pre><code>package exceptions;
+import java.io.*;
+public class Q299 {
+    public static void main(String[] args) throws IOException {
+        FileWriter fw = new FileWriter("nums.txt");
+        fw.write("-5\n-12\n0\n7\n-3\n");
+        fw.close();
+        BufferedReader br = new BufferedReader(new FileReader("nums.txt"));
+        String line;
+        try{
+            while((line=br.readLine())!=null){
+                int n = Integer.parseInt(line);
+                if(n&gt;0)
+                    throw new Exception("Positive number mila: "+n);
+                System.out.println("OK: "+n);
+            }
+        }
+        catch(Exception e){
+            System.out.println("Exception: "+e.getMessage());
+        }
+        br.close();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q299.png" alt="Output of question 299" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-exception-handling.html">← Topic</a>
+        <a class="btn o" href="q298.html">← Prev</a>
+        <a class="btn o" href="q300.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

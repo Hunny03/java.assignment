@@ -1,0 +1,1 @@
+Elements at odd positions: 15 35 55 

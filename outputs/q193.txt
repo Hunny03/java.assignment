@@ -1,0 +1,2 @@
+Smallest = 12
+Second smallest = 23

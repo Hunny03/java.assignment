@@ -1,0 +1,1 @@
+Smallest among 48, 19, and 33 = 19

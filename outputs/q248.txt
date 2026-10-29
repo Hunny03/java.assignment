@@ -1,0 +1,4 @@
+Encrypted: Mjqqt%Of{f
+Decrypted: Hello Java
+Encrypted: 3000 1313 745 745 2185 1992 1877 1632 2578 1632
+Decrypted: Hello Java

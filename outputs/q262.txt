@@ -1,0 +1,2 @@
+Shape area = 0.0
+Rectangle area = 84.0

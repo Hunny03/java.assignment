@@ -1,0 +1,2 @@
+Settings loaded
+Caught in main: settings.cfg khul nahi payi

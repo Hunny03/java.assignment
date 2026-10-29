@@ -1,0 +1,2 @@
+Object = Hello
+Back to string = HELLO

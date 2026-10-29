@@ -1,0 +1,4 @@
+int = 47
+double = 47.0
+47/2 as an integer = 23
+47/2 as a double = 23.5

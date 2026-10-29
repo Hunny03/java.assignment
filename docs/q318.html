@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q318 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multithreading · 318</span>
+      </div>
+      <h4 style="margin-top: 0">Question 318</h4>
+      <h2 class="qh">Create the program to create multiple threads, set its name and its priority.</h2>
+      <h4>Solution</h4>
+      <pre><code>package threads;
+public class Q318 {
+    static class Mera extends Thread {
+        public void run(){
+            System.out.println(getName()+" is running, priority = "+getPriority());
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        Mera t1 = new Mera();
+        Mera t2 = new Mera();
+        Mera t3 = new Mera();
+        t1.setName("Low-Thread");
+        t2.setName("Normal-Thread");
+        t3.setName("High-Thread");
+        t1.setPriority(1);
+        t2.setPriority(5);
+        t3.setPriority(10);
+        t1.start(); t1.join();
+        t2.start(); t2.join();
+        t3.start(); t3.join();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q318.png" alt="Output of question 318" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multithreading.html">← Topic</a>
+        <a class="btn o" href="q317.html">← Prev</a>
+        <a class="btn o" href="q319.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

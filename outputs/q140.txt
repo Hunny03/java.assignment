@@ -1,0 +1,1 @@
+How many subjects? Subject 1 marks: Subject 2 marks: Subject 3 marks: Subject 4 marks: Subject 5 marks: Average marks = 78.2

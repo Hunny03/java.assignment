@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q295 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Input/Output · 295</span>
+      </div>
+      <h4 style="margin-top: 0">Question 295</h4>
+      <h2 class="qh">Get all characters from the file, count number of lines, words, characters and display on the screen</h2>
+      <h4>Solution</h4>
+      <pre><code>package inputoutput;
+import java.io.*;
+public class Q295 {
+    public static void main(String[] args) throws IOException {
+        FileWriter fw = new FileWriter("count.txt");
+        fw.write("Java makes file handling simple\nCount every line and word\nand every single character\n");
+        fw.close();
+        BufferedReader br = new BufferedReader(new FileReader("count.txt"));
+        String line;
+        int l = 0, w = 0, c = 0;
+        while((line=br.readLine())!=null){
+            System.out.println(line);
+            l++;
+            c = c + line.length();
+            w = w + line.split(" ").length;
+        }
+        br.close();
+        System.out.println("---------");
+        System.out.println("Lines = "+l);
+        System.out.println("Words = "+w);
+        System.out.println("Characters = "+c);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q295.png" alt="Output of question 295" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-input-output.html">← Topic</a>
+        <a class="btn o" href="q294.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

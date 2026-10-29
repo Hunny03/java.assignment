@@ -1,0 +1,4 @@
+Parent constructor called
+Child constructor called
+this.label = Child ka label
+super.label = Parent ka label

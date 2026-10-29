@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q267 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 267</span>
+      </div>
+      <h4 style="margin-top: 0">Question 267</h4>
+      <h2 class="qh">Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). Create a subclass called Circle that overrides the getPerimeter() and getArea() methods to calculate the area and perimeter of a circle.</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q267 {
+    static class Shape {
+        double getPerimeter(){ return 0; }
+        double getArea(){ return 0; }
+    }
+    static class Circle extends Shape {
+        double r;
+        Circle(double r){ this.r = r; }
+        double getPerimeter(){ return 2*3.14159*r; }
+        double getArea(){ return 3.14159*r*r; }
+    }
+    public static void main(String[] args) {
+        Shape s = new Circle(6);
+        System.out.println("Perimeter = "+s.getPerimeter());
+        System.out.println("Area = "+s.getArea());
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q267.png" alt="Output of question 267" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q266.html">← Prev</a>
+        <a class="btn o" href="q268.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

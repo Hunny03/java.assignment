@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q158 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 158</span>
+      </div>
+      <h4 style="margin-top: 0">Question 158</h4>
+      <h2 class="qh">Write a java program to check vowel or consonant</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+import java.util.Scanner;
+public class Q158 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Enter a character: ");
+        char ch = kb.next().charAt(0);
+        // lowercase me convert kar liya taki A aur a dono chal jaye
+        char c = Character.toLowerCase(ch);
+        if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+            System.out.println(ch+" is a vowel");
+        else
+            System.out.println(ch+" is a consonant");
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q158.png" alt="Output of question 158" />
+            <figcaption>Input given: t</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q157.html">← Prev</a>
+        <a class="btn o" href="q159.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

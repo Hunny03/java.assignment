@@ -1,0 +1,5 @@
+Thread-2 crawled site-b.com
+Thread-1 crawled site-a.com
+Thread-3 crawled site-c.com
+Thread-4 crawled site-d.com
+All websites have been crawled

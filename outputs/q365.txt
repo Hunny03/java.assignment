@@ -1,0 +1,4 @@
+Class 12-B cannot be created because Mr. Gill is not in the teacher list
+Students: [Jatin, Lavleen]
+Teachers: [Mrs. Bedi, Mr. Chopra]
+Classes: [Class 10-A - Mrs. Bedi]

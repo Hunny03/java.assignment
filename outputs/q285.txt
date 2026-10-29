@@ -1,0 +1,2 @@
+Area = 24.0, Perimeter = 24.0
+Area = 49.0, Perimeter = 28.0

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q047 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 047</span>
+      </div>
+      <h4 style="margin-top: 0">Question 047</h4>
+      <h2 class="qh">Program to Convert Enum to String</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+public class Q047 {
+    enum Din { MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY }
+    public static void main(String[] args) {
+        Din d = Din.WEDNESDAY;
+        String s = d.toString();
+        System.out.println("String from enum: "+s);
+        System.out.println("All days:");
+        for(Din x : Din.values())
+            System.out.println(x);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q047.png" alt="Output of question 047" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q046.html">← Prev</a>
+        <a class="btn o" href="q048.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

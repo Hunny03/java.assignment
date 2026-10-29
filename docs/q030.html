@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q030 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Functions · 030</span>
+      </div>
+      <h4 style="margin-top: 0">Question 030</h4>
+      <h2 class="qh">Write a Java method to check whether a string is a valid password.</h2>
+      <h4>Solution</h4>
+      <pre><code>package functions;
+public class Q030 {
+    // password rule: 8+ characters, sirf letter/digit, kam se kam 2 digits
+    static boolean passOk(String p){
+        if(p.length()&lt;8) return false;
+        int d = 0;
+        for(int i=0;i&lt;p.length();i++){
+            char c = p.charAt(i);
+            if(Character.isDigit(c)) d++;
+            else if(!Character.isLetter(c)) return false;
+        }
+        if(d&gt;=2) return true;
+        return false;
+    }
+    public static void main(String[] args) {
+        String p[] = {"abc123","Strong99Pass","no_special!1","OnlyLetters","Java2026X"};
+        for(int i=0;i&lt;p.length;i++){
+            if(passOk(p[i]))
+                System.out.println(p[i]+" -&gt; valid");
+            else
+                System.out.println(p[i]+" -&gt; invalid");
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q030.png" alt="Output of question 030" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-functions.html">← Topic</a>
+        <a class="btn o" href="q029.html">← Prev</a>
+        <a class="btn o" href="q031.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

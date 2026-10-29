@@ -1,0 +1,2 @@
+Shortest word = is
+Longest word = Programming

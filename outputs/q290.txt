@@ -1,0 +1,1 @@
+Enter a double: You entered: 2.718281828

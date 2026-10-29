@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q272 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 272</span>
+      </div>
+      <h4 style="margin-top: 0">Question 272</h4>
+      <h2 class="qh">Create a program, showing an example of method overriding</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q272 {
+    static class Bird {
+        void fly(){ System.out.println("Most birds can fly"); }
+    }
+    static class Penguin extends Bird {
+        void fly(){ System.out.println("Penguins cannot fly, but they can swim"); }
+    }
+    static class Eagle extends Bird {
+        void fly(){ System.out.println("The eagle flies at great heights"); }
+    }
+    public static void main(String[] args) {
+        Bird b = new Bird();
+        Bird p = new Penguin();
+        Bird e = new Eagle();
+        b.fly();
+        p.fly();
+        e.fly();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q272.png" alt="Output of question 272" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q271.html">← Prev</a>
+        <a class="btn o" href="q273.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

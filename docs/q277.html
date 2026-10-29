@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q277 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 277</span>
+      </div>
+      <h4 style="margin-top: 0">Question 277</h4>
+      <h2 class="qh">Write a Java program to create an abstract class Animal with abstract methods eat() and sleep(). Create subclasses Lion, Tiger, and Deer that extend the Animal class and implement the eat() and sleep() methods differently based on their specific behavior.</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q277 {
+    static abstract class Animal {
+        abstract void eat();
+        abstract void sleep();
+    }
+    static class Lion extends Animal {
+        void eat(){ System.out.println("The lion hunts for meat"); }
+        void sleep(){ System.out.println("The lion sleeps for 20 hours a day"); }
+    }
+    static class Tiger extends Animal {
+        void eat(){ System.out.println("The tiger eats deer"); }
+        void sleep(){ System.out.println("The tiger rests in the shade"); }
+    }
+    static class Deer extends Animal {
+        void eat(){ System.out.println("The deer eats grass"); }
+        void sleep(){ System.out.println("The deer sleeps briefly and stays alert"); }
+    }
+    public static void main(String[] args) {
+        Animal a[] = {new Lion(), new Tiger(), new Deer()};
+        for(int i=0;i&lt;a.length;i++){
+            a[i].eat();
+            a[i].sleep();
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q277.png" alt="Output of question 277" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q276.html">← Prev</a>
+        <a class="btn o" href="q278.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Sum of the first 100 prime numbers = 24133

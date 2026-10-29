@@ -1,0 +1,2 @@
+float = 249.75
+Price after a 10% discount = 224.775

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q168 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 168</span>
+      </div>
+      <h4 style="margin-top: 0">Question 168</h4>
+      <h2 class="qh">Write a Java program to concatenate two string</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+public class Q168 {
+    public static void main(String[] args) {
+        String s1 = "Good ";
+        String s2 = "Morning";
+        String s3 = s1 + s2;           // + se jodna
+        String s4 = s1.concat(s2);     // concat se jodna
+        System.out.println(s3);
+        System.out.println(s4);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q168.png" alt="Output of question 168" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q167.html">← Prev</a>
+        <a class="btn o" href="q169.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

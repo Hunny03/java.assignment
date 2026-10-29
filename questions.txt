@@ -1,0 +1,383 @@
+001 [Single Dimension Arrays] Program to copy all elements of one array into another array
+002 [Single Dimension Arrays] Program to find the frequency of each element in the array
+003 [Single Dimension Arrays] Program to left rotate the elements of an array
+004 [Single Dimension Arrays] Program to print the duplicate elements of an array
+005 [Single Dimension Arrays] Program to print the elements of an array
+006 [Single Dimension Arrays] Program to print the elements of an array in reverse order
+007 [Single Dimension Arrays] Program to print the elements of an array present on even position
+008 [Single Dimension Arrays] Program to print the elements of an array present on odd position
+009 [Single Dimension Arrays] Program to print the largest element in an array
+010 [Single Dimension Arrays] Program to print the smallest element in an array
+011 [Single Dimension Arrays] Program to print the number of elements present in an array
+012 [Single Dimension Arrays] Program to print the sum of all the items of the array
+013 [Single Dimension Arrays] Program to right rotate the elements of an array
+014 [Single Dimension Arrays] Program to sort the elements of an array in ascending order
+015 [Single Dimension Arrays] Program to sort the elements of an array in descending order
+016 [Single Dimension Arrays] Program to Find 3rd Largest Number in an array
+017 [Single Dimension Arrays] Program to Find 2nd Largest Number in an array
+018 [Single Dimension Arrays] Program to Find Largest Number in an array
+019 [Single Dimension Arrays] to Program Find 2nd Smallest Number in an array
+020 [Single Dimension Arrays] Program to Find Smallest Number in an array
+021 [Single Dimension Arrays] Program to Remove Duplicate Element in an array
+022 [Single Dimension Arrays] Program to Print Odd and Even Numbers from an array
+023 [Single Dimension Arrays] How to Sort an Array in Java
+024 [Functions] Write a Java method to find the smallest number among three numbers.
+025 [Functions] Write a Java method to compute the average of three numbers.
+026 [Functions] Write a Java method to display the middle character of a string. Note: a) If the length of the string is odd there will be two middle characters. b) If the length of the string is even there will be one middle character.
+027 [Functions] Write a Java method to count all the words in a string.
+028 [Functions] Write a Java method to compute the future investment value at a given interest rate for a specified number of years.
+029 [Functions] Write a Java method to print characters between two characters (i.e. A to P).
+030 [Functions] Write a Java method to check whether a string is a valid password.
+031 [Functions] Write a Java method to display the current date and time.
+032 [Functions] Write a Java method to find all twin prime numbers less than 100.
+033 [Functions] Write a Java method to count the number of digits in an integer with the value 2. The integer may be assumed to be non-negative.
+034 [Functions] Write a Java method that accepts three integers and checks whether they are consecutive or not. Returns true or false.
+035 [Functions] Write a Java method that accepts three integers and returns true if one is the middle point between the other two integers, otherwise false
+036 [Functions] Write a Java method that checks whether all the characters in a given string are vowels (a, e,i,o,u) or not. Return true if each character in the string is a vowel, otherwise return false.
+037 [Strings] Program to Check if a String contains only digits?
+038 [Strings] Program to perform Deep Copy for String?
+039 [Strings] Program to prove String is immutable programmatically?
+040 [Strings] Program to remove all occurrences of a given character from input String?
+041 [Strings] Program to append the string using StringBuffer class
+042 [Strings] Program to insert the string using StringBuffer class
+043 [Strings] Program to Add Characters to a String
+044 [Strings] Program to Add Characters to a String
+045 [Strings] Program to Check Anagram
+046 [Strings] Program to check whether a string is a Palindrome
+047 [Strings] Program to Convert Enum to String
+048 [Strings] Program to Convert String to String Array
+049 [Strings] Program to count number of words in a String?
+050 [Strings] Program to count the total number of characters in a string
+051 [Strings] Program to count the total number of punctuation characters exists in a String
+052 [Strings] Program to count the total number of vowels and consonants in a string
+053 [Strings] Program to determine whether a given string is palindrome
+054 [Strings] Program to determine whether one string is a rotation of another
+055 [Strings] Program to divide a string in 'N' equal parts.
+056 [Strings] Program to find all subsets of a string
+057 [Strings] Program to find all the permutations of a string
+058 [Strings] Program to find maximum and minimum occurring character in a string
+059 [Strings] Program to find Reverse of the string
+060 [Strings] Program to find the duplicate characters in a string
+061 [Strings] Program to find the duplicate words in a string
+062 [Strings] Program to find the frequency of characters
+063 [Strings] Program to find the largest and smallest word in a string
+064 [Strings] Program to find the longest repeating sequence in a string
+065 [Strings] Program to find the most repeated word in a text file
+066 [Strings] Program to find the number of the words in the given text file
+067 [Strings] Program to Get a Character From the Given String
+068 [Strings] Program to Insert a string into another string
+069 [Strings] Program to Iterate Over Characters in String
+070 [Strings] Program to Print a New Line in String
+071 [Strings] Program to Print even length words
+072 [Strings] Program to print smallest and biggest possible palindrome word in a given string
+073 [Strings] Program to remove all the white spaces from a string
+074 [Strings] Program to replace lower-case characters with upper-case and vice-versa
+075 [Strings] Program to replace the spaces of a string with a specific character
+076 [Strings] Program to separate the Individual Characters from a String
+077 [Strings] Program to Splitting into a number of sub-strings
+078 [Strings] Program to swap two string variables without using third or temp variable.
+079 [Strings] Program to Swapping Pair of Characters
+080 [Strings] Read two String user input and check if first contains second?
+081 [Strings] Reserve String without reverse() function
+082 [Strings] Reverse String Word by Word
+083 [Strings] Write a program to check if two Strings are created with same characters?
+084 [Strings] Write a program to find out first non repeated character from input String?
+085 [Strings] Create an object StringBuffer class to reverse the string.
+086 [Strings] Create an object StringBuffer class to show functionality of insert, append, delete and replace functions.
+087 [Multi-Dimension Arrays] Enter the Matrix of rows and columns entered by the user and print in matrix format
+088 [Multi-Dimension Arrays] Program to Add Two Matrices
+089 [Multi-Dimension Arrays] Program to Multiply Two Matrices
+090 [Multi-Dimension Arrays] Program to subtract the two matrices
+091 [Multi-Dimension Arrays] Program to determine whether two matrices are equal
+092 [Multi-Dimension Arrays] Program to display the lower triangular matrix
+093 [Multi-Dimension Arrays] Program to display the upper triangular matrix
+094 [Multi-Dimension Arrays] Program to find the frequency of odd & even numbers in the given matrix
+095 [Multi-Dimension Arrays] Program to find the sum of each row and each column of a matrix
+096 [Multi-Dimension Arrays] Program to find the transpose of a given matrix
+097 [Multi-Dimension Arrays] Program to determine whether a given matrix is an identity matrix
+098 [Multi-Dimension Arrays] Program to Transpose matrix
+099 [Multi-Dimension Arrays] Program to determine whether a given matrix is a sparse matrix
+100 [Basic Programming Constructs] Write a Java program to print ‘Hello World!’ on screen
+101 [Basic Programming Constructs] Write a Java program to print the sum of two numbers
+102 [Basic Programming Constructs] Write a Java program that takes two numbers and display the product of two numbers
+103 [Basic Programming Constructs] Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers
+104 [Basic Programming Constructs] Write a Java program that takes five numbers as input to calculate and print the average of the numbers
+105 [Basic Programming Constructs] Write a Java program to swap two variables
+106 [Basic Programming Constructs] Write a Java program to convert a decimal number to binary numbers
+107 [Basic Programming Constructs] Write a Java program to convert a binary number to decimal number
+108 [Basic Programming Constructs] Write a Java program to check whether Java is installed on your computer or not
+109 [Basic Programming Constructs] Write a Java program and compute the sum of the digits of an integer
+110 [Basic Programming Constructs] Write a Java program to compare two numbers
+111 [Basic Programming Constructs] Write a Java program to count the letters, spaces, numbers and other characters of an input string
+112 [Basic Programming Constructs] Write a Java program to print the ascii value of a given character
+113 [Basic Programming Constructs] Write a Java program that accepts an integer (n) and computes the value of n+nn+nnn
+114 [Basic Programming Constructs] Write a Java program to display the system time
+115 [Basic Programming Constructs] Write a Java program to print the odd numbers from 1 to 20
+116 [Basic Programming Constructs] Write a Java program to print the even numbers from 1 to 20
+117 [Basic Programming Constructs] Write a Java program to convert a string to an integer
+118 [Basic Programming Constructs] Write a Java program to convert seconds to hour, minute and seconds
+119 [Basic Programming Constructs] Write a Java program to compute the sum of the first 100 prime numbers
+120 [Basic Programming Constructs] Write a Java program to swap the first and last elements of an array and create a new array
+121 [Basic Programming Constructs] Write a Java program to count the number of even and odd elements in a given array
+122 [Basic Programming Constructs] Write a Java program to compute the square root of an given integer
+123 [Basic Programming Constructs] Write a Java program to check if a positive number is a palindrome or not
+124 [Basic Programming Constructs] Write a Java program to add two numbers without using any arithmetic operators
+125 [Basic Programming Constructs] Write a Java program to add all the digits of a given positive integer
+126 [Basic Programming Constructs] Java program to find area of circle
+127 [Basic Programming Constructs] Java Program to find area of rectangle
+128 [Basic Programming Constructs] Java Program to find area of triangle
+129 [Basic Programming Constructs] Java Program to find area of equilateral triangle
+130 [Basic Programming Constructs] Java Program to find area of rhombus
+131 [Basic Programming Constructs] Java Program to find area of parallelogram
+132 [Basic Programming Constructs] Java Program to find area of Prism
+133 [Basic Programming Constructs] Java Program to find volume of sphere
+134 [Basic Programming Constructs] Java Program to find volume of cylinder
+135 [Basic Programming Constructs] Java Program to find volume of cuboid
+136 [Basic Programming Constructs] Java Program to find volume of cone
+137 [Basic Programming Constructs] Java program to find surface area of cuboid
+138 [Basic Programming Constructs] Java program to find surface area of cylinder
+139 [Basic Programming Constructs] Java program to find surface area of cube
+140 [Basic Programming Constructs] Java program to calculate average marks
+141 [Basic Programming Constructs] Java program to check vowel or consonant
+142 [Basic Programming Constructs] Java program to sum of N numbers
+143 [Basic Programming Constructs] Java program to find factorial of any number
+144 [Basic Programming Constructs] Java Program to calculate electricity bill
+145 [Basic Programming Constructs] Java Program To Calculate CGPA Percentage
+146 [Basic Programming Constructs] Java Program to calculate compound interest
+147 [Basic Programming Constructs] Java Program To Calculate Batting Average
+148 [Basic Programming Constructs] Java Pogram to Calculate Commission Percentage
+149 [Basic Programming Constructs] Java Pogram To Find Distance Between Two Points
+150 [Basic Programming Constructs] Java Program To Calculate Power Of Number
+151 [Basic Programming Constructs] Write a Java program to take three numbers from the user and print the greatest number
+152 [Basic Programming Constructs] Write a Java program to find the number of days in a month
+153 [Basic Programming Constructs] Write a Java program to test a number is positive or negative
+154 [Basic Programming Constructs] Write a Java Program to accept number of week’s day (1-7) and print name of the day
+155 [Basic Programming Constructs] Write a Java program that takes a year from user and print whether that year is a leap year or not
+156 [Basic Programming Constructs] Write a Java program to input 5 numbers from keyboard and find their sum and average
+157 [Basic Programming Constructs] Write a program in Java to display the first 5 natural numbers
+158 [Basic Programming Constructs] Write a java program to check vowel or consonant
+159 [Basic Programming Constructs] Write a Java program to display the cube of the number upto given an integer
+160 [Basic Programming Constructs] Write a Java program to display the n terms of odd natural number and their sum
+161 [Basic Programming Constructs] Write a Java program to display the multiplication table of a given integer
+162 [Basic Programming Constructs] Write a Java program that reads an integer and check whether it is negative, zero, or positive
+163 [Basic Programming Constructs] Write a Java program that reads an positive integer and count the number of digits
+164 [Basic Programming Constructs] Write a Java program that accepts three numbers and check All numbers are equal or not
+165 [Basic Programming Constructs] Write a java program that accepts three numbers from the user and check if numbers are in “increasing” or “decreasing” order.
+166 [Basic Programming Constructs] Write a Java program that determines a student’s grade
+167 [Basic Programming Constructs] Write a Java program to create a simple calculator
+168 [Basic Programming Constructs] Write a Java program to concatenate two string
+169 [Basic Programming Constructs] Write a Java program to convert all characters in a string to lowercase
+170 [Basic Programming Constructs] Write a Java program to convert all characters in a string to uppercase
+171 [Basic Programming Constructs] Write a Java program to trim a string(remove whitespaces)
+172 [Basic Programming Constructs] Write a Java program to get a substring of a given string between two specified positions
+173 [Basic Programming Constructs] Write a Java program to replace all the ‘d’ characters with ‘f’ characters
+174 [Basic Programming Constructs] Write a java program to get the length of a given string
+175 [Basic Programming Constructs] Write a java program to print current date and time in the specified format
+176 [Basic Programming Constructs] Write a Java program to get the character at the given index within the String
+177 [Basic Programming Constructs] Write a java program to remove a particular character from a string
+178 [Basic Programming Constructs] Write a java program to reverse a String
+179 [Basic Programming Constructs] Write a java program to remove html tags from a string
+180 [Basic Programming Constructs] Write a java program to count total number of lines from a string
+181 [Basic Programming Constructs] Write a Java program to sum values of an array
+182 [Basic Programming Constructs] Write a Java program to find the index of an array element
+183 [Basic Programming Constructs] Write a Java program to calculate the average value of array elements
+184 [Basic Programming Constructs] Write a Java program to test if an array contains a specific value
+185 [Basic Programming Constructs] Write a Java program to find the maximum and minimum value of an array
+186 [Basic Programming Constructs] Write a Java program to insert an element (specific position) into an array
+187 [Basic Programming Constructs] Write a Java program to reverse an array of integer values
+188 [Basic Programming Constructs] Write a Java program to find the common elements between two arrays
+189 [Basic Programming Constructs] Write a Java program to find the duplicate values of an array of integer values
+190 [Basic Programming Constructs] Write a Java program to convert an array to ArrayList
+191 [Basic Programming Constructs] Write a Java program to add two matrices of the same size
+192 [Basic Programming Constructs] Write a Java program to find second largest number from the array
+193 [Basic Programming Constructs] Write a Java program to find second lowest number from the array
+194 [Basic Programming Constructs] Write a Java program to find the number of even and odd integers in a given array of integers
+195 [Basic Programming Constructs] Write a Java program to get the difference between the largest and smallest values in an array of integers
+196 [Basic Programming Constructs] Write a Java program to segregate all 0s on left side and all 1s on right side of a given array of 0s and 1s
+197 [Basic Programming Constructs] Write a Java program to cyclically rotate a given array clockwise by one
+198 [Basic Programming Constructs] java program to print all unique element in an array
+199 [Basic Programming Constructs] Write a Java Program to Sort the Array in an Ascending Order
+200 [Basic Programming Constructs] Write a Java Program to Sort the Array in an Descending Order
+201 [Basic Programming Constructs] Write a Java Program to Sort Names in an Alphabetical Order
+202 [Basic Programming Constructs] Write a Java Program to Display Transpose Matrix
+203 [Basic Programming Constructs] Write a Java Program to Search Key Elements in an Array
+204 [Basic Programming Constructs] Write a Java Program to Accept the Marks of a Student and find Total Marks and Percentage
+205 [Basic Programming Constructs] Write a java program to print numbers from 1 to 10 using loop
+206 [Basic Programming Constructs] Write a java program to calculate the sum of first 10 natural number using loop
+207 [Basic Programming Constructs] Write a Java program to print multiplication table of given number
+208 [Basic Programming Constructs] Write a Java program to find the factorial value of any number entered through the keyboard
+209 [Basic Programming Constructs] Write a Java program that prompts the user to input an integer and then outputs the number with the digits reversed order
+210 [Basic Programming Constructs] Write a Java program that reads a set of integers, and then prints the sum of the even and odd integers using loop
+211 [Basic Programming Constructs] Write a Java program to check whether the number is a prime number or not
+212 [Basic Programming Constructs] Write a Java program to calculate HCF of Two given numbers using loop
+213 [Basic Programming Constructs] Write a Java program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros
+214 [Basic Programming Constructs] Write a Java program to enter the numbers till the user wants and at the end the program should display the largest and smallest numbers entered
+215 [Basic Programming Constructs] Write a Java program to print out all Armstrong numbers between 1 to 600 using loop
+216 [Basic Programming Constructs] Write a java program to count total number of notes in entered amount using loop
+217 [Basic Programming Constructs] Write a Java program to print Fibonacci series of n terms where n is input by user using loop
+218 [Basic Programming Constructs] Write a java program to calculate the sum of following series where n is input by user
+219 [Basic Programming Constructs] Write a Java method to compute the average of three numbers
+220 [Basic Programming Constructs] Write a Java method to find the smallest number among three numbers
+221 [Basic Programming Constructs] Write a Java method to count all words in a string
+222 [Basic Programming Constructs] Write a Java method to count all vowels in a string
+223 [Basic Programming Constructs] Write a Java method to compute the sum of the digits in an integer
+224 [Basic Programming Constructs] Write a Java method to check whether an year entered by the user is a leap year or not
+225 [Basic Programming Constructs] Write a Java method to calculate the area of a triangle
+226 [Basic Programming Constructs] Write a Java method to find the area of a pentagon
+227 [Basic Programming Constructs] Write a Java method to find number is even number or not
+228 [Basic Programming Constructs] Write a Java method to check numbers is palindrome number or not
+229 [Basic Programming Constructs] Write a Java method to displays prime numbers between 1 to 20
+230 [Basic Programming Constructs] Write a Java method to find GCD and LCM of Two Numbers
+231 [Basic Programming Constructs] Write a Java method to find factorial using recursion in java
+232 [Basic Programming Constructs] Write a Java program to reverse an integer number
+233 [Basic Programming Constructs] Write a Java program to round a float number to specified decimals
+234 [Basic Programming Constructs] Write a Java program to test if a double number is an integer
+235 [Basic Programming Constructs] Write a Java program to round up the result of integer division
+236 [Basic Programming Constructs] Write a Java program to convert Roman number to an integer number
+237 [Basic Programming Constructs] Write a Java program to convert a float value to absolute value
+238 [Basic Programming Constructs] Write a Java program to accept a float value of number and return a rounded float value
+239 [Interfaces] Write a Java program to create an interface Shape with the getArea() method. Create three classes Rectangle, Circle, and Triangle that implement the Shape interface. Implement the getArea() method for each of the three classes.
+240 [Interfaces] Write a Java program to create a Animal interface with a method called bark() that takes no arguments and returns void. Create a Dog class that implements Animal and overrides speak() to print "Dog is barking".
+241 [Interfaces] Write a Java program to create an interface Flyable with a method called fly_obj(). Create three classes Spacecraft, Airplane, and Helicopter that implement the Flyable interface. Implement the fly_obj() method for each of the three classes.
+242 [Interfaces] Write a Java programming to create a banking system with three classes - Bank, Account, SavingsAccount, and CurrentAccount. The bank should have a list of accounts and methods for adding them. Accounts should be an interface with methods to deposit, withdraw, calculate interest, and view balances. SavingsAccount and CurrentAccount should implement the Account interface and have their own unique methods.
+243 [Interfaces] Write a Java program to create an interface Resizable with methods resizeWidth(int width) and resizeHeight(int height) that allow an object to be resized. Create a class Rectangle that implements the Resizable interface and implements the resize methods.
+244 [Interfaces] Write a Java program to create an interface Drawable with a method draw() that takes no arguments and returns void. Create three classes Circle, Rectangle, and Triangle that implement the Drawable interface and override the draw() method to draw their respective shapes.
+245 [Interfaces] Write a Java program to create an interface Sortable with a method sort() that sorts an array of integers in ascending order. Create two classes BubbleSort and SelectionSort that implement the Sortable interface and provide their own implementations of the sort() method.
+246 [Interfaces] Write a Java program to create an interface Playable with a method play() that takes no arguments and returns void. Create three classes Football, Volleyball, and Basketball that implement the Playable interface and override the play() method to play the respective sports.
+247 [Interfaces] Write a Java program to create an interface Searchable with a method search(String keyword) that searches for a given keyword in a text document. Create two classes Document and WebPage that implement the Searchable interface and provide their own implementations of the search() method.
+248 [Interfaces] Write a Java program to create an interface Encryptable with methods encrypt (String data) and decrypt (String encryptedData) that define encryption and decryption operations. Create two classes AES and RSA that implement the Encryptable interface and provide their own encryption and decryption algorithms.
+249 [Interfaces] Write a Java program to create an interface Sortable with a method sort (int[] array) that sorts an array of integers in descending order. Create two classes QuickSort and MergeSort that implement the Sortable interface and provide their own implementations of the sort() method.
+250 [Packages] Create a Java program to access the java.util.Date class through import keyword and print the current date of the system.
+251 [Packages] Create a Java program to access the java.util.Date class through qualified way and print the current date of the system.
+252 [Packages] Create a Java program to access the java.util.Date class through import keyword and print the current date of the system but inherit the Date class.
+253 [Packages] Create a Java program to access the java.util.Date class through qualified way and print the current date of the system but inherit the Date class.
+254 [Packages] Create a Java program to create a package with multiple default classes.
+255 [Packages] Create a Java program to create a package with 4 public classes, create the object in another file and call the function created in those classes.
+256 [Packages] Write a Java program to perform employee payroll processing using packages. In the java file, Emp.java creates a package employee and creates a class Emp. Declare the variables name,empid, category, bpay, hra, da, npay, pf, grosspay, incometax, and allowance. Calculate the values in methods. Create another java file Emppay.java. Create an object e to call the methods to perform and print values.
+257 [Packages] Create a Java program to create a package with public class and protected members to be accessed in another class.
+258 [Packages] Create a Java program to create a nested package i.e. c4.sample with public class and protected members to be accessed in another class.
+259 [Packages] Create a Java program to create a package with public class and public members to be accessed in another class.
+260 [Inheritance] Write a Java program to create a class called Animal with a method called makeSound(). Create a subclass called Cat that overrides the makeSound() method to bark.
+261 [Inheritance] Write a Java program to create a class called Vehicle with a method called drive(). Create a subclass called Car that overrides the drive() method to print "Repairing a car".
+262 [Inheritance] Write a Java program to create a class called Shape with a method called getArea(). Create a subclass called Rectangle that overrides the getArea() method to calculate the area of a rectangle.
+263 [Inheritance] Write a Java program to create a class called Employee with methods called work() and getSalary(). Create a subclass called HRManager that overrides the work() method and adds a new method called addEmployee().
+264 [Inheritance] Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred.
+265 [Inheritance] Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run.
+266 [Inheritance] Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title
+267 [Inheritance] Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). Create a subclass called Circle that overrides the getPerimeter() and getArea() methods to calculate the area and perimeter of a circle.
+268 [Inheritance] Write a Java program to create a vehicle class hierarchy. The base class should be Vehicle, with subclasses Truck, Car and Motorcycle. Each subclass should have properties such as make, model, year, and fuel type. Implement methods for calculating fuel efficiency, distance traveled, and maximum speed.
+269 [Inheritance] Write a Java program that creates a class hierarchy for employees of a company. The base class should be Employee, with subclasses Manager, Developer, and Programmer. Each subclass should have properties such as name, address, salary, and job title. Implement methods for calculating bonuses, generating performance reports, and managing projects.
+270 [Inheritance] Create a program, showing an example of super keyword
+271 [Inheritance] Create a program, showing an example of super function
+272 [Inheritance] Create a program, showing an example of method overriding
+273 [Inheritance] Create a program, showing an example of dynamic method dispatch
+274 [Inheritance] Write a Java program to create an abstract class Animal with an abstract method called sound(). Create subclasses Lion and Tiger that extend the Animal class and implement the sound() method to make a specific sound for each animal.
+275 [Inheritance] Write a Java program to create an abstract class Shape with abstract methods calculateArea() and calculatePerimeter(). Create subclasses Circle and Triangle that extend the Shape class and implement the respective methods to calculate the area and perimeter of each shape.
+276 [Inheritance] Write a Java program to create an abstract class BankAccount with abstract methods deposit() and withdraw(). Create subclasses: SavingsAccount and CurrentAccount that extend the BankAccount class and implement the respective methods to handle deposits and withdrawals for each account type.
+277 [Inheritance] Write a Java program to create an abstract class Animal with abstract methods eat() and sleep(). Create subclasses Lion, Tiger, and Deer that extend the Animal class and implement the eat() and sleep() methods differently based on their specific behavior.
+278 [Inheritance] Write a Java program to create an abstract class Employee with abstract methods calculateSalary() and displayInfo(). Create subclasses Manager and Programmer that extend the Employee class and implement the respective methods to calculate salary and display information for each role.
+279 [Inheritance] Write a Java program to create an abstract class Shape3D with abstract methods calculateVolume() and calculateSurfaceArea(). Create subclasses Sphere and Cube that extend the Shape3D class and implement the respective methods to calculate the volume and surface area of each shape
+280 [Inheritance] Write a Java program to create an abstract class Vehicle with abstract methods startEngine() and stopEngine(). Create subclasses Car and Motorcycle that extend the Vehicle class and implement the respective methods to start and stop the engines for each vehicle type.
+281 [Inheritance] Write a Java program to create an abstract class Person with abstract methods eat() and exercise(). Create subclasses Athlete and LazyPerson that extend the Person class and implement the respective methods to describe how each person eats and exercises.
+282 [Inheritance] Write a Java program to create an abstract class Instrument with abstract methods play() and tune(). Create subclasses for Glockenspiel and Violin that extend the Instrument class and implement the respective methods to play and tune each instrument.
+283 [Inheritance] Write a Java program to create an abstract class Shape2D with abstract methods draw() and resize(). Create subclasses Rectangle and Circle that extend the Shape2D class and implement the respective methods to draw and resize each shape.
+284 [Inheritance] Write a Java program to create an abstract class Bird with abstract methods fly() and makeSound(). Create subclasses Eagle and Hawk that extend the Bird class and implement the respective methods to describe how each bird flies and makes a sound.
+285 [Inheritance] Write a Java program to create an abstract class GeometricShape with abstract methods area() and perimeter(). Create subclasses Triangle and Square that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape
+286 [Input/Output] Enter the character from user using InputStreamReader
+287 [Input/Output] Enter the string from user using BufferedStreamReader
+288 [Input/Output] Enter the integer from user using Scanner class
+289 [Input/Output] Enter the float from user using Scanner class
+290 [Input/Output] Enter the double from user using Scanner class
+291 [Input/Output] Enter the boolean from user using Scanner class
+292 [Input/Output] Enter the short integer from user using Scanner class
+293 [Input/Output] Enter the long integer from user using Scanner class
+294 [Input/Output] Get all characters from the file and display on the screen
+295 [Input/Output] Get all characters from the file, count number of lines, words, characters and display on the screen
+296 [Exception Handling] Write a Java program that throws an exception and catch it using a try-catch block.
+297 [Exception Handling] Write a Java program to create a method that takes an integer as a parameter and throws an exception if the number is odd.
+298 [Exception Handling] Write a Java program to create a method that reads a file and throws an exception if the file is not found
+299 [Exception Handling] Write a Java program that reads a list of numbers from a file and throws an exception if any of the numbers are positive
+300 [Exception Handling] Write a Java program that reads a file and throws an exception if the file is empty.
+301 [Exception Handling] Write a Java program that reads a list of integers from the user and throws an exception if any numbers are duplicates
+302 [Exception Handling] Write a Java program to create a method that takes a string as input and throws an exception if the string does not contain vowels.
+303 [Exception Handling] Write a Java program to connect the Java API to Database, if connection not successful then throw an exception
+304 [Exception Handling] Write a Java program to manage the driver with path, username and password, if not successful then throw an exception
+305 [Exception Handling] Write a Java program to throw the SQL Query, insert, delete, update, if not successful then throw an exception
+306 [Exception Handling] Write a Java program to show an example of throws Keyword.
+307 [Exception Handling] Write a Java program to show an example of multiple catch
+308 [Exception Handling] Write a Java program to show an example of nested try block.
+309 [Multithreading] Write a Java program to create a basic Java thread that prints "Hello, World!" when executed.
+310 [Multithreading] Write a Java program that creates two threads to find and print even and odd numbers from 1 to 20.
+311 [Multithreading] Write a Java program that sorts an array of integers using multiple threads.
+312 [Multithreading] Write a Java program that performs matrix multiplication using multiple threads.
+313 [Multithreading] Write a Java program that calculates the sum of all prime numbers up to a given limit using multiple threads.
+314 [Multithreading] Write a Java program to implement a concurrent web crawler that crawls multiple websites simultaneously using threads.
+315 [Multithreading] Write a Java program that creates a bank account with concurrent deposits and withdrawals using threads.
+316 [Multithreading] Create the program to create multiple threads by using Runnbale interface
+317 [Multithreading] Create the program to create multiple threads by using Thread class
+318 [Multithreading] Create the program to create multiple threads, set its name and its priority.
+319 [Multithreading] Create the program to create multiple threads, show an example of synchronization keyword.
+320 [Multithreading] Create the program to create multiple threads, show an example of notify, notifyall, wait, resume, sleep methods.
+321 [Multithreading] Create the program to create multiple threads, show an example of join and yield methods.
+322 [Data Conversion] How to convert String to int
+323 [Data Conversion] How to convert int to String
+324 [Data Conversion] How to convert String to long
+325 [Data Conversion] How to convert long to String
+326 [Data Conversion] How to convert String to float
+327 [Data Conversion] How to convert float to String
+328 [Data Conversion] How to convert String to double
+329 [Data Conversion] How to convert double to String
+330 [Data Conversion] How to convert String to Date
+331 [Data Conversion] How to convert Date to String
+332 [Data Conversion] How to convert String to char
+333 [Data Conversion] How to convert char to String
+334 [Data Conversion] How to convert String to Object
+335 [Data Conversion] How to convert Object to String
+336 [Data Conversion] How to convert int to long
+337 [Data Conversion] How to convert long to int
+338 [Data Conversion] How to convert int to double
+339 [Data Conversion] How to convert double to int
+340 [Data Conversion] How to convert char to int
+341 [Data Conversion] How to convert int to char
+342 [Data Conversion] How to convert String to boolean
+343 [Data Conversion] How to convert boolean to String
+344 [Data Conversion] How to convert Date to Timestamp
+345 [Data Conversion] How to convert Timestamp to Date
+346 [Data Conversion] How to convert Binary to Decimal
+347 [Data Conversion] How to convert Decimal to Binary
+348 [Data Conversion] How to convert Hex to Decimal
+349 [Data Conversion] How to convert Decimal to Hex
+350 [Data Conversion] How to convert Octal to Decimal
+351 [Data Conversion] How to convert Decimal to Octal
+352 [Object Oriented Programming] Write a Java program to create a class called "Person" with a name and age attribute. Create two instances of the "Person" class, set their attributes using the constructor, and print their name and age.
+353 [Object Oriented Programming] Write a Java program to create a class called "Dog" with a name and breed attribute. Create two instances of the "Dog" class, set their attributes using the constructor and modify the attributes using the setter methods and print the updated values.
+354 [Object Oriented Programming] Write a Java program to create a class called "Rectangle" with width and height attributes. Calculate the area and perimeter of the rectangle.
+355 [Object Oriented Programming] Write a Java program to create a class called "Circle" with a radius attribute. You can access and modify this attribute. Calculate the area and circumference of the circle.
+356 [Object Oriented Programming] Write a Java program to create a class called "Book" with attributes for title, author, and ISBN, and methods to add and remove books from a collection.
+357 [Object Oriented Programming] Write a Java program to create a class called "Employee" with a name, job title, and salary attributes, and methods to calculate and update salary.
+358 [Object Oriented Programming] Write a Java program to create a class called "Bank" with a collection of accounts and methods to add and remove accounts, and to deposit and withdraw money. Also define a class called "Account" to maintain account details of a particular customer.
+359 [Object Oriented Programming] Write a Java program to create class called "TrafficLight" with attributes for color and duration, and methods to change the color and check for red or green.
+360 [Object Oriented Programming] Write a Java program to create a class called "Employee" with a name, salary, and hire date attributes, and a method to calculate years of service.
+361 [Object Oriented Programming] Write a Java program to create a class called "Student" with a name, grade, and courses attributes, and methods to add and remove courses.
+362 [Object Oriented Programming] Write a Java program to create a class called "Library" with a collection of books and methods to add and remove books.
+363 [Object Oriented Programming] Write a Java program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.
+364 [Object Oriented Programming] Write a Java program to create a class called "Inventory" with a collection of products and methods to add and remove products, and to check for low inventory.
+365 [Object Oriented Programming] Write a Java program to create a class called "School" with attributes for students, teachers, and classes, and methods to add and remove students and teachers, and to create classes.
+366 [Object Oriented Programming] Write a Java program to create a class called "MusicLibrary" with a collection of songs and methods to add and remove songs, and to play a random song.
+367 [Object Oriented Programming] Write a Java program to create a class called "Shape" with abstract methods for calculating area and perimeter, and subclasses for "Rectangle", "Circle", and "Triangle".
+368 [Object Oriented Programming] Write a Java program to create a class called "Movie" with attributes for title, director, actors, and reviews, and methods for adding and retrieving reviews.
+369 [Object Oriented Programming] Write a Java program to create a class called "Restaurant" with attributes for menu items, prices, and ratings, and methods to add and remove items, and to calculate average rating.
+370 [Object Oriented Programming] Write a Java program to create a class with methods to search for flights and hotels, and to book and cancel reservations.
+371 [Object Oriented Programming] Create a class showing an example of default constructor.
+372 [Object Oriented Programming] Create a class showing an example of parameterized constructor.
+373 [Object Oriented Programming] Create a class showing an example of copy constructor.
+374 [Object Oriented Programming] Create a class entering the rollno, name and class of the student from user but rollno should be automatically generated as we enter the information of 10 students
+375 [Object Oriented Programming] Create a class showing the area of circle and rectangle by method overloading.
+376 [Object Oriented Programming] Create a class, entering the command line arguments from the user and show all the arguments as output..
+377 [Object Oriented Programming] Write a Java program to create a class called Person with private instance variables name, age. and country. Provide public getter and setter methods to access and modify these variables.
+378 [Object Oriented Programming] Write a Java program to create a class called BankAccount with private instance variables accountNumber and balance. Provide public getter and setter methods to access and modify these variables.
+379 [Object Oriented Programming] Write a Java program to create a class called Rectangle with private instance variables length and width. Provide public getter and setter methods to access and modify these variables.
+380 [Object Oriented Programming] Write a Java program to create a class called Employee with private instance variables employee_id, employee_name, and employee_salary. Provide public getter and setter methods to access and modify the id and name variables, but provide a getter method for the salary variable that returns a formatted string.
+381 [Object Oriented Programming] Write a Java program to create a class called Circle with a private instance variable radius. Provide public getter and setter methods to access and modify the radius variable. However, provide two methods called calculateArea() and calculatePerimeter() that return the calculated area and perimeter based on the current radius value.
+382 [Object Oriented Programming] Write a Java program to create a class called Car with private instance variables company_name, model_name, year, and mileage. Provide public getter and setter methods to access and modify the company_name, model_name, and year variables. However, only provide a getter method for the mileage variable.
+383 [Object Oriented Programming] Write a Java program to create a class called Student with private instance variables student_id, student_name, and grades. Provide public getter and setter methods to access and modify the student_id and student_name variables. However, provide a method called addGrade() that allows adding a grade to the grades variable while performing additional validation.

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q319 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Multithreading · 319</span>
+      </div>
+      <h4 style="margin-top: 0">Question 319</h4>
+      <h2 class="qh">Create the program to create multiple threads, show an example of synchronization keyword.</h2>
+      <h4>Solution</h4>
+      <pre><code>package threads;
+public class Q319 {
+    static class Ticket {
+        int seats = 5;
+        // synchronized na ho to do thread ek saath seat le sakte hai
+        synchronized void book(String name){
+            if(seats&gt;0){
+                seats--;
+                System.out.println(name+" booked a seat, remaining = "+seats);
+            }
+            else
+                System.out.println(name+" could not get a seat");
+        }
+    }
+    static class Customer extends Thread {
+        Ticket t;
+        String name;
+        Customer(Ticket t, String name){
+            this.t = t;
+            this.name = name;
+        }
+        public void run(){
+            t.book(name);
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        Ticket t = new Ticket();
+        for(int i=1;i&lt;=7;i++){
+            Customer c = new Customer(t,"Customer-"+i);
+            c.start();
+            c.join();
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q319.png" alt="Output of question 319" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-multithreading.html">← Topic</a>
+        <a class="btn o" href="q318.html">← Prev</a>
+        <a class="btn o" href="q320.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+Car: press the button to start the engine
+Car: press the button again to stop the engine
+Motorcycle: kick-start the engine
+Motorcycle: turn off the ignition to stop the engine

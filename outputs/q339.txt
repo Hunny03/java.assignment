@@ -1,0 +1,2 @@
+Using cast = 98
+After rounding = 99

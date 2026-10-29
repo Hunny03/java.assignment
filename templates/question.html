@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q{{num}} – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">{{topic}} · {{num}}</span>
+      </div>
+      <h4 style="margin-top: 0">Question {{num}}</h4>
+      <h2 class="qh">{{question}}</h2>
+      <h4>Solution</h4>
+      <pre><code>{{code}}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/{{id}}.png" alt="Output of question {{num}}" />
+            {{input_caption}}
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="{{topic_file}}">← Topic</a>
+        {{prev}}
+        {{next}}
+      </div>
+      <div class="foot">{{footer}}</div>
+    </div>
+  </body>
+</html>

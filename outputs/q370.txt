@@ -1,0 +1,10 @@
+Flights to Goa:
+  Delhi->Goa
+  Mumbai->Goa
+Hotels in Goa:
+  Goa: Sea Breeze
+  Goa: Palm Inn
+Booked: Delhi->Goa
+Booked: Goa: Palm Inn
+Cancelled: Goa: Palm Inn
+No such booking exists: Goa: Sea Breeze

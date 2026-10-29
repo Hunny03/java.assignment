@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q284 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 284</span>
+      </div>
+      <h4 style="margin-top: 0">Question 284</h4>
+      <h2 class="qh">Write a Java program to create an abstract class Bird with abstract methods fly() and makeSound(). Create subclasses Eagle and Hawk that extend the Bird class and implement the respective methods to describe how each bird flies and makes a sound.</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q284 {
+    static abstract class Bird {
+        abstract void fly();
+        abstract void makeSound();
+    }
+    static class Eagle extends Bird {
+        void fly(){ System.out.println("The eagle flies high above the mountains"); }
+        void makeSound(){ System.out.println("Eagle: kee-kee-kee"); }
+    }
+    static class Hawk extends Bird {
+        void fly(){ System.out.println("The hawk flies low over the fields"); }
+        void makeSound(){ System.out.println("Hawk: kree-eee-ar"); }
+    }
+    public static void main(String[] args) {
+        Bird b[] = {new Eagle(), new Hawk()};
+        for(int i=0;i&lt;b.length;i++){
+            b[i].fly();
+            b[i].makeSound();
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q284.png" alt="Output of question 284" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q283.html">← Prev</a>
+        <a class="btn o" href="q285.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+Enter five numbers:
+Average = 20.0

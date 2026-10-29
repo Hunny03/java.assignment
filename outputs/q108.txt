@@ -1,0 +1,3 @@
+Java is installed
+Version: 21.0.12.1
+Java home: /usr/lib/jvm/java-21-openjdk-amd64

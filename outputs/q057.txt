@@ -1,0 +1,2 @@
+Permutations of ABC:
+ABC ACB BAC BCA CAB CBA 

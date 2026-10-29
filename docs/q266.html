@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q266 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 266</span>
+      </div>
+      <h4 style="margin-top: 0">Question 266</h4>
+      <h2 class="qh">Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q266 {
+    static class Person {
+        String firstName, lastName;
+        Person(String f, String l){ firstName=f; lastName=l; }
+        String getFirstName(){ return firstName; }
+        String getLastName(){ return lastName; }
+    }
+    static class Employee extends Person {
+        int id;
+        String job;
+        Employee(String f, String l, int id, String job){
+            super(f,l);
+            this.id = id;
+            this.job = job;
+        }
+        int getId(){ return id; }
+        String getLastName(){ return super.getLastName()+" ("+job+")"; }
+    }
+    public static void main(String[] args) {
+        Employee e = new Employee("Sunil","Verma",4021,"Network Engineer");
+        System.out.println("First name = "+e.getFirstName());
+        System.out.println("Last name = "+e.getLastName());
+        System.out.println("Id = "+e.getId());
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q266.png" alt="Output of question 266" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q265.html">← Prev</a>
+        <a class="btn o" href="q267.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

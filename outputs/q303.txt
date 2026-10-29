@@ -1,0 +1,1 @@
+Exception: Connection failed -> No suitable driver found for jdbc:mysql://localhost:3306/school

@@ -1,0 +1,2 @@
+Printer: printing a normal line
+ColorPrinter: color printing is now enabled

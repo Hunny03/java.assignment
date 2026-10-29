@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q294 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Input/Output · 294</span>
+      </div>
+      <h4 style="margin-top: 0">Question 294</h4>
+      <h2 class="qh">Get all characters from the file and display on the screen</h2>
+      <h4>Solution</h4>
+      <pre><code>package inputoutput;
+import java.io.*;
+public class Q294 {
+    public static void main(String[] args) throws IOException {
+        // pehle file bana ke usme kuch likhte hai
+        FileWriter fw = new FileWriter("demo.txt");
+        fw.write("Hello from a file!\nSecond line here.\n");
+        fw.close();
+        FileReader fr = new FileReader("demo.txt");
+        int x;
+        while((x=fr.read())!=-1)
+            System.out.print((char)x);
+        fr.close();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q294.png" alt="Output of question 294" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-input-output.html">← Topic</a>
+        <a class="btn o" href="q293.html">← Prev</a>
+        <a class="btn o" href="q295.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

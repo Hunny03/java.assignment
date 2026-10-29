@@ -1,0 +1,4 @@
+Enter the number of rows and columns: Enter the elements:
+Matrix:
+4  8  15  
+16  23  42  

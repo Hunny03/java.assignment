@@ -1,0 +1,6 @@
+Up to what number? Cube of 1 = 1
+Cube of 2 = 8
+Cube of 3 = 27
+Cube of 4 = 64
+Cube of 5 = 125
+Cube of 6 = 216

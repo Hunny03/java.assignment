@@ -1,0 +1,6 @@
+Kavya (Manager) projects: Payroll portal, Mobile app, 
+   bonus = 24000.0
+Arjun (Developer) - time par features diye
+   bonus = 10800.0
+Neha (Programmer) - satisfactory
+   bonus = 4800.0

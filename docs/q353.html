@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q353 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 353</span>
+      </div>
+      <h4 style="margin-top: 0">Question 353</h4>
+      <h2 class="qh">Write a Java program to create a class called "Dog" with a name and breed attribute. Create two instances of the "Dog" class, set their attributes using the constructor and modify the attributes using the setter methods and print the updated values.</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q353 {
+    static class Dog {
+        String name, breed;
+        Dog(String name, String breed){ this.name=name; this.breed=breed; }
+        void setName(String name){ this.name = name; }
+        void setBreed(String breed){ this.breed = breed; }
+        void show(){ System.out.println(name+" ("+breed+")"); }
+    }
+    public static void main(String[] args) {
+        Dog d1 = new Dog("Bruno","Labrador");
+        Dog d2 = new Dog("Tiger","Beagle");
+        d1.show();
+        d2.show();
+        d1.setName("Max");
+        d2.setBreed("German Shepherd");
+        d1.show();
+        d2.show();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q353.png" alt="Output of question 353" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        <a class="btn o" href="q352.html">← Prev</a>
+        <a class="btn o" href="q354.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

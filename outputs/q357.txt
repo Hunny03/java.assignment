@@ -1,0 +1,3 @@
+Isha, Analyst, monthly = 42000.0, yearly = 504000.0
+Isha, Analyst, monthly = 46200.0, yearly = 554400.0
+Isha, Analyst, monthly = 60000.0, yearly = 720000.0

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q036 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Functions · 036</span>
+      </div>
+      <h4 style="margin-top: 0">Question 036</h4>
+      <h2 class="qh">Write a Java method that checks whether all the characters in a given string are vowels (a, e,i,o,u) or not. Return true if each character in the string is a vowel, otherwise return false.</h2>
+      <h4>Solution</h4>
+      <pre><code>package functions;
+public class Q036 {
+    static boolean sabVowel(String s){
+        if(s.length()==0) return false;
+        s = s.toLowerCase();
+        for(int i=0;i&lt;s.length();i++){
+            char c = s.charAt(i);
+            if(c!='a' &amp;&amp; c!='e' &amp;&amp; c!='i' &amp;&amp; c!='o' &amp;&amp; c!='u')
+                return false;
+        }
+        return true;
+    }
+    public static void main(String[] args) {
+        System.out.println("aeiou -&gt; "+sabVowel("aeiou"));
+        System.out.println("AEIOUa -&gt; "+sabVowel("AEIOUa"));
+        System.out.println("vowel -&gt; "+sabVowel("vowel"));
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q036.png" alt="Output of question 036" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-functions.html">← Topic</a>
+        <a class="btn o" href="q035.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

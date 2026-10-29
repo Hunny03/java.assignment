@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q071 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 071</span>
+      </div>
+      <h4 style="margin-top: 0">Question 071</h4>
+      <h2 class="qh">Program to Print even length words</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+public class Q071 {
+    public static void main(String[] args) {
+        String s = "Learning Java is really a good habit for every student";
+        String w[] = s.split(" ");
+        System.out.println("Words with even length:");
+        for(int i=0;i&lt;w.length;i++){
+            if(w[i].length()%2==0)
+                System.out.println(w[i]);
+        }
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q071.png" alt="Output of question 071" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q070.html">← Prev</a>
+        <a class="btn o" href="q072.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

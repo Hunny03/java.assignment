@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q352 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 352</span>
+      </div>
+      <h4 style="margin-top: 0">Question 352</h4>
+      <h2 class="qh">Write a Java program to create a class called "Person" with a name and age attribute. Create two instances of the "Person" class, set their attributes using the constructor, and print their name and age.</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q352 {
+    static class Person {
+        String name;
+        int age;
+        Person(String name, int age){ this.name=name; this.age=age; }
+    }
+    public static void main(String[] args) {
+        Person p1 = new Person("Aarav",21);
+        Person p2 = new Person("Diya",19);
+        System.out.println("Name = "+p1.name+", Age = "+p1.age);
+        System.out.println("Name = "+p2.name+", Age = "+p2.age);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q352.png" alt="Output of question 352" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        
+        <a class="btn o" href="q353.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q249 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Interfaces · 249</span>
+      </div>
+      <h4 style="margin-top: 0">Question 249</h4>
+      <h2 class="qh">Write a Java program to create an interface Sortable with a method sort (int[] array) that sorts an array of integers in descending order. Create two classes QuickSort and MergeSort that implement the Sortable interface and provide their own implementations of the sort() method.</h2>
+      <h4>Solution</h4>
+      <pre><code>package interfaces;
+public class Q249 {
+    interface Sortable {
+        void sort(int a[]);     // descending
+    }
+    static class QuickSort implements Sortable {
+        public void sort(int a[]){
+            quick(a,0,a.length-1);
+        }
+        void quick(int a[], int lo, int hi){
+            if(lo&gt;=hi) return;
+            int p = a[hi];
+            int k = lo;
+            for(int i=lo;i&lt;hi;i++){
+                if(a[i]&gt;p){
+                    int t = a[i]; a[i] = a[k]; a[k] = t;
+                    k++;
+                }
+            }
+            int t = a[hi]; a[hi] = a[k]; a[k] = t;
+            quick(a,lo,k-1);
+            quick(a,k+1,hi);
+        }
+    }
+    static class MergeSort implements Sortable {
+        public void sort(int a[]){
+            if(a.length&lt;2) return;
+            int m = a.length/2;
+            int l[] = new int[m];
+            int r[] = new int[a.length-m];
+            for(int i=0;i&lt;m;i++) l[i] = a[i];
+            for(int i=m;i&lt;a.length;i++) r[i-m] = a[i];
+            sort(l);
+            sort(r);
+            int i=0, j=0, k=0;
+            while(i&lt;l.length &amp;&amp; j&lt;r.length){
+                if(l[i]&gt;=r[j]) a[k++] = l[i++];
+                else a[k++] = r[j++];
+            }
+            while(i&lt;l.length) a[k++] = l[i++];
+            while(j&lt;r.length) a[k++] = r[j++];
+        }
+    }
+    static void dikha(int a[]){
+        for(int i=0;i&lt;a.length;i++) System.out.print(a[i]+" ");
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        int x[] = {38,5,91,17,62,24,70};
+        int y[] = {38,5,91,17,62,24,70};
+        new QuickSort().sort(x);
+        new MergeSort().sort(y);
+        System.out.print("Quick sort: ");
+        dikha(x);
+        System.out.print("Merge sort: ");
+        dikha(y);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q249.png" alt="Output of question 249" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-interfaces.html">← Topic</a>
+        <a class="btn o" href="q248.html">← Prev</a>
+        
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

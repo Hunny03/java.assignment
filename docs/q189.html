@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q189 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 189</span>
+      </div>
+      <h4 style="margin-top: 0">Question 189</h4>
+      <h2 class="qh">Write a Java program to find the duplicate values of an array of integer values</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+public class Q189 {
+    public static void main(String[] args) {
+        int a[] = {4,9,4,7,9,1,4,6};
+        System.out.print("Duplicate values: ");
+        for(int i=0;i&lt;a.length;i++){
+            int cnt = 0;
+            for(int j=0;j&lt;a.length;j++){
+                if(a[i]==a[j]) cnt++;
+            }
+            // ek baar hi print ho isliye pehli baar wale par hi dekha
+            int pehle = 0;
+            for(int k=0;k&lt;i;k++){
+                if(a[k]==a[i]) pehle = 1;
+            }
+            if(cnt&gt;1 &amp;&amp; pehle==0)
+                System.out.print(a[i]+" ");
+        }
+        System.out.println();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q189.png" alt="Output of question 189" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q188.html">← Prev</a>
+        <a class="btn o" href="q190.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

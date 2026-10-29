@@ -1,0 +1,4 @@
+Savings deposit 1500.0 -> 6500.0
+Savings: insufficient balance
+Current withdraw 2500.0 -> -1500.0
+Current: overdraft limit of 2000 exceeded

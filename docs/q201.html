@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q201 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Basic Programming Constructs · 201</span>
+      </div>
+      <h4 style="margin-top: 0">Question 201</h4>
+      <h2 class="qh">Write a Java Program to Sort Names in an Alphabetical Order</h2>
+      <h4>Solution</h4>
+      <pre><code>package basics;
+public class Q201 {
+    public static void main(String[] args) {
+        String n[] = {"Varun","Ishita","Dhruv","Anaya","Kabir"};
+        for(int i=0;i&lt;n.length;i++){
+            for(int j=i+1;j&lt;n.length;j++){
+                if(n[i].compareTo(n[j])&gt;0){
+                    String t = n[i];
+                    n[i] = n[j];
+                    n[j] = t;
+                }
+            }
+        }
+        System.out.println("Alphabetical order in:");
+        for(int i=0;i&lt;n.length;i++)
+            System.out.println(n[i]);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q201.png" alt="Output of question 201" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-basic-programming-constructs.html">← Topic</a>
+        <a class="btn o" href="q200.html">← Prev</a>
+        <a class="btn o" href="q202.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

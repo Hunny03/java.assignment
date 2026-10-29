@@ -1,0 +1,2 @@
+Caught exception: / by zero
+The program continued running

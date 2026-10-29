@@ -1,0 +1,4 @@
+Day = 27
+Month = 10
+Year = 2026
+Total parts = 3

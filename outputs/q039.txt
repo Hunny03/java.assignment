@@ -1,0 +1,4 @@
+s = Java
+s = Java Rocks
+Original s2 = Java
+The original string stays unchanged because strings are immutable

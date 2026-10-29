@@ -1,0 +1,3 @@
+Tata Prima (2022, Diesel) efficiency=5.666666666666667 km/l, distance=800.0, speed=110.0
+Hyundai Creta (2024, Petrol) efficiency=15.0 km/l, distance=450.0, speed=180.0
+Bajaj Pulsar (2023, Petrol) efficiency=50.0 km/l, distance=300.0, speed=150.0

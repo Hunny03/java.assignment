@@ -1,0 +1,8 @@
+Enter the amount: Rs 500 x 7
+Rs 200 x 1
+Rs 50 x 1
+Rs 20 x 1
+Rs 10 x 1
+Rs 5 x 1
+Rs 2 x 2
+Total notes/coins = 14

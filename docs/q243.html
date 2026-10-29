@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q243 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Interfaces · 243</span>
+      </div>
+      <h4 style="margin-top: 0">Question 243</h4>
+      <h2 class="qh">Write a Java program to create an interface Resizable with methods resizeWidth(int width) and resizeHeight(int height) that allow an object to be resized. Create a class Rectangle that implements the Resizable interface and implements the resize methods.</h2>
+      <h4>Solution</h4>
+      <pre><code>package interfaces;
+public class Q243 {
+    interface Resizable {
+        void resizeWidth(int w);
+        void resizeHeight(int h);
+    }
+    static class Rectangle implements Resizable {
+        int w, h;
+        Rectangle(int w, int h){ this.w=w; this.h=h; }
+        public void resizeWidth(int w){ this.w = w; }
+        public void resizeHeight(int h){ this.h = h; }
+        void show(){ System.out.println("Width = "+w+", Height = "+h); }
+    }
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle(40,20);
+        r.show();
+        r.resizeWidth(65);
+        r.resizeHeight(30);
+        r.show();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q243.png" alt="Output of question 243" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-interfaces.html">← Topic</a>
+        <a class="btn o" href="q242.html">← Prev</a>
+        <a class="btn o" href="q244.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

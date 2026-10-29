@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q028 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Functions · 028</span>
+      </div>
+      <h4 style="margin-top: 0">Question 028</h4>
+      <h2 class="qh">Write a Java method to compute the future investment value at a given interest rate for a specified number of years.</h2>
+      <h4>Solution</h4>
+      <pre><code>package functions;
+public class Q028 {
+    // FV = P * (1 + r/1200)^(12*saal)
+    static double futureVal(double p, double r, int saal){
+        double m = r/1200;
+        return p*Math.pow(1+m, saal*12);
+    }
+    public static void main(String[] args) {
+        System.out.println("Years   Future Value");
+        for(int i=1;i&lt;=5;i++)
+            System.out.println(i+"       "+futureVal(10000,6.5,i));
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q028.png" alt="Output of question 028" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-functions.html">← Topic</a>
+        <a class="btn o" href="q027.html">← Prev</a>
+        <a class="btn o" href="q029.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

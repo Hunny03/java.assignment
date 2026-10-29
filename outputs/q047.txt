@@ -1,0 +1,7 @@
+String from enum: WEDNESDAY
+All days:
+MONDAY
+TUESDAY
+WEDNESDAY
+THURSDAY
+FRIDAY

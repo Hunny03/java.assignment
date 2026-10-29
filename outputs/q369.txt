@@ -1,0 +1,6 @@
+  Butter Chicken  Rs 320.0  rating 4.6
+  Dal Makhani  Rs 220.0  rating 4.4
+  Paneer Tikka  Rs 280.0  rating 4.1
+  Cold Coffee  Rs 120.0  rating 3.5
+Average rating = 4.15
+Average after removing Cold Coffee = 4.366666666666666

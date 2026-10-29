@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q270 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Inheritance · 270</span>
+      </div>
+      <h4 style="margin-top: 0">Question 270</h4>
+      <h2 class="qh">Create a program, showing an example of super keyword</h2>
+      <h4>Solution</h4>
+      <pre><code>package inheritance;
+public class Q270 {
+    static class Parent {
+        String label = "Parent ka label";
+        Parent(){ System.out.println("Parent constructor called"); }
+    }
+    static class Child extends Parent {
+        String label = "Child ka label";
+        Child(){
+            super();
+            System.out.println("Child constructor called");
+        }
+        void show(){
+            System.out.println("this.label = "+this.label);
+            System.out.println("super.label = "+super.label);
+        }
+    }
+    public static void main(String[] args) {
+        Child c = new Child();
+        c.show();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q270.png" alt="Output of question 270" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-inheritance.html">← Topic</a>
+        <a class="btn o" href="q269.html">← Prev</a>
+        <a class="btn o" href="q271.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q059 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 059</span>
+      </div>
+      <h4 style="margin-top: 0">Question 059</h4>
+      <h2 class="qh">Program to find Reverse of the string</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+import java.util.Scanner;
+public class Q059 {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("String: ");
+        String s = kb.nextLine();
+        String r = "";
+        for(int i=s.length()-1;i&gt;=0;i--)
+            r = r + s.charAt(i);
+        System.out.println("Reverse = "+r);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q059.png" alt="Output of question 059" />
+            <figcaption>Input given: Reverse, me, please</figcaption>
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q058.html">← Prev</a>
+        <a class="btn o" href="q060.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+aeiou -> true
+AEIOUa -> true
+vowel -> false

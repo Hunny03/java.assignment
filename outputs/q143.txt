@@ -1,0 +1,1 @@
+Enter a number: Factorial of 10 = 3628800

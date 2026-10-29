@@ -1,0 +1,2300 @@
+[
+ {
+  "n": 1,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to copy all elements of one array into another array",
+  "url": ""
+ },
+ {
+  "n": 2,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to find the frequency of each element in the array",
+  "url": ""
+ },
+ {
+  "n": 3,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to left rotate the elements of an array",
+  "url": ""
+ },
+ {
+  "n": 4,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the duplicate elements of an array",
+  "url": ""
+ },
+ {
+  "n": 5,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the elements of an array",
+  "url": ""
+ },
+ {
+  "n": 6,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the elements of an array in reverse order",
+  "url": ""
+ },
+ {
+  "n": 7,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the elements of an array present on even position",
+  "url": ""
+ },
+ {
+  "n": 8,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the elements of an array present on odd position",
+  "url": ""
+ },
+ {
+  "n": 9,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the largest element in an array",
+  "url": ""
+ },
+ {
+  "n": 10,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the smallest element in an array",
+  "url": ""
+ },
+ {
+  "n": 11,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the number of elements present in an array",
+  "url": ""
+ },
+ {
+  "n": 12,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to print the sum of all the items of the array",
+  "url": ""
+ },
+ {
+  "n": 13,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to right rotate the elements of an array",
+  "url": ""
+ },
+ {
+  "n": 14,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to sort the elements of an array in ascending order",
+  "url": ""
+ },
+ {
+  "n": 15,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to sort the elements of an array in descending order",
+  "url": ""
+ },
+ {
+  "n": 16,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to Find 3rd Largest Number in an array",
+  "url": ""
+ },
+ {
+  "n": 17,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to Find 2nd Largest Number in an array",
+  "url": ""
+ },
+ {
+  "n": 18,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to Find Largest Number in an array",
+  "url": ""
+ },
+ {
+  "n": 19,
+  "topic": "Single Dimension Arrays",
+  "text": "to Program Find 2nd Smallest Number in an array",
+  "url": ""
+ },
+ {
+  "n": 20,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to Find Smallest Number in an array",
+  "url": ""
+ },
+ {
+  "n": 21,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to Remove Duplicate Element in an array",
+  "url": ""
+ },
+ {
+  "n": 22,
+  "topic": "Single Dimension Arrays",
+  "text": "Program to Print Odd and Even Numbers from an array",
+  "url": ""
+ },
+ {
+  "n": 23,
+  "topic": "Single Dimension Arrays",
+  "text": "How to Sort an Array in Java",
+  "url": ""
+ },
+ {
+  "n": 24,
+  "topic": "Functions",
+  "text": "Write a Java method to find the smallest number among three numbers.",
+  "url": ""
+ },
+ {
+  "n": 25,
+  "topic": "Functions",
+  "text": "Write a Java method to compute the average of three numbers.",
+  "url": ""
+ },
+ {
+  "n": 26,
+  "topic": "Functions",
+  "text": "Write a Java method to display the middle character of a string. Note: a) If the length of the string is odd there will be two middle characters. b) If the length of the string is even there will be one middle character.",
+  "url": ""
+ },
+ {
+  "n": 27,
+  "topic": "Functions",
+  "text": "Write a Java method to count all the words in a string.",
+  "url": ""
+ },
+ {
+  "n": 28,
+  "topic": "Functions",
+  "text": "Write a Java method to compute the future investment value at a given interest rate for a specified number of years.",
+  "url": ""
+ },
+ {
+  "n": 29,
+  "topic": "Functions",
+  "text": "Write a Java method to print characters between two characters (i.e. A to P).",
+  "url": ""
+ },
+ {
+  "n": 30,
+  "topic": "Functions",
+  "text": "Write a Java method to check whether a string is a valid password.",
+  "url": ""
+ },
+ {
+  "n": 31,
+  "topic": "Functions",
+  "text": "Write a Java method to display the current date and time.",
+  "url": ""
+ },
+ {
+  "n": 32,
+  "topic": "Functions",
+  "text": "Write a Java method to find all twin prime numbers less than 100.",
+  "url": ""
+ },
+ {
+  "n": 33,
+  "topic": "Functions",
+  "text": "Write a Java method to count the number of digits in an integer with the value 2. The integer may be assumed to be non-negative.",
+  "url": ""
+ },
+ {
+  "n": 34,
+  "topic": "Functions",
+  "text": "Write a Java method that accepts three integers and checks whether they are consecutive or not. Returns true or false.",
+  "url": ""
+ },
+ {
+  "n": 35,
+  "topic": "Functions",
+  "text": "Write a Java method that accepts three integers and returns true if one is the middle point between the other two integers, otherwise false",
+  "url": ""
+ },
+ {
+  "n": 36,
+  "topic": "Functions",
+  "text": "Write a Java method that checks whether all the characters in a given string are vowels (a, e,i,o,u) or not. Return true if each character in the string is a vowel, otherwise return false.",
+  "url": ""
+ },
+ {
+  "n": 37,
+  "topic": "Strings",
+  "text": "Program to Check if a String contains only digits?",
+  "url": ""
+ },
+ {
+  "n": 38,
+  "topic": "Strings",
+  "text": "Program to perform Deep Copy for String?",
+  "url": ""
+ },
+ {
+  "n": 39,
+  "topic": "Strings",
+  "text": "Program to prove String is immutable programmatically?",
+  "url": ""
+ },
+ {
+  "n": 40,
+  "topic": "Strings",
+  "text": "Program to remove all occurrences of a given character from input String?",
+  "url": ""
+ },
+ {
+  "n": 41,
+  "topic": "Strings",
+  "text": "Program to append the string using StringBuffer class",
+  "url": ""
+ },
+ {
+  "n": 42,
+  "topic": "Strings",
+  "text": "Program to insert the string using StringBuffer class",
+  "url": ""
+ },
+ {
+  "n": 43,
+  "topic": "Strings",
+  "text": "Program to Add Characters to a String",
+  "url": ""
+ },
+ {
+  "n": 44,
+  "topic": "Strings",
+  "text": "Program to Add Characters to a String",
+  "url": ""
+ },
+ {
+  "n": 45,
+  "topic": "Strings",
+  "text": "Program to Check Anagram",
+  "url": ""
+ },
+ {
+  "n": 46,
+  "topic": "Strings",
+  "text": "Program to check whether a string is a Palindrome",
+  "url": ""
+ },
+ {
+  "n": 47,
+  "topic": "Strings",
+  "text": "Program to Convert Enum to String",
+  "url": ""
+ },
+ {
+  "n": 48,
+  "topic": "Strings",
+  "text": "Program to Convert String to String Array",
+  "url": ""
+ },
+ {
+  "n": 49,
+  "topic": "Strings",
+  "text": "Program to count number of words in a String?",
+  "url": ""
+ },
+ {
+  "n": 50,
+  "topic": "Strings",
+  "text": "Program to count the total number of characters in a string",
+  "url": ""
+ },
+ {
+  "n": 51,
+  "topic": "Strings",
+  "text": "Program to count the total number of punctuation characters exists in a String",
+  "url": ""
+ },
+ {
+  "n": 52,
+  "topic": "Strings",
+  "text": "Program to count the total number of vowels and consonants in a string",
+  "url": ""
+ },
+ {
+  "n": 53,
+  "topic": "Strings",
+  "text": "Program to determine whether a given string is palindrome",
+  "url": ""
+ },
+ {
+  "n": 54,
+  "topic": "Strings",
+  "text": "Program to determine whether one string is a rotation of another",
+  "url": ""
+ },
+ {
+  "n": 55,
+  "topic": "Strings",
+  "text": "Program to divide a string in 'N' equal parts.",
+  "url": ""
+ },
+ {
+  "n": 56,
+  "topic": "Strings",
+  "text": "Program to find all subsets of a string",
+  "url": ""
+ },
+ {
+  "n": 57,
+  "topic": "Strings",
+  "text": "Program to find all the permutations of a string",
+  "url": ""
+ },
+ {
+  "n": 58,
+  "topic": "Strings",
+  "text": "Program to find maximum and minimum occurring character in a string",
+  "url": ""
+ },
+ {
+  "n": 59,
+  "topic": "Strings",
+  "text": "Program to find Reverse of the string",
+  "url": ""
+ },
+ {
+  "n": 60,
+  "topic": "Strings",
+  "text": "Program to find the duplicate characters in a string",
+  "url": ""
+ },
+ {
+  "n": 61,
+  "topic": "Strings",
+  "text": "Program to find the duplicate words in a string",
+  "url": ""
+ },
+ {
+  "n": 62,
+  "topic": "Strings",
+  "text": "Program to find the frequency of characters",
+  "url": ""
+ },
+ {
+  "n": 63,
+  "topic": "Strings",
+  "text": "Program to find the largest and smallest word in a string",
+  "url": ""
+ },
+ {
+  "n": 64,
+  "topic": "Strings",
+  "text": "Program to find the longest repeating sequence in a string",
+  "url": ""
+ },
+ {
+  "n": 65,
+  "topic": "Strings",
+  "text": "Program to find the most repeated word in a text file",
+  "url": ""
+ },
+ {
+  "n": 66,
+  "topic": "Strings",
+  "text": "Program to find the number of the words in the given text file",
+  "url": ""
+ },
+ {
+  "n": 67,
+  "topic": "Strings",
+  "text": "Program to Get a Character From the Given String",
+  "url": ""
+ },
+ {
+  "n": 68,
+  "topic": "Strings",
+  "text": "Program to Insert a string into another string",
+  "url": ""
+ },
+ {
+  "n": 69,
+  "topic": "Strings",
+  "text": "Program to Iterate Over Characters in String",
+  "url": ""
+ },
+ {
+  "n": 70,
+  "topic": "Strings",
+  "text": "Program to Print a New Line in String",
+  "url": ""
+ },
+ {
+  "n": 71,
+  "topic": "Strings",
+  "text": "Program to Print even length words",
+  "url": ""
+ },
+ {
+  "n": 72,
+  "topic": "Strings",
+  "text": "Program to print smallest and biggest possible palindrome word in a given string",
+  "url": ""
+ },
+ {
+  "n": 73,
+  "topic": "Strings",
+  "text": "Program to remove all the white spaces from a string",
+  "url": ""
+ },
+ {
+  "n": 74,
+  "topic": "Strings",
+  "text": "Program to replace lower-case characters with upper-case and vice-versa",
+  "url": ""
+ },
+ {
+  "n": 75,
+  "topic": "Strings",
+  "text": "Program to replace the spaces of a string with a specific character",
+  "url": ""
+ },
+ {
+  "n": 76,
+  "topic": "Strings",
+  "text": "Program to separate the Individual Characters from a String",
+  "url": ""
+ },
+ {
+  "n": 77,
+  "topic": "Strings",
+  "text": "Program to Splitting into a number of sub-strings",
+  "url": ""
+ },
+ {
+  "n": 78,
+  "topic": "Strings",
+  "text": "Program to swap two string variables without using third or temp variable.",
+  "url": ""
+ },
+ {
+  "n": 79,
+  "topic": "Strings",
+  "text": "Program to Swapping Pair of Characters",
+  "url": ""
+ },
+ {
+  "n": 80,
+  "topic": "Strings",
+  "text": "Read two String user input and check if first contains second?",
+  "url": ""
+ },
+ {
+  "n": 81,
+  "topic": "Strings",
+  "text": "Reserve String without reverse() function",
+  "url": ""
+ },
+ {
+  "n": 82,
+  "topic": "Strings",
+  "text": "Reverse String Word by Word",
+  "url": ""
+ },
+ {
+  "n": 83,
+  "topic": "Strings",
+  "text": "Write a program to check if two Strings are created with same characters?",
+  "url": ""
+ },
+ {
+  "n": 84,
+  "topic": "Strings",
+  "text": "Write a program to find out first non repeated character from input String?",
+  "url": ""
+ },
+ {
+  "n": 85,
+  "topic": "Strings",
+  "text": "Create an object StringBuffer class to reverse the string.",
+  "url": ""
+ },
+ {
+  "n": 86,
+  "topic": "Strings",
+  "text": "Create an object StringBuffer class to show functionality of insert, append, delete and replace functions.",
+  "url": ""
+ },
+ {
+  "n": 87,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Enter the Matrix of rows and columns entered by the user and print in matrix format",
+  "url": ""
+ },
+ {
+  "n": 88,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to Add Two Matrices",
+  "url": ""
+ },
+ {
+  "n": 89,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to Multiply Two Matrices",
+  "url": ""
+ },
+ {
+  "n": 90,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to subtract the two matrices",
+  "url": ""
+ },
+ {
+  "n": 91,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to determine whether two matrices are equal",
+  "url": ""
+ },
+ {
+  "n": 92,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to display the lower triangular matrix",
+  "url": ""
+ },
+ {
+  "n": 93,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to display the upper triangular matrix",
+  "url": ""
+ },
+ {
+  "n": 94,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to find the frequency of odd & even numbers in the given matrix",
+  "url": ""
+ },
+ {
+  "n": 95,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to find the sum of each row and each column of a matrix",
+  "url": ""
+ },
+ {
+  "n": 96,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to find the transpose of a given matrix",
+  "url": ""
+ },
+ {
+  "n": 97,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to determine whether a given matrix is an identity matrix",
+  "url": ""
+ },
+ {
+  "n": 98,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to Transpose matrix",
+  "url": ""
+ },
+ {
+  "n": 99,
+  "topic": "Multi-Dimension Arrays",
+  "text": "Program to determine whether a given matrix is a sparse matrix",
+  "url": ""
+ },
+ {
+  "n": 100,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print ‘Hello World!’ on screen",
+  "url": ""
+ },
+ {
+  "n": 101,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print the sum of two numbers",
+  "url": ""
+ },
+ {
+  "n": 102,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that takes two numbers and display the product of two numbers",
+  "url": ""
+ },
+ {
+  "n": 103,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers",
+  "url": ""
+ },
+ {
+  "n": 104,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that takes five numbers as input to calculate and print the average of the numbers",
+  "url": ""
+ },
+ {
+  "n": 105,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to swap two variables",
+  "url": ""
+ },
+ {
+  "n": 106,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert a decimal number to binary numbers",
+  "url": ""
+ },
+ {
+  "n": 107,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert a binary number to decimal number",
+  "url": ""
+ },
+ {
+  "n": 108,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to check whether Java is installed on your computer or not",
+  "url": ""
+ },
+ {
+  "n": 109,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program and compute the sum of the digits of an integer",
+  "url": ""
+ },
+ {
+  "n": 110,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to compare two numbers",
+  "url": ""
+ },
+ {
+  "n": 111,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to count the letters, spaces, numbers and other characters of an input string",
+  "url": ""
+ },
+ {
+  "n": 112,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print the ascii value of a given character",
+  "url": ""
+ },
+ {
+  "n": 113,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that accepts an integer (n) and computes the value of n+nn+nnn",
+  "url": ""
+ },
+ {
+  "n": 114,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to display the system time",
+  "url": ""
+ },
+ {
+  "n": 115,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print the odd numbers from 1 to 20",
+  "url": ""
+ },
+ {
+  "n": 116,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print the even numbers from 1 to 20",
+  "url": ""
+ },
+ {
+  "n": 117,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert a string to an integer",
+  "url": ""
+ },
+ {
+  "n": 118,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert seconds to hour, minute and seconds",
+  "url": ""
+ },
+ {
+  "n": 119,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to compute the sum of the first 100 prime numbers",
+  "url": ""
+ },
+ {
+  "n": 120,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to swap the first and last elements of an array and create a new array",
+  "url": ""
+ },
+ {
+  "n": 121,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to count the number of even and odd elements in a given array",
+  "url": ""
+ },
+ {
+  "n": 122,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to compute the square root of an given integer",
+  "url": ""
+ },
+ {
+  "n": 123,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to check if a positive number is a palindrome or not",
+  "url": ""
+ },
+ {
+  "n": 124,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to add two numbers without using any arithmetic operators",
+  "url": ""
+ },
+ {
+  "n": 125,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to add all the digits of a given positive integer",
+  "url": ""
+ },
+ {
+  "n": 126,
+  "topic": "Basic Programming Constructs",
+  "text": "Java program to find area of circle",
+  "url": ""
+ },
+ {
+  "n": 127,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find area of rectangle",
+  "url": ""
+ },
+ {
+  "n": 128,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find area of triangle",
+  "url": ""
+ },
+ {
+  "n": 129,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find area of equilateral triangle",
+  "url": ""
+ },
+ {
+  "n": 130,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find area of rhombus",
+  "url": ""
+ },
+ {
+  "n": 131,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find area of parallelogram",
+  "url": ""
+ },
+ {
+  "n": 132,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find area of Prism",
+  "url": ""
+ },
+ {
+  "n": 133,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find volume of sphere",
+  "url": ""
+ },
+ {
+  "n": 134,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find volume of cylinder",
+  "url": ""
+ },
+ {
+  "n": 135,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find volume of cuboid",
+  "url": ""
+ },
+ {
+  "n": 136,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to find volume of cone",
+  "url": ""
+ },
+ {
+  "n": 137,
+  "topic": "Basic Programming Constructs",
+  "text": "Java program to find surface area of cuboid",
+  "url": ""
+ },
+ {
+  "n": 138,
+  "topic": "Basic Programming Constructs",
+  "text": "Java program to find surface area of cylinder",
+  "url": ""
+ },
+ {
+  "n": 139,
+  "topic": "Basic Programming Constructs",
+  "text": "Java program to find surface area of cube",
+  "url": ""
+ },
+ {
+  "n": 140,
+  "topic": "Basic Programming Constructs",
+  "text": "Java program to calculate average marks",
+  "url": ""
+ },
+ {
+  "n": 141,
+  "topic": "Basic Programming Constructs",
+  "text": "Java program to check vowel or consonant",
+  "url": ""
+ },
+ {
+  "n": 142,
+  "topic": "Basic Programming Constructs",
+  "text": "Java program to sum of N numbers",
+  "url": ""
+ },
+ {
+  "n": 143,
+  "topic": "Basic Programming Constructs",
+  "text": "Java program to find factorial of any number",
+  "url": ""
+ },
+ {
+  "n": 144,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to calculate electricity bill",
+  "url": ""
+ },
+ {
+  "n": 145,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program To Calculate CGPA Percentage",
+  "url": ""
+ },
+ {
+  "n": 146,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program to calculate compound interest",
+  "url": ""
+ },
+ {
+  "n": 147,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program To Calculate Batting Average",
+  "url": ""
+ },
+ {
+  "n": 148,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Pogram to Calculate Commission Percentage",
+  "url": ""
+ },
+ {
+  "n": 149,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Pogram To Find Distance Between Two Points",
+  "url": ""
+ },
+ {
+  "n": 150,
+  "topic": "Basic Programming Constructs",
+  "text": "Java Program To Calculate Power Of Number",
+  "url": ""
+ },
+ {
+  "n": 151,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to take three numbers from the user and print the greatest number",
+  "url": ""
+ },
+ {
+  "n": 152,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find the number of days in a month",
+  "url": ""
+ },
+ {
+  "n": 153,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to test a number is positive or negative",
+  "url": ""
+ },
+ {
+  "n": 154,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java Program to accept number of week’s day (1-7) and print name of the day",
+  "url": ""
+ },
+ {
+  "n": 155,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that takes a year from user and print whether that year is a leap year or not",
+  "url": ""
+ },
+ {
+  "n": 156,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to input 5 numbers from keyboard and find their sum and average",
+  "url": ""
+ },
+ {
+  "n": 157,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a program in Java to display the first 5 natural numbers",
+  "url": ""
+ },
+ {
+  "n": 158,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to check vowel or consonant",
+  "url": ""
+ },
+ {
+  "n": 159,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to display the cube of the number upto given an integer",
+  "url": ""
+ },
+ {
+  "n": 160,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to display the n terms of odd natural number and their sum",
+  "url": ""
+ },
+ {
+  "n": 161,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to display the multiplication table of a given integer",
+  "url": ""
+ },
+ {
+  "n": 162,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that reads an integer and check whether it is negative, zero, or positive",
+  "url": ""
+ },
+ {
+  "n": 163,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that reads an positive integer and count the number of digits",
+  "url": ""
+ },
+ {
+  "n": 164,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that accepts three numbers and check All numbers are equal or not",
+  "url": ""
+ },
+ {
+  "n": 165,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program that accepts three numbers from the user and check if numbers are in “increasing” or “decreasing” order.",
+  "url": ""
+ },
+ {
+  "n": 166,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that determines a student’s grade",
+  "url": ""
+ },
+ {
+  "n": 167,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to create a simple calculator",
+  "url": ""
+ },
+ {
+  "n": 168,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to concatenate two string",
+  "url": ""
+ },
+ {
+  "n": 169,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert all characters in a string to lowercase",
+  "url": ""
+ },
+ {
+  "n": 170,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert all characters in a string to uppercase",
+  "url": ""
+ },
+ {
+  "n": 171,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to trim a string(remove whitespaces)",
+  "url": ""
+ },
+ {
+  "n": 172,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to get a substring of a given string between two specified positions",
+  "url": ""
+ },
+ {
+  "n": 173,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to replace all the ‘d’ characters with ‘f’ characters",
+  "url": ""
+ },
+ {
+  "n": 174,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to get the length of a given string",
+  "url": ""
+ },
+ {
+  "n": 175,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to print current date and time in the specified format",
+  "url": ""
+ },
+ {
+  "n": 176,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to get the character at the given index within the String",
+  "url": ""
+ },
+ {
+  "n": 177,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to remove a particular character from a string",
+  "url": ""
+ },
+ {
+  "n": 178,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to reverse a String",
+  "url": ""
+ },
+ {
+  "n": 179,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to remove html tags from a string",
+  "url": ""
+ },
+ {
+  "n": 180,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to count total number of lines from a string",
+  "url": ""
+ },
+ {
+  "n": 181,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to sum values of an array",
+  "url": ""
+ },
+ {
+  "n": 182,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find the index of an array element",
+  "url": ""
+ },
+ {
+  "n": 183,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to calculate the average value of array elements",
+  "url": ""
+ },
+ {
+  "n": 184,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to test if an array contains a specific value",
+  "url": ""
+ },
+ {
+  "n": 185,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find the maximum and minimum value of an array",
+  "url": ""
+ },
+ {
+  "n": 186,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to insert an element (specific position) into an array",
+  "url": ""
+ },
+ {
+  "n": 187,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to reverse an array of integer values",
+  "url": ""
+ },
+ {
+  "n": 188,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find the common elements between two arrays",
+  "url": ""
+ },
+ {
+  "n": 189,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find the duplicate values of an array of integer values",
+  "url": ""
+ },
+ {
+  "n": 190,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert an array to ArrayList",
+  "url": ""
+ },
+ {
+  "n": 191,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to add two matrices of the same size",
+  "url": ""
+ },
+ {
+  "n": 192,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find second largest number from the array",
+  "url": ""
+ },
+ {
+  "n": 193,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find second lowest number from the array",
+  "url": ""
+ },
+ {
+  "n": 194,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find the number of even and odd integers in a given array of integers",
+  "url": ""
+ },
+ {
+  "n": 195,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to get the difference between the largest and smallest values in an array of integers",
+  "url": ""
+ },
+ {
+  "n": 196,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to segregate all 0s on left side and all 1s on right side of a given array of 0s and 1s",
+  "url": ""
+ },
+ {
+  "n": 197,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to cyclically rotate a given array clockwise by one",
+  "url": ""
+ },
+ {
+  "n": 198,
+  "topic": "Basic Programming Constructs",
+  "text": "java program to print all unique element in an array",
+  "url": ""
+ },
+ {
+  "n": 199,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java Program to Sort the Array in an Ascending Order",
+  "url": ""
+ },
+ {
+  "n": 200,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java Program to Sort the Array in an Descending Order",
+  "url": ""
+ },
+ {
+  "n": 201,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java Program to Sort Names in an Alphabetical Order",
+  "url": ""
+ },
+ {
+  "n": 202,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java Program to Display Transpose Matrix",
+  "url": ""
+ },
+ {
+  "n": 203,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java Program to Search Key Elements in an Array",
+  "url": ""
+ },
+ {
+  "n": 204,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java Program to Accept the Marks of a Student and find Total Marks and Percentage",
+  "url": ""
+ },
+ {
+  "n": 205,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to print numbers from 1 to 10 using loop",
+  "url": ""
+ },
+ {
+  "n": 206,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to calculate the sum of first 10 natural number using loop",
+  "url": ""
+ },
+ {
+  "n": 207,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print multiplication table of given number",
+  "url": ""
+ },
+ {
+  "n": 208,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to find the factorial value of any number entered through the keyboard",
+  "url": ""
+ },
+ {
+  "n": 209,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that prompts the user to input an integer and then outputs the number with the digits reversed order",
+  "url": ""
+ },
+ {
+  "n": 210,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program that reads a set of integers, and then prints the sum of the even and odd integers using loop",
+  "url": ""
+ },
+ {
+  "n": 211,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to check whether the number is a prime number or not",
+  "url": ""
+ },
+ {
+  "n": 212,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to calculate HCF of Two given numbers using loop",
+  "url": ""
+ },
+ {
+  "n": 213,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros",
+  "url": ""
+ },
+ {
+  "n": 214,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to enter the numbers till the user wants and at the end the program should display the largest and smallest numbers entered",
+  "url": ""
+ },
+ {
+  "n": 215,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print out all Armstrong numbers between 1 to 600 using loop",
+  "url": ""
+ },
+ {
+  "n": 216,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to count total number of notes in entered amount using loop",
+  "url": ""
+ },
+ {
+  "n": 217,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to print Fibonacci series of n terms where n is input by user using loop",
+  "url": ""
+ },
+ {
+  "n": 218,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a java program to calculate the sum of following series where n is input by user",
+  "url": ""
+ },
+ {
+  "n": 219,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to compute the average of three numbers",
+  "url": ""
+ },
+ {
+  "n": 220,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to find the smallest number among three numbers",
+  "url": ""
+ },
+ {
+  "n": 221,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to count all words in a string",
+  "url": ""
+ },
+ {
+  "n": 222,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to count all vowels in a string",
+  "url": ""
+ },
+ {
+  "n": 223,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to compute the sum of the digits in an integer",
+  "url": ""
+ },
+ {
+  "n": 224,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to check whether an year entered by the user is a leap year or not",
+  "url": ""
+ },
+ {
+  "n": 225,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to calculate the area of a triangle",
+  "url": ""
+ },
+ {
+  "n": 226,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to find the area of a pentagon",
+  "url": ""
+ },
+ {
+  "n": 227,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to find number is even number or not",
+  "url": ""
+ },
+ {
+  "n": 228,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to check numbers is palindrome number or not",
+  "url": ""
+ },
+ {
+  "n": 229,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to displays prime numbers between 1 to 20",
+  "url": ""
+ },
+ {
+  "n": 230,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to find GCD and LCM of Two Numbers",
+  "url": ""
+ },
+ {
+  "n": 231,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java method to find factorial using recursion in java",
+  "url": ""
+ },
+ {
+  "n": 232,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to reverse an integer number",
+  "url": ""
+ },
+ {
+  "n": 233,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to round a float number to specified decimals",
+  "url": ""
+ },
+ {
+  "n": 234,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to test if a double number is an integer",
+  "url": ""
+ },
+ {
+  "n": 235,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to round up the result of integer division",
+  "url": ""
+ },
+ {
+  "n": 236,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert Roman number to an integer number",
+  "url": ""
+ },
+ {
+  "n": 237,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to convert a float value to absolute value",
+  "url": ""
+ },
+ {
+  "n": 238,
+  "topic": "Basic Programming Constructs",
+  "text": "Write a Java program to accept a float value of number and return a rounded float value",
+  "url": ""
+ },
+ {
+  "n": 239,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Shape with the getArea() method. Create three classes Rectangle, Circle, and Triangle that implement the Shape interface. Implement the getArea() method for each of the three classes.",
+  "url": ""
+ },
+ {
+  "n": 240,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create a Animal interface with a method called bark() that takes no arguments and returns void. Create a Dog class that implements Animal and overrides speak() to print \"Dog is barking\".",
+  "url": ""
+ },
+ {
+  "n": 241,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Flyable with a method called fly_obj(). Create three classes Spacecraft, Airplane, and Helicopter that implement the Flyable interface. Implement the fly_obj() method for each of the three classes.",
+  "url": ""
+ },
+ {
+  "n": 242,
+  "topic": "Interfaces",
+  "text": "Write a Java programming to create a banking system with three classes - Bank, Account, SavingsAccount, and CurrentAccount. The bank should have a list of accounts and methods for adding them. Accounts should be an interface with methods to deposit, withdraw, calculate interest, and view balances. SavingsAccount and CurrentAccount should implement the Account interface and have their own unique methods.",
+  "url": ""
+ },
+ {
+  "n": 243,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Resizable with methods resizeWidth(int width) and resizeHeight(int height) that allow an object to be resized. Create a class Rectangle that implements the Resizable interface and implements the resize methods.",
+  "url": ""
+ },
+ {
+  "n": 244,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Drawable with a method draw() that takes no arguments and returns void. Create three classes Circle, Rectangle, and Triangle that implement the Drawable interface and override the draw() method to draw their respective shapes.",
+  "url": ""
+ },
+ {
+  "n": 245,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Sortable with a method sort() that sorts an array of integers in ascending order. Create two classes BubbleSort and SelectionSort that implement the Sortable interface and provide their own implementations of the sort() method.",
+  "url": ""
+ },
+ {
+  "n": 246,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Playable with a method play() that takes no arguments and returns void. Create three classes Football, Volleyball, and Basketball that implement the Playable interface and override the play() method to play the respective sports.",
+  "url": ""
+ },
+ {
+  "n": 247,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Searchable with a method search(String keyword) that searches for a given keyword in a text document. Create two classes Document and WebPage that implement the Searchable interface and provide their own implementations of the search() method.",
+  "url": ""
+ },
+ {
+  "n": 248,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Encryptable with methods encrypt (String data) and decrypt (String encryptedData) that define encryption and decryption operations. Create two classes AES and RSA that implement the Encryptable interface and provide their own encryption and decryption algorithms.",
+  "url": ""
+ },
+ {
+  "n": 249,
+  "topic": "Interfaces",
+  "text": "Write a Java program to create an interface Sortable with a method sort (int[] array) that sorts an array of integers in descending order. Create two classes QuickSort and MergeSort that implement the Sortable interface and provide their own implementations of the sort() method.",
+  "url": ""
+ },
+ {
+  "n": 250,
+  "topic": "Packages",
+  "text": "Create a Java program to access the java.util.Date class through import keyword and print the current date of the system.",
+  "url": ""
+ },
+ {
+  "n": 251,
+  "topic": "Packages",
+  "text": "Create a Java program to access the java.util.Date class through qualified way and print the current date of the system.",
+  "url": ""
+ },
+ {
+  "n": 252,
+  "topic": "Packages",
+  "text": "Create a Java program to access the java.util.Date class through import keyword and print the current date of the system but inherit the Date class.",
+  "url": ""
+ },
+ {
+  "n": 253,
+  "topic": "Packages",
+  "text": "Create a Java program to access the java.util.Date class through qualified way and print the current date of the system but inherit the Date class.",
+  "url": ""
+ },
+ {
+  "n": 254,
+  "topic": "Packages",
+  "text": "Create a Java program to create a package with multiple default classes.",
+  "url": ""
+ },
+ {
+  "n": 255,
+  "topic": "Packages",
+  "text": "Create a Java program to create a package with 4 public classes, create the object in another file and call the function created in those classes.",
+  "url": ""
+ },
+ {
+  "n": 256,
+  "topic": "Packages",
+  "text": "Write a Java program to perform employee payroll processing using packages. In the java file, Emp.java creates a package employee and creates a class Emp. Declare the variables name,empid, category, bpay, hra, da, npay, pf, grosspay, incometax, and allowance. Calculate the values in methods. Create another java file Emppay.java. Create an object e to call the methods to perform and print values.",
+  "url": ""
+ },
+ {
+  "n": 257,
+  "topic": "Packages",
+  "text": "Create a Java program to create a package with public class and protected members to be accessed in another class.",
+  "url": ""
+ },
+ {
+  "n": 258,
+  "topic": "Packages",
+  "text": "Create a Java program to create a nested package i.e. c4.sample with public class and protected members to be accessed in another class.",
+  "url": ""
+ },
+ {
+  "n": 259,
+  "topic": "Packages",
+  "text": "Create a Java program to create a package with public class and public members to be accessed in another class.",
+  "url": ""
+ },
+ {
+  "n": 260,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a class called Animal with a method called makeSound(). Create a subclass called Cat that overrides the makeSound() method to bark.",
+  "url": ""
+ },
+ {
+  "n": 261,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a class called Vehicle with a method called drive(). Create a subclass called Car that overrides the drive() method to print \"Repairing a car\".",
+  "url": ""
+ },
+ {
+  "n": 262,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a class called Shape with a method called getArea(). Create a subclass called Rectangle that overrides the getArea() method to calculate the area of a rectangle.",
+  "url": ""
+ },
+ {
+  "n": 263,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a class called Employee with methods called work() and getSalary(). Create a subclass called HRManager that overrides the work() method and adds a new method called addEmployee().",
+  "url": ""
+ },
+ {
+  "n": 264,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a class known as \"BankAccount\" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred.",
+  "url": ""
+ },
+ {
+  "n": 265,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run.",
+  "url": ""
+ },
+ {
+  "n": 266,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title",
+  "url": ""
+ },
+ {
+  "n": 267,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). Create a subclass called Circle that overrides the getPerimeter() and getArea() methods to calculate the area and perimeter of a circle.",
+  "url": ""
+ },
+ {
+  "n": 268,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create a vehicle class hierarchy. The base class should be Vehicle, with subclasses Truck, Car and Motorcycle. Each subclass should have properties such as make, model, year, and fuel type. Implement methods for calculating fuel efficiency, distance traveled, and maximum speed.",
+  "url": ""
+ },
+ {
+  "n": 269,
+  "topic": "Inheritance",
+  "text": "Write a Java program that creates a class hierarchy for employees of a company. The base class should be Employee, with subclasses Manager, Developer, and Programmer. Each subclass should have properties such as name, address, salary, and job title. Implement methods for calculating bonuses, generating performance reports, and managing projects.",
+  "url": ""
+ },
+ {
+  "n": 270,
+  "topic": "Inheritance",
+  "text": "Create a program, showing an example of super keyword",
+  "url": ""
+ },
+ {
+  "n": 271,
+  "topic": "Inheritance",
+  "text": "Create a program, showing an example of super function",
+  "url": ""
+ },
+ {
+  "n": 272,
+  "topic": "Inheritance",
+  "text": "Create a program, showing an example of method overriding",
+  "url": ""
+ },
+ {
+  "n": 273,
+  "topic": "Inheritance",
+  "text": "Create a program, showing an example of dynamic method dispatch",
+  "url": ""
+ },
+ {
+  "n": 274,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Animal with an abstract method called sound(). Create subclasses Lion and Tiger that extend the Animal class and implement the sound() method to make a specific sound for each animal.",
+  "url": ""
+ },
+ {
+  "n": 275,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Shape with abstract methods calculateArea() and calculatePerimeter(). Create subclasses Circle and Triangle that extend the Shape class and implement the respective methods to calculate the area and perimeter of each shape.",
+  "url": ""
+ },
+ {
+  "n": 276,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class BankAccount with abstract methods deposit() and withdraw(). Create subclasses: SavingsAccount and CurrentAccount that extend the BankAccount class and implement the respective methods to handle deposits and withdrawals for each account type.",
+  "url": ""
+ },
+ {
+  "n": 277,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Animal with abstract methods eat() and sleep(). Create subclasses Lion, Tiger, and Deer that extend the Animal class and implement the eat() and sleep() methods differently based on their specific behavior.",
+  "url": ""
+ },
+ {
+  "n": 278,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Employee with abstract methods calculateSalary() and displayInfo(). Create subclasses Manager and Programmer that extend the Employee class and implement the respective methods to calculate salary and display information for each role.",
+  "url": ""
+ },
+ {
+  "n": 279,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Shape3D with abstract methods calculateVolume() and calculateSurfaceArea(). Create subclasses Sphere and Cube that extend the Shape3D class and implement the respective methods to calculate the volume and surface area of each shape",
+  "url": ""
+ },
+ {
+  "n": 280,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Vehicle with abstract methods startEngine() and stopEngine(). Create subclasses Car and Motorcycle that extend the Vehicle class and implement the respective methods to start and stop the engines for each vehicle type.",
+  "url": ""
+ },
+ {
+  "n": 281,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Person with abstract methods eat() and exercise(). Create subclasses Athlete and LazyPerson that extend the Person class and implement the respective methods to describe how each person eats and exercises.",
+  "url": ""
+ },
+ {
+  "n": 282,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Instrument with abstract methods play() and tune(). Create subclasses for Glockenspiel and Violin that extend the Instrument class and implement the respective methods to play and tune each instrument.",
+  "url": ""
+ },
+ {
+  "n": 283,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Shape2D with abstract methods draw() and resize(). Create subclasses Rectangle and Circle that extend the Shape2D class and implement the respective methods to draw and resize each shape.",
+  "url": ""
+ },
+ {
+  "n": 284,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class Bird with abstract methods fly() and makeSound(). Create subclasses Eagle and Hawk that extend the Bird class and implement the respective methods to describe how each bird flies and makes a sound.",
+  "url": ""
+ },
+ {
+  "n": 285,
+  "topic": "Inheritance",
+  "text": "Write a Java program to create an abstract class GeometricShape with abstract methods area() and perimeter(). Create subclasses Triangle and Square that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape",
+  "url": ""
+ },
+ {
+  "n": 286,
+  "topic": "Input/Output",
+  "text": "Enter the character from user using InputStreamReader",
+  "url": ""
+ },
+ {
+  "n": 287,
+  "topic": "Input/Output",
+  "text": "Enter the string from user using BufferedStreamReader",
+  "url": ""
+ },
+ {
+  "n": 288,
+  "topic": "Input/Output",
+  "text": "Enter the integer from user using Scanner class",
+  "url": ""
+ },
+ {
+  "n": 289,
+  "topic": "Input/Output",
+  "text": "Enter the float from user using Scanner class",
+  "url": ""
+ },
+ {
+  "n": 290,
+  "topic": "Input/Output",
+  "text": "Enter the double from user using Scanner class",
+  "url": ""
+ },
+ {
+  "n": 291,
+  "topic": "Input/Output",
+  "text": "Enter the boolean from user using Scanner class",
+  "url": ""
+ },
+ {
+  "n": 292,
+  "topic": "Input/Output",
+  "text": "Enter the short integer from user using Scanner class",
+  "url": ""
+ },
+ {
+  "n": 293,
+  "topic": "Input/Output",
+  "text": "Enter the long integer from user using Scanner class",
+  "url": ""
+ },
+ {
+  "n": 294,
+  "topic": "Input/Output",
+  "text": "Get all characters from the file and display on the screen",
+  "url": ""
+ },
+ {
+  "n": 295,
+  "topic": "Input/Output",
+  "text": "Get all characters from the file, count number of lines, words, characters and display on the screen",
+  "url": ""
+ },
+ {
+  "n": 296,
+  "topic": "Exception Handling",
+  "text": "Write a Java program that throws an exception and catch it using a try-catch block.",
+  "url": ""
+ },
+ {
+  "n": 297,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to create a method that takes an integer as a parameter and throws an exception if the number is odd.",
+  "url": ""
+ },
+ {
+  "n": 298,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to create a method that reads a file and throws an exception if the file is not found",
+  "url": ""
+ },
+ {
+  "n": 299,
+  "topic": "Exception Handling",
+  "text": "Write a Java program that reads a list of numbers from a file and throws an exception if any of the numbers are positive",
+  "url": ""
+ },
+ {
+  "n": 300,
+  "topic": "Exception Handling",
+  "text": "Write a Java program that reads a file and throws an exception if the file is empty.",
+  "url": ""
+ },
+ {
+  "n": 301,
+  "topic": "Exception Handling",
+  "text": "Write a Java program that reads a list of integers from the user and throws an exception if any numbers are duplicates",
+  "url": ""
+ },
+ {
+  "n": 302,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to create a method that takes a string as input and throws an exception if the string does not contain vowels.",
+  "url": ""
+ },
+ {
+  "n": 303,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to connect the Java API to Database, if connection not successful then throw an exception",
+  "url": ""
+ },
+ {
+  "n": 304,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to manage the driver with path, username and password, if not successful then throw an exception",
+  "url": ""
+ },
+ {
+  "n": 305,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to throw the SQL Query, insert, delete, update, if not successful then throw an exception",
+  "url": ""
+ },
+ {
+  "n": 306,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to show an example of throws Keyword.",
+  "url": ""
+ },
+ {
+  "n": 307,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to show an example of multiple catch",
+  "url": ""
+ },
+ {
+  "n": 308,
+  "topic": "Exception Handling",
+  "text": "Write a Java program to show an example of nested try block.",
+  "url": ""
+ },
+ {
+  "n": 309,
+  "topic": "Multithreading",
+  "text": "Write a Java program to create a basic Java thread that prints \"Hello, World!\" when executed.",
+  "url": ""
+ },
+ {
+  "n": 310,
+  "topic": "Multithreading",
+  "text": "Write a Java program that creates two threads to find and print even and odd numbers from 1 to 20.",
+  "url": ""
+ },
+ {
+  "n": 311,
+  "topic": "Multithreading",
+  "text": "Write a Java program that sorts an array of integers using multiple threads.",
+  "url": ""
+ },
+ {
+  "n": 312,
+  "topic": "Multithreading",
+  "text": "Write a Java program that performs matrix multiplication using multiple threads.",
+  "url": ""
+ },
+ {
+  "n": 313,
+  "topic": "Multithreading",
+  "text": "Write a Java program that calculates the sum of all prime numbers up to a given limit using multiple threads.",
+  "url": ""
+ },
+ {
+  "n": 314,
+  "topic": "Multithreading",
+  "text": "Write a Java program to implement a concurrent web crawler that crawls multiple websites simultaneously using threads.",
+  "url": ""
+ },
+ {
+  "n": 315,
+  "topic": "Multithreading",
+  "text": "Write a Java program that creates a bank account with concurrent deposits and withdrawals using threads.",
+  "url": ""
+ },
+ {
+  "n": 316,
+  "topic": "Multithreading",
+  "text": "Create the program to create multiple threads by using Runnbale interface",
+  "url": ""
+ },
+ {
+  "n": 317,
+  "topic": "Multithreading",
+  "text": "Create the program to create multiple threads by using Thread class",
+  "url": ""
+ },
+ {
+  "n": 318,
+  "topic": "Multithreading",
+  "text": "Create the program to create multiple threads, set its name and its priority.",
+  "url": ""
+ },
+ {
+  "n": 319,
+  "topic": "Multithreading",
+  "text": "Create the program to create multiple threads, show an example of synchronization keyword.",
+  "url": ""
+ },
+ {
+  "n": 320,
+  "topic": "Multithreading",
+  "text": "Create the program to create multiple threads, show an example of notify, notifyall, wait, resume, sleep methods.",
+  "url": ""
+ },
+ {
+  "n": 321,
+  "topic": "Multithreading",
+  "text": "Create the program to create multiple threads, show an example of join and yield methods.",
+  "url": ""
+ },
+ {
+  "n": 322,
+  "topic": "Data Conversion",
+  "text": "How to convert String to int",
+  "url": ""
+ },
+ {
+  "n": 323,
+  "topic": "Data Conversion",
+  "text": "How to convert int to String",
+  "url": ""
+ },
+ {
+  "n": 324,
+  "topic": "Data Conversion",
+  "text": "How to convert String to long",
+  "url": ""
+ },
+ {
+  "n": 325,
+  "topic": "Data Conversion",
+  "text": "How to convert long to String",
+  "url": ""
+ },
+ {
+  "n": 326,
+  "topic": "Data Conversion",
+  "text": "How to convert String to float",
+  "url": ""
+ },
+ {
+  "n": 327,
+  "topic": "Data Conversion",
+  "text": "How to convert float to String",
+  "url": ""
+ },
+ {
+  "n": 328,
+  "topic": "Data Conversion",
+  "text": "How to convert String to double",
+  "url": ""
+ },
+ {
+  "n": 329,
+  "topic": "Data Conversion",
+  "text": "How to convert double to String",
+  "url": ""
+ },
+ {
+  "n": 330,
+  "topic": "Data Conversion",
+  "text": "How to convert String to Date",
+  "url": ""
+ },
+ {
+  "n": 331,
+  "topic": "Data Conversion",
+  "text": "How to convert Date to String",
+  "url": ""
+ },
+ {
+  "n": 332,
+  "topic": "Data Conversion",
+  "text": "How to convert String to char",
+  "url": ""
+ },
+ {
+  "n": 333,
+  "topic": "Data Conversion",
+  "text": "How to convert char to String",
+  "url": ""
+ },
+ {
+  "n": 334,
+  "topic": "Data Conversion",
+  "text": "How to convert String to Object",
+  "url": ""
+ },
+ {
+  "n": 335,
+  "topic": "Data Conversion",
+  "text": "How to convert Object to String",
+  "url": ""
+ },
+ {
+  "n": 336,
+  "topic": "Data Conversion",
+  "text": "How to convert int to long",
+  "url": ""
+ },
+ {
+  "n": 337,
+  "topic": "Data Conversion",
+  "text": "How to convert long to int",
+  "url": ""
+ },
+ {
+  "n": 338,
+  "topic": "Data Conversion",
+  "text": "How to convert int to double",
+  "url": ""
+ },
+ {
+  "n": 339,
+  "topic": "Data Conversion",
+  "text": "How to convert double to int",
+  "url": ""
+ },
+ {
+  "n": 340,
+  "topic": "Data Conversion",
+  "text": "How to convert char to int",
+  "url": ""
+ },
+ {
+  "n": 341,
+  "topic": "Data Conversion",
+  "text": "How to convert int to char",
+  "url": ""
+ },
+ {
+  "n": 342,
+  "topic": "Data Conversion",
+  "text": "How to convert String to boolean",
+  "url": ""
+ },
+ {
+  "n": 343,
+  "topic": "Data Conversion",
+  "text": "How to convert boolean to String",
+  "url": ""
+ },
+ {
+  "n": 344,
+  "topic": "Data Conversion",
+  "text": "How to convert Date to Timestamp",
+  "url": ""
+ },
+ {
+  "n": 345,
+  "topic": "Data Conversion",
+  "text": "How to convert Timestamp to Date",
+  "url": ""
+ },
+ {
+  "n": 346,
+  "topic": "Data Conversion",
+  "text": "How to convert Binary to Decimal",
+  "url": ""
+ },
+ {
+  "n": 347,
+  "topic": "Data Conversion",
+  "text": "How to convert Decimal to Binary",
+  "url": ""
+ },
+ {
+  "n": 348,
+  "topic": "Data Conversion",
+  "text": "How to convert Hex to Decimal",
+  "url": ""
+ },
+ {
+  "n": 349,
+  "topic": "Data Conversion",
+  "text": "How to convert Decimal to Hex",
+  "url": ""
+ },
+ {
+  "n": 350,
+  "topic": "Data Conversion",
+  "text": "How to convert Octal to Decimal",
+  "url": ""
+ },
+ {
+  "n": 351,
+  "topic": "Data Conversion",
+  "text": "How to convert Decimal to Octal",
+  "url": ""
+ },
+ {
+  "n": 352,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Person\" with a name and age attribute. Create two instances of the \"Person\" class, set their attributes using the constructor, and print their name and age.",
+  "url": ""
+ },
+ {
+  "n": 353,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Dog\" with a name and breed attribute. Create two instances of the \"Dog\" class, set their attributes using the constructor and modify the attributes using the setter methods and print the updated values.",
+  "url": ""
+ },
+ {
+  "n": 354,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Rectangle\" with width and height attributes. Calculate the area and perimeter of the rectangle.",
+  "url": ""
+ },
+ {
+  "n": 355,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Circle\" with a radius attribute. You can access and modify this attribute. Calculate the area and circumference of the circle.",
+  "url": ""
+ },
+ {
+  "n": 356,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Book\" with attributes for title, author, and ISBN, and methods to add and remove books from a collection.",
+  "url": ""
+ },
+ {
+  "n": 357,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Employee\" with a name, job title, and salary attributes, and methods to calculate and update salary.",
+  "url": ""
+ },
+ {
+  "n": 358,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Bank\" with a collection of accounts and methods to add and remove accounts, and to deposit and withdraw money. Also define a class called \"Account\" to maintain account details of a particular customer.",
+  "url": ""
+ },
+ {
+  "n": 359,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create class called \"TrafficLight\" with attributes for color and duration, and methods to change the color and check for red or green.",
+  "url": ""
+ },
+ {
+  "n": 360,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Employee\" with a name, salary, and hire date attributes, and a method to calculate years of service.",
+  "url": ""
+ },
+ {
+  "n": 361,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Student\" with a name, grade, and courses attributes, and methods to add and remove courses.",
+  "url": ""
+ },
+ {
+  "n": 362,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Library\" with a collection of books and methods to add and remove books.",
+  "url": ""
+ },
+ {
+  "n": 363,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Airplane\" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.",
+  "url": ""
+ },
+ {
+  "n": 364,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Inventory\" with a collection of products and methods to add and remove products, and to check for low inventory.",
+  "url": ""
+ },
+ {
+  "n": 365,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"School\" with attributes for students, teachers, and classes, and methods to add and remove students and teachers, and to create classes.",
+  "url": ""
+ },
+ {
+  "n": 366,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"MusicLibrary\" with a collection of songs and methods to add and remove songs, and to play a random song.",
+  "url": ""
+ },
+ {
+  "n": 367,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Shape\" with abstract methods for calculating area and perimeter, and subclasses for \"Rectangle\", \"Circle\", and \"Triangle\".",
+  "url": ""
+ },
+ {
+  "n": 368,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Movie\" with attributes for title, director, actors, and reviews, and methods for adding and retrieving reviews.",
+  "url": ""
+ },
+ {
+  "n": 369,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called \"Restaurant\" with attributes for menu items, prices, and ratings, and methods to add and remove items, and to calculate average rating.",
+  "url": ""
+ },
+ {
+  "n": 370,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class with methods to search for flights and hotels, and to book and cancel reservations.",
+  "url": ""
+ },
+ {
+  "n": 371,
+  "topic": "Object Oriented Programming",
+  "text": "Create a class showing an example of default constructor.",
+  "url": ""
+ },
+ {
+  "n": 372,
+  "topic": "Object Oriented Programming",
+  "text": "Create a class showing an example of parameterized constructor.",
+  "url": ""
+ },
+ {
+  "n": 373,
+  "topic": "Object Oriented Programming",
+  "text": "Create a class showing an example of copy constructor.",
+  "url": ""
+ },
+ {
+  "n": 374,
+  "topic": "Object Oriented Programming",
+  "text": "Create a class entering the rollno, name and class of the student from user but rollno should be automatically generated as we enter the information of 10 students",
+  "url": ""
+ },
+ {
+  "n": 375,
+  "topic": "Object Oriented Programming",
+  "text": "Create a class showing the area of circle and rectangle by method overloading.",
+  "url": ""
+ },
+ {
+  "n": 376,
+  "topic": "Object Oriented Programming",
+  "text": "Create a class, entering the command line arguments from the user and show all the arguments as output..",
+  "url": ""
+ },
+ {
+  "n": 377,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called Person with private instance variables name, age. and country. Provide public getter and setter methods to access and modify these variables.",
+  "url": ""
+ },
+ {
+  "n": 378,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called BankAccount with private instance variables accountNumber and balance. Provide public getter and setter methods to access and modify these variables.",
+  "url": ""
+ },
+ {
+  "n": 379,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called Rectangle with private instance variables length and width. Provide public getter and setter methods to access and modify these variables.",
+  "url": ""
+ },
+ {
+  "n": 380,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called Employee with private instance variables employee_id, employee_name, and employee_salary. Provide public getter and setter methods to access and modify the id and name variables, but provide a getter method for the salary variable that returns a formatted string.",
+  "url": ""
+ },
+ {
+  "n": 381,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called Circle with a private instance variable radius. Provide public getter and setter methods to access and modify the radius variable. However, provide two methods called calculateArea() and calculatePerimeter() that return the calculated area and perimeter based on the current radius value.",
+  "url": ""
+ },
+ {
+  "n": 382,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called Car with private instance variables company_name, model_name, year, and mileage. Provide public getter and setter methods to access and modify the company_name, model_name, and year variables. However, only provide a getter method for the mileage variable.",
+  "url": ""
+ },
+ {
+  "n": 383,
+  "topic": "Object Oriented Programming",
+  "text": "Write a Java program to create a class called Student with private instance variables student_id, student_name, and grades. Provide public getter and setter methods to access and modify the student_id and student_name variables. However, provide a method called addGrade() that allows adding a grade to the grades variable while performing additional validation.",
+  "url": ""
+ }
+]

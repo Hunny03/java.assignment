@@ -1,0 +1,4 @@
+Rectangle 4.0 x 2.0
+Rectangle 10.0 x 5.0
+Circle radius 3.0
+Circle radius 7.5

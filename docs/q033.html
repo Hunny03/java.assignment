@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q033 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Functions · 033</span>
+      </div>
+      <h4 style="margin-top: 0">Question 033</h4>
+      <h2 class="qh">Write a Java method to count the number of digits in an integer with the value 2. The integer may be assumed to be non-negative.</h2>
+      <h4>Solution</h4>
+      <pre><code>package functions;
+public class Q033 {
+    static int dogin(int n){
+        int c = 0;
+        while(n&gt;0){
+            if(n%10==2) c++;
+            n = n/10;
+        }
+        return c;
+    }
+    public static void main(String[] args) {
+        System.out.println("Count of digit 2 in 2202 = "+dogin(2202));
+        System.out.println("Count of digit 2 in 135 = "+dogin(135));
+        System.out.println("Count of digit 2 in 222222 = "+dogin(222222));
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q033.png" alt="Output of question 033" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-functions.html">← Topic</a>
+        <a class="btn o" href="q032.html">← Prev</a>
+        <a class="btn o" href="q034.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

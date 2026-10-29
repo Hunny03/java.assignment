@@ -1,0 +1,3 @@
+String = 384400000
+Length = 9
+Using valueOf = 384400000

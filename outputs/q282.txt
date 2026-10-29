@@ -1,0 +1,4 @@
+Glockenspiel: tune the bars by adjusting them
+Glockenspiel: strike the metal bars with a mallet
+Violin: turn the pegs to tune it
+Violin: draw the bow across the strings

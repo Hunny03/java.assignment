@@ -1,0 +1,1 @@
+Enter 2 numbers: 72.5 is greater than 68.0

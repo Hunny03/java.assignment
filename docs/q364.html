@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q364 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Object Oriented Programming · 364</span>
+      </div>
+      <h4 style="margin-top: 0">Question 364</h4>
+      <h2 class="qh">Write a Java program to create a class called "Inventory" with a collection of products and methods to add and remove products, and to check for low inventory.</h2>
+      <h4>Solution</h4>
+      <pre><code>package oop;
+public class Q364 {
+    static class Inventory {
+        String item[] = new String[10];
+        int qty[] = new int[10];
+        int n = 0;
+        void addProduct(String name, int q){
+            for(int i=0;i&lt;n;i++){
+                if(item[i].equals(name)){
+                    qty[i] = qty[i] + q;
+                    return;
+                }
+            }
+            item[n] = name;
+            qty[n] = q;
+            n++;
+        }
+        void sell(String name, int q){
+            for(int i=0;i&lt;n;i++){
+                if(item[i].equals(name))
+                    qty[i] = qty[i] - q;
+            }
+        }
+        void removeProduct(String name){
+            for(int i=0;i&lt;n;i++){
+                if(item[i].equals(name)){
+                    for(int j=i;j&lt;n-1;j++){
+                        item[j] = item[j+1];
+                        qty[j] = qty[j+1];
+                    }
+                    n--;
+                    break;
+                }
+            }
+        }
+        void checkLowInventory(){
+            System.out.println("Items with low stock (5 or fewer):");
+            for(int i=0;i&lt;n;i++){
+                if(qty[i]&lt;=5)
+                    System.out.println("  "+item[i]+" -&gt; "+qty[i]);
+            }
+        }
+    }
+    public static void main(String[] args) {
+        Inventory inv = new Inventory();
+        inv.addProduct("Notebook",40);
+        inv.addProduct("Pen",12);
+        inv.addProduct("Stapler",8);
+        inv.sell("Pen",9);
+        inv.sell("Stapler",4);
+        inv.checkLowInventory();
+        inv.removeProduct("Pen");
+        inv.checkLowInventory();
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q364.png" alt="Output of question 364" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-object-oriented-programming.html">← Topic</a>
+        <a class="btn o" href="q363.html">← Prev</a>
+        <a class="btn o" href="q365.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

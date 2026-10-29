@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q065 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 065</span>
+      </div>
+      <h4 style="margin-top: 0">Question 065</h4>
+      <h2 class="qh">Program to find the most repeated word in a text file</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+import java.io.*;
+public class Q065 {
+    public static void main(String[] args) throws IOException {
+        // pehle ek file bana lete hai
+        FileWriter fw = new FileWriter("words.txt");
+        fw.write("to be or not to be\nthat is the question\nto think is to be");
+        fw.close();
+        // file se saare words ek array me
+        BufferedReader br = new BufferedReader(new FileReader("words.txt"));
+        String line, all = "";
+        while((line=br.readLine())!=null)
+            all = all + line + " ";
+        br.close();
+        String w[] = all.trim().split(" ");
+        String best = "";
+        int max = 0;
+        for(int i=0;i&lt;w.length;i++){
+            int c = 0;
+            for(int j=0;j&lt;w.length;j++){
+                if(w[i].equals(w[j])) c++;
+            }
+            if(c&gt;max){
+                max = c;
+                best = w[i];
+            }
+        }
+        System.out.println("Most frequent character: "+best+" ("+max+" baar)");
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q065.png" alt="Output of question 065" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q064.html">← Prev</a>
+        <a class="btn o" href="q066.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

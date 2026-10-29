@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q063 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Strings · 063</span>
+      </div>
+      <h4 style="margin-top: 0">Question 063</h4>
+      <h2 class="qh">Program to find the largest and smallest word in a string</h2>
+      <h4>Solution</h4>
+      <pre><code>package strings;
+public class Q063 {
+    public static void main(String[] args) {
+        String s = "Programming with Java is genuinely enjoyable";
+        String w[] = s.split(" ");
+        String big = w[0], small = w[0];
+        for(int i=1;i&lt;w.length;i++){
+            if(w[i].length()&gt;big.length()) big = w[i];
+            if(w[i].length()&lt;small.length()) small = w[i];
+        }
+        System.out.println("Shortest word = "+small);
+        System.out.println("Longest word = "+big);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q063.png" alt="Output of question 063" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-strings.html">← Topic</a>
+        <a class="btn o" href="q062.html">← Prev</a>
+        <a class="btn o" href="q064.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+String: The string is a palindrome

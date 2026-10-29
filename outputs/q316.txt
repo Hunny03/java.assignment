@@ -1,0 +1,3 @@
+Download is running, thread: T1
+Compress is running, thread: T2
+Upload is running, thread: T3

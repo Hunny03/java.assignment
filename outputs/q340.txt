@@ -1,0 +1,2 @@
+Integer value of 'k' = 107
+Numeric value of '7' = 7

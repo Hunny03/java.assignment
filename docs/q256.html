@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q256 – Core Java Practical File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="top">
+        <a href="index.html">← Home</a>
+        <span class="g">Packages · 256</span>
+      </div>
+      <h4 style="margin-top: 0">Question 256</h4>
+      <h2 class="qh">Write a Java program to perform employee payroll processing using packages. In the java file, Emp.java creates a package employee and creates a class Emp. Declare the variables name,empid, category, bpay, hra, da, npay, pf, grosspay, incometax, and allowance. Calculate the values in methods. Create another java file Emppay.java. Create an object e to call the methods to perform and print values.</h2>
+      <h4>Solution</h4>
+      <pre><code>// ---- Emppay.java ----
+package packages;
+import packages.employee.Emp;
+public class Emppay {
+    public static void main(String[] args) {
+        Emp e = new Emp("Rajveer Singh",1042,'A',60000);
+        e.calculate();
+        e.display();
+    }
+}
+
+// ---- Emp.java ----
+package packages.employee;
+public class Emp {
+    String name;
+    int empid;
+    char category;
+    double bpay, hra, da, npay, pf, grosspay, incometax, allowance;
+    public Emp(String name, int empid, char category, double bpay){
+        this.name = name;
+        this.empid = empid;
+        this.category = category;
+        this.bpay = bpay;
+    }
+    public void calculate(){
+        hra = bpay*0.20;
+        da = bpay*0.50;
+        if(category=='A') allowance = 5000;
+        else if(category=='B') allowance = 3000;
+        else allowance = 1000;
+        grosspay = bpay + hra + da + allowance;
+        pf = bpay*0.12;
+        if(grosspay&gt;100000) incometax = grosspay*0.10;
+        else incometax = grosspay*0.05;
+        npay = grosspay - pf - incometax;
+    }
+    public void display(){
+        System.out.println("Employee id = "+empid);
+        System.out.println("Name = "+name);
+        System.out.println("Category = "+category);
+        System.out.println("Basic pay = "+bpay);
+        System.out.println("HRA = "+hra);
+        System.out.println("DA = "+da);
+        System.out.println("Allowance = "+allowance);
+        System.out.println("Gross pay = "+grosspay);
+        System.out.println("PF = "+pf);
+        System.out.println("Income tax = "+incometax);
+        System.out.println("Net pay = "+npay);
+    }
+}</code></pre>
+      <h4>Output</h4>
+      <details class="od">
+        <summary class="btn">
+          <span class="s1">▶ Show Output</span>
+          <span class="s2">▼ Hide Output</span>
+        </summary>
+        <div class="oc">
+          <figure class="fg">
+            <img src="shots/q256.png" alt="Output of question 256" />
+            
+          </figure>
+        </div>
+      </details>
+      <div class="row">
+        <a class="btn o" href="index.html">← Home</a>
+        <a class="btn o" href="topic-packages.html">← Topic</a>
+        <a class="btn o" href="q255.html">← Prev</a>
+        <a class="btn o" href="q257.html">Next →</a>
+      </div>
+      <div class="foot">Core Java Practical File · Made by Hunny · 7081/24</div>
+    </div>
+  </body>
+</html>

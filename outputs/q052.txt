@@ -1,0 +1,2 @@
+String: Vowels = 6
+Consonants = 11

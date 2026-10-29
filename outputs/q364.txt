@@ -1,0 +1,5 @@
+Items with low stock (5 or fewer):
+  Pen -> 3
+  Stapler -> 4
+Items with low stock (5 or fewer):
+  Stapler -> 4
